@@ -23,8 +23,7 @@ This resource is significant as it represents the first fully aligned parallel U
 
 # Acknowledgments
 
-This work was supported by COST Action CA21167 - Universality, diversity and idiosyncrasy in language technology ([UniDive](https://unidive.lisn.upsaclay.fr/)). We thank the [Turkic UD working group](https://github.com/ud-turkic) for fruitful discussions of linguistic issues and annotation approaches.
-We extend special thanks to the Kyrgyz team — [Jonathan North Washington](https://github.com/jonorthwash), Aida Kasieva, Gulnura Dzumalieva, Aigul Tursunova, Meerim Ryspakova, and Aizat Kadyrbekova — for their consistent support, as well as their valuable weekly meetings and discussions that greatly contributed to this work.
+
 
 ## References
 
