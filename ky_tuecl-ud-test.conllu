@@ -523,11 +523,11 @@
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-17.2
-# text = Чачын жасалгалап туруш керек болчу, бирок эмнегедир ошол күнү жасаган эмес.
-# translit = Сhaç-ın jasalğa-lap tur-uş kerek bol-çu, birok emneğe-dir oşol kün-ü jasa-ğan emes.
+# text = 
 # glossing = hair-POSS.3SG decorate-PFV stand.up-INF.3SG need be-PST.3SG but for.some.reason that day make-VN not 
 # issue:
 # text[en] = He/She should have been doing his/her hair but for some reason he/she wouldn't that day.
+# text = Чачын жасалгалап туруш керек болчу, бирок эмнегедир ошол күнү жасаган эмес.
 # text[az] = Tüklәrin cürlǝmǝliydi, amma neçә dәlilә görә o gün elǝmәdi.
 # text[uz] = Sochini turmaklashi kerak edi, lekin negadir o'sha kuni turmaklamadi.
 # text[tr] = Saçını yapıyor olmalıydı ama nedense o gün yapmadı.
