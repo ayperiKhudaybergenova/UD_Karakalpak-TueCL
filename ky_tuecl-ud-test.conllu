@@ -546,11 +546,11 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-18
-# text = Ага теңеле алган жокмун, анткени ал абдан тез чуркады.
-# translit = A-ğa teŋe-le al-ğan joq-mun, antkeni al abdan tez çurka-dı.
+# text = 
 # glossing = he/she-DAT equal take-VN not.exist-1SG because.of he/she very fast run-PST.3SG
 # issue:
 # text[en] = I wasn't able to keep up, because he/she ran too fast.
+# text = Ага теңеле алган жокмун, анткени ал абдан тез чуркады.
 # text[az] = O çox yeyin qaçdɪğɪ için ona çata bilmәdim.
 # text[uz] = U juda tez yugurgani uchun yeta olmadim.
 # text[tr] = Ayak uyduramadım çünkü çok hızlı koştu.
@@ -567,11 +567,11 @@
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-19
-# text = Бул кат Питерден жана ал кечээ келди.
-# translit = Bul qat Piter-den jana al keçee kel-di.
+# text = 
 # glossing = this letter Peter-ABL and it yesterday come-PST.3SG
 # issue:
 # text[en] = This letter is from Peter and it was delivered yesterday.
+# text = Бул кат Питерден жана ал кечээ келди.
 # text[az] = Bu namә Peterdendir vә dünәn yetişibdir.
 # text[uz] = Bu xat Piterdan va u kecha keldi.
 # text[tr] = Bu mektup Peter'den ve dün iletildi.
@@ -585,11 +585,11 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-20.1
-# text = Ал Франциянын борбору Парижде чоңойду.
-# translit = Al Franziya-nın borbor-u Parij-de, çoŋoy-du.
+# text = 
 # glossing = he/she France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.	
+# text = Ал Франциянын борбору Парижде чоңойду.
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = U Fransiya poytaxti Parijda o'sgan.
 # text[tr] = O Fransanın başkenti Paris'te büyüdü.
@@ -601,11 +601,11 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-20.2
-# text = Франциянын борбору Парижде чоңойду.
-# translit = Franziya-nın borbor-u Parij-de, çoŋoy-du.
+# text = 
 # glossing = France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.	
+# text = Франциянын борбору Парижде чоңойду.
 # text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = Fransiya poytaxti Parijda o'sgan.
 # text[tr] = Fransanın başkenti Paris'te büyüdü.
@@ -616,11 +616,11 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-20.3
-# text = Ал Парижде, Франциянын борборунда, чоңойду.
-# translit = Al Parij-de, Franziya-nın borbor-un-da, çoŋoy-du.
+# text = 
 # glossing = he/she Paris-LOC France-GEN capital-POSS.3SG-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.
+# text = Ал Парижде, Франциянын борборунда, чоңойду.
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = U Fransiya poytaxti Parijda o'sgan.
 # text[tr] = O Fransanın başkenti Paris'te büyüdü.
@@ -634,11 +634,11 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo-20.4
-# text = Парижде, Франциянын борборунда, чоңойду.
-# translit = Parij-de, Franziya-nın borbor-un-da, çoŋoy-du.
+# text = 
 # glossing = Paris-LOC France-GEN capital-POSS.3SG-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.
+# text = Парижде, Франциянын борборунда, чоңойду.
 # text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = Fransiya poytaxti Parijda o'sgan.
 # text[tr] = Paris'te, Fransanın başkentinde, büyüdü.
