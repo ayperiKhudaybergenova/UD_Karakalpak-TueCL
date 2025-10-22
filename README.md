@@ -5,7 +5,7 @@ It is part of a parallel Universal Dependencies corpus containing 148 sentences 
 
 # Introduction
 
-The Kyrgyz-TueCL treebank is part of a parallel Universal Dependencies corpus containing 148 sentences across four Turkic languages (Turkish - [UD_Turkish-TueCL](https://github.com/UniversalDependencies/UD_Turkish-TueCL/tree/dev), Azerbaijani - [UD_Azerbaijani-TueCL](https://github.com/UniversalDependencies/UD_Azerbaijani-TueCL/tree/dev), Kyrgyz -  [UD_Kyrgyz-TueCL](https://github.com/UniversalDependencies/UD_Kyrgyz-TueCL/tree/dev), and Uzbek - [UD_Uzbek-TueCL](https://github.com/UniversalDependencies/UD_Uzbek-TueCL/tree/dev)), designed to facilitate cross-linguistic research on these related languages.
+The Karakalpak-TueCL treebank is part of a parallel Universal Dependencies corpus containing 148 sentences across four Turkic languages (Turkish - [UD_Turkish-TueCL](https://github.com/UniversalDependencies/UD_Turkish-TueCL/tree/dev), Azerbaijani - [UD_Azerbaijani-TueCL](https://github.com/UniversalDependencies/UD_Azerbaijani-TueCL/tree/dev), Kyrgyz -  [UD_Kyrgyz-TueCL](https://github.com/UniversalDependencies/UD_Kyrgyz-TueCL/tree/dev), and Uzbek - [UD_Uzbek-TueCL](https://github.com/UniversalDependencies/UD_Uzbek-TueCL/tree/dev)), designed to facilitate cross-linguistic research on these related languages.
 
 Total sentences: 173
 Total tokens: 
