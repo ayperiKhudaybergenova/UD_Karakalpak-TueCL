@@ -92,11 +92,10 @@
 # text[az] = Getmək istəyirsiniz?
 # text[uz] = Ketishni istaysanmi?
 # text[tr] = Gitmek istiyor musun?
-1	Кеткиң	кет	VERB	_	VerbForm=Vnoun|Person=2	2	xcomp	_	_
-2	келип	кел	VERB	_	VerbForm=Conv	0	root	_	_
-3	жата	жат	AUX	_	Tense=Pres	2	aux	_	_
-4	бы	бы	PART	_	_	2	discourse	_	SpaceAfter=No
-5	?	?	PUNCT	_	_	2	punct	_	_
+1	Barıwdı	bar	VERB	_	VerbForm=Vnoun|Case=Acc	2	xcomp	_	_
+2	qáleysen	qále	AUX	_	Tense=Pres|Person=2|Number=Sing	0	root	_	_
+3	ba	ba	PART	_	_	2	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
 
 
 # sent_id = cairo-5
@@ -108,11 +107,12 @@
 # text[az] = Sam, pәncәrәni aç!
 # text[uz] = Sem, derazani och!
 # text[tr] = Sam, pencereyi aç!
-1	Сэм	Сэм	PROPN	_	Case=Nom|Number=Sing	4	vocative	_	SpaceAfter=No
+1	Sam	Sam	PROPN	_	Case=Nom|Number=Sing	4	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	терезени	терезе	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
-4	ач	ач	VERB	_	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	aynani	ayna	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	ash	ash	VERB	_	Mood=Imp|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = cairo-6.1
 # text = Ol kúyewine mashinani juwdırttı.
@@ -123,11 +123,12 @@
 # text[az] = O әrinә maşını yudurtdu.
 # text[uz] = U eriga mashinani yuvdirdi.
 # text[tr] = O kocasına arabayı yıkattırdı.
-1	Ал	ал	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	күйөөсүнө	күйө	NOUN	_	Case=Dat|Number=Sing	4	obl:cau	_	_
-3	унааны	унаа	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
-4	жуудурду	жуу	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	kúyewine	kúyew	NOUN	_	Case=Dat|Number=Sing	4	obl:cau	_	_
+3	mashinani	mashina	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	juwdırttı	juw	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = cairo-6.2
 # text = Kúyewine mashinani juwdırttı.
@@ -138,10 +139,11 @@
 # text[az] = Әrinә maşını yudurtdu.
 # text[uz] = Eriga mashinani yuvdirdi.
 # text[tr] = Kocasına arabayı yıkattırdı.
-1	Күйөөсүнө	күйө	NOUN	_	Case=Dat|Number=Sing	3	obl:cau	_	_
-2	унааны	унаа	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
-3	жуудурду	жуу	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+1	Kúyewine	kúyew	NOUN	_	Case=Dat|Number=Sing	3	obl:cau	_	_
+2	mashinani	mashina	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	juwdırttı	juw	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = cairo-7
 # text = Peterdiń qońsısı qorshawdı qizil reńge boyadı.
@@ -152,13 +154,14 @@
 # text[az] = Peterin qonşusu hasarı qırmız rənglədı.
 # text[uz] = Piterning qo'shnisi panjarani qizilga bo'yadi.
 # text[tr] = Peter'in komşusu çiti kırmızı boyadı.
-1	Питердин	Питер	PRON	_	_	2	nmod	_	_
-2	кошунасы	кошуна	NOUN	_	_	6	nsubj	_	_
-3	тосмону	тосмо	NOUN	_	_	6	obj	_	_
-4	кызыл	кызыл	ADJ	_	_	5	amod	_	_
-5	түскө	түс	NOUN	_	_	6	obl	_	_
-6	боёду	боё	VERB	_	_	0	root	_	SpaceAfter=No
+1	Peterdiń	Peter	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
+2	qońsısı	qońsı	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+3	qorshawdı	qorsha	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+4	qızıl	qızıl	ADJ	_	_	5	amod	_	_
+5	reńge	reń	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
+6	boyadı	boya	VERB	_	Mood=Ind|Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = cairo-7.1
 # text = Peterdiń qońsısı qorshawdı qizilǵa boyadı.
@@ -169,12 +172,13 @@
 # text[az] = Peterin qonşusu hasarı qırmız rənglədı.
 # text[uz] = Piterning qo'shnisi panjarani qizilga bo'yadi.
 # text[tr] = Peter'in komşusu çiti kırmızıya boyadı.
-1	Питердин	Питер	PRON	_	_	2	nmod	_	_
-2	кошунасы	кошуна	NOUN	_	_	5	nsubj	_	_
-3	тосмону	тосмо	NOUN	_	_	5	obj	_	_
-4	кызылга	кызыл	ADJ	_	_	5	xcomp	_	_
-5	боёду	боё	VERB	_	_	0	root	_	SpaceAfter=No
+1	Peterdiń	Peter	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
+2	qońsısı	qońsı	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	qorshawdı	qorsha	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+4	qizilǵa	qizil	ADJ	_	_	5	xcomp	_	_
+5	boyadı	boya	VERB	_	Mood=Ind|Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = cairo-8
 # text = Meniń ákem senikinnen  zorraq.
@@ -185,13 +189,12 @@
 # text[az] = Mәnin babam sәninkindən bәtәrdi.
 # text[uz] = Mening dadam senikidan zo'rroq.
 # text[tr] = Benim babam seninkinden daha harika.
-1	Менин	мен	PRON	_	Case=Gen|Number=Sing|PronType=Prs	2	nmod:poss	_	_
-2	атам	ата	NOUN	_	_	5	nsubj	_	_
-3-4	сеникинен	_	_	_	_	_	_	_	_
-3	сени	сен	PRON	_	_	4	nmod:poss	_	_
-4	кинен	ки	PRON	_	_	5	obl	_	_
-5	кыйыныраак	кыйын	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
+1	Meniń	men	PRON	_	Case=Gen|Number=Sing|PronType=Prs	2	nmod:poss	_	_
+2	ákem	ákem	NOUN	_	_	5	nsubj	_	_
+3	senikinnen	sen	PRON	_	Case=Dat|Number=Sing|Poss=2	5	obl	_	_
+4	zorraq	zo­r	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = cairo-9
 # text = Mary bronzı utıp aldı, Peter gumıs,Jane altın.
@@ -202,16 +205,18 @@
 # text[az] = Mary bronz qazandı, Peter gümüş, Jane qɪzɪl.
 # text[uz] = Meri bronza, Piter kumush, Jeyn oltin medalni qo'lga kiritdi.
 # text[tr] = Mary bronz kazandı, Peter gümüş, Jane altın.
-1	Мэри	Мэри	PROPN	_	_	3	nsubj	_	_
-2	коло	коло	NOUN	_	_	3	obl	_	_
-3	утту	ут	VERB	_	_	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	Питер	Питер	PROPN	_	_	3	conj	_	_
-6	күмүш	күмүш	NOUN	_	_	5	orphan	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	Джейн	Джейн	PROPN	_	_	3	conj	_	_
-9	алтын	алтын	NOUN	_	_	8	orphan	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	3	punct	_	_
+1	Mary	Mary	PROPN	_	_	3	nsubj	_	_
+2	bronzı	bronzı	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	utıp	utıp	VERB	_	Mood=Ind|Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	aldı	alıw	VERB	_	Mood=Ind|Tense=Past|Person=3|VerbForm=Fin	3	aux	_	_
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	Peter	Peter	PROPN	_	_	3	conj	_	_
+7	gumıs	gumıs	NOUN	_	Case=Acc|Number=Sing	3	orphan	_	_
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	Jane	Jane	PROPN	_	_	3	conj	_	_
+10	altın	altın	NOUN	_	Case=Acc|Number=Sing	3	orphan	_	_
+11	.	.	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = cairo-9.1
 # text = Mary bronzı, Peter gumıs,Jane altın uttı.
@@ -222,16 +227,17 @@
 # text[az] = Mary bronz qazandı, Peter gümüş, Jane qɪzɪl.
 # text[uz] = Meri bronza, Piter kumush, Jeyn oltin medalni qo'lga kiritdi.
 # text[tr] = Mary bronz, Peter gümüş, Jane altın kazandı.
-1	Мэри	Мэри	PROPN	_	_	9	nsubj	_	_
-2	коло	коло	NOUN	_	_	9	obj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	Питер	Питер	PROPN	_	_	2	conj	_	_
-5	күмүш	күмүш	NOUN	_	_	4	orphan	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	Джейн	Джейн	PROPN	_	_	2	conj	_	_
-8	алтын	алтын	NOUN	_	_	7	orphan	_	_
-9	утту	ут	VERB	_	_	0	root	_	SpaceAfter=No
+1	Mary	Mary	PROPN	_	_	9	nsubj	_	_
+2	bronzı	bronzı	NOUN	_	_	9	obj	_	_
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	Peter	Peter	PROPN	_	_	9	conj	_	_
+5	gumıs	gumıs	NOUN	_	_	9	orphan	_	_
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	Jane	Jane	PROPN	_	_	9	conj	_	_
+8	altın	altın	NOUN	_	_	9	orphan	_	_
+9	uttı	uttı	VERB	_	Mood=Ind|Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
+
 
 # sent_id = cairo-10
 # text = Iguazu úlken mámleket pa yáki kishkene?
