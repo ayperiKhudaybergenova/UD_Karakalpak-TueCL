@@ -58,36 +58,37 @@
 # text[az] = Siqar çekmә vә әlkol içmәni tәrkitmәyә çalışdı.
 # text[uz] = Chekish va ichishni tashlashga harakat qildi.
 # text[tr] = Sigara ve alkol içmeyi bırakmayı denedi.
-1	Тамеки	тамеки	NOUN	_	_	2	obj	_	_
-2	чегүүнү	чек	VERB	_	_	6	ccomp	_	_
-3	жана	жана	CCONJ	_	_	5	cc	_	_
-4	арак	арак	NOUN	_	_	5	obj	_	_
-5	ичүүнү	ич	VERB	_	_	2	conj	_	_
-6	токтотууга	токто	VERB	_	_	8	xcomp	_	_
-7	аракет	аракет	VERB	_	_	8	obj	_	_
-8	кылды	кыл	VERB	_	_	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	_
+1	Shegıwdı	shegıw	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+2	hám	hám	CCONJ	_	_	3	cc	_	_
+3	ishiwdi	ishiw	NOUN	_	Case=Acc|Number=Sing	1	conj	_	_
+4	toqtatıwǵa	toqtatıw	VERB	_	VerbForm=Vnoun|Case=Dat	6	xcomp	_	_
+5	háreket	háreket	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+6	etti	et	VERB	_	Tense=Past|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = cairo-4.1
 # text = Barıwdı qáleysen ba?
 # glossing = you leave-VN-2SG come-INF lie.down-NPST[3]-Q
-# issue:
+# issue:VN vs. xcomp analysis of infinitive.
 # text[en] = Do you want to go?
 # text = Сен кеткиң келип жатабы?
 # text[az] = Siz getmək istəyirsiniz?
 # text[uz] = Sen ketishni istaysanmi?
 # text[tr] = Sen gitmek istiyor musun?
 # note: this one needs more discussion.
-1	Сен	сен	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2	кеткиң	кет	VERB	_	_	3	xcomp	_	_
-3	келип	кел	VERB	_	_	0	root	_	_
-4-5	жатабы	_	_	_	_	_	_	_	SpaceAfter=No
-4	жата	жат	AUX	_	_	3	aux	_	_
-5	бы	бы	PART	_	_	3	discourse	_	_
-6	?	?	PUNCT	_	_	3	punct	_	_
+1	Sen	сен	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	Barıwdı	barıw	NOUN	_	Case=Acc|VerbForm=Vnoun	3	obj	_	_
+3	qáleysen	qále	VERB	_	Tense=Pres|Person=2	0	root	_	_
+4	ba	ba	PART	_	_	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = cairo-4.2
 # text = Barıwdı qáleysen ba?
+# text[en] = Do you want to go?
+
+
 # translit = Ket-ki-ŋ kel-ip jat-a-bı?
 # glossing = leave-VN-2SG come-INF lie.down-NPST[3]-Q
 # issue:
