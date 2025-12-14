@@ -7,7 +7,7 @@
 # text[uz] = Qiz do'stiga xat yozdi.
 # text[tr] = Kız arkadaşına mektup yazdı.
 1 Qız	Qız	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
-2	dostına	dos	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
+2 dostına	dos	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 3	xat	xat	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	jazdı	jaz	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
