@@ -133,7 +133,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-6.2
-# text = 
+# text = Kúyewine mashinani juwdırttı.
 # glossing = husband-POSS.3-DAT car-ACC wash-CAUS-PST[3]
 # issue:
 # text[en] = She made her husband wash the car.
@@ -147,7 +147,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-7
-# text = 
+# text = Peterdiń qońsısı qorshawdı qizil reńge boyadı.
 # glossing = Peter-GEN neighbour-POSS.3 fence-ACC red colour-DAT paint-PST[3]
 # issue: "qızıl-ğa" -> "qızıl tüs-kö"
 # text[en] = Peter’s neighbour painted the fence red.
@@ -164,7 +164,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-7.1
-# text = 
+# text = Peterdiń qońsısı qorshawdı qizilǵa boyadı.
 # glossing = Peter-GEN neighbour-POSS.3 fence-ACC red-DAT paint-PST[3]
 # issue: "qızıl-ğa"
 # text[en] = Peter’s neighbour painted the fence red.
@@ -180,7 +180,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-8
-# text = 
+# text = Meniń ákem senikinnen  zorraq.
 # glossing = I-GEN father-POSS.1SG you-GEN.SUBST cool-COMP
 # issue:
 # text[en] = My dad is cooler than yours.
@@ -197,7 +197,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-9
-# text =
+# text = Mary bronzı utıp aldı, Peter gumıs,Jane altın.
 # glossing = Mary bronze win-PST[3] Peter silver Jane gold 
 # issue:
 # text[en] = Mary won bronze, Peter silver, and Jane gold.
@@ -217,7 +217,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-9.1
-# text = 
+# text = Mary bronzı, Peter gumıs,Jane altın uttı.
 # glossing = Mary bronze Peter silver Jane gold win-PST[3]
 # issue:
 # text[en] = Mary won bronze, Peter silver, and Jane gold.
@@ -237,7 +237,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = cairo-10
-# text = 
+# text = Iguazu úlken mámleket pa yáki kishkene?
 # glossing = Iguazu big country-Q or small-Q
 # issue:
 # text[en] = Is Iguazu a big or a small country?
@@ -257,7 +257,7 @@
 8	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-11
-# text = 
+# text = Peter Smith da Mary Brown da saylana almadı
 # glossing = Peter Smith also Mary Brown also pass-INF take-NEG-INF stay-PST[3]
 # issue:
 # text[en] = Neither Peter Smith nor Mary Brown could be selected.
@@ -278,7 +278,7 @@
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = cairo-12.1
-# text = 
+# text = Olar kim jazǵanın bilmeydi.
 # glossing = they who-GEN write-VN-ACC no know-RECP-NEG-NPST-3
 # issue:
 # text[en] = They have no idea who wrote it.
@@ -294,7 +294,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-12.2
-# text = 
+# text = Kim jazǵanin bilmeydi
 # glossing = who-GEN write-VN-POSS.3-ACC no know-RECP-NEG-NPST-3
 # issue:
 # text[en] = They have no idea who wrote it.
@@ -346,7 +346,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo-13.1
-# text = 
+# text = Sen ne zatqa qarap tursań?
 # glossing = you what-ACC watch-INF lie.down-PRS.PROG-2SG
 # issue:
 # text[en] = What are you looking at?
@@ -361,7 +361,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-13.2
-# text = 
+# text = Ne zatqa qarap tursań?
 # glossing = what-ACC watch-INF lie.down-PRS.PROG-2SG
 # issue:
 # text[en] = What are you looking at?
@@ -375,7 +375,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-14.1
-# text = 
+# text = Sen qashan kele alaman dep oylaysań?
 # glossing = you when come-SBJV take-PRS.2SG say-INF think-PRS.2SG
 # issue:
 # text[en] = When do you think you can come?
@@ -392,7 +392,7 @@
 7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-14.2
-# text = 
+# text = Qashan kele alaman dep oylaysań?
 # glossing = when come-SBJV take-PRS.2SG say-INF think-PRS.2SG
 # issue:
 # text[en] = When do you think you can come?
@@ -408,7 +408,7 @@
 6	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-15.1
-# text = 
+# text = Ol mashın satıp aldı bıraq oniń ınısı tek qana velosiped.
 # glossing = he/she car buy-INF take-PST.3SG but he/she-GEN younger.brother-POSS.3SG just only bike
 # issue:
 # text[en] = He/She bought a car but his/her younger brother just a bike.
@@ -430,7 +430,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-15.2
-# text = 
+# text = Mashın satıp aldı bıraq oniń ınısı tek qana velosiped.
 # glossing = car buy-INF take-PST.3SG but he/she-GEN younger.brother-POSS.3SG just only bike
 # issue:
 # text[en] = He/She bought a car but his/her younger brother just a bike.
@@ -451,7 +451,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-16
-# text = 
+# text = Peter hám Mary qushaqlastı hám xanadan shığıp ketti.
 # glossing = Peter and Mary each.other hug-RECP-PST.3SG that-ABL after room-ABL exit-PFV leave-RECP-PST.3SG
 # issue:
 # text[en] = Peter and Mary hugged each other and then left the room.
@@ -498,7 +498,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-17.1
-# text =
+# text = Ol shashın islegen bolıwı kerek edi biraq negedur sol kúni islemedi.
 # glossing = he/she hair-POSS.3SG decorate-PFV stand.up-INF.3SG need be-PST.3SG but for.some.reason that day make-VN not 
 # issue:
 # text[en] = He/She should have been doing his/her hair but for some reason he/she wouldn't that day.
@@ -522,7 +522,7 @@
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-17.2
-# text = 
+# text = Shashın islegen bolıwı kerek edi biraq negedur sol kúni islemedi.
 # glossing = hair-POSS.3SG decorate-PFV stand.up-INF.3SG need be-PST.3SG but for.some.reason that day make-VN not 
 # issue:
 # text[en] = He/She should have been doing his/her hair but for some reason he/she wouldn't that day.
@@ -545,7 +545,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-18
-# text = 
+# text = Oǵan jete alǵan joqpan sebebi ol dım tez juwırdı.
 # glossing = he/she-DAT equal take-VN not.exist-1SG because.of he/she very fast run-PST.3SG
 # issue:
 # text[en] = I wasn't able to keep up, because he/she ran too fast.
@@ -566,7 +566,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-19
-# text = 
+# text = Bul xat Peterden hám  ol keshe keldi.
 # glossing = this letter Peter-ABL and it yesterday come-PST.3SG
 # issue:
 # text[en] = This letter is from Peter and it was delivered yesterday.
@@ -584,7 +584,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-20.1
-# text = 
+# text = Ol Franciyaniń paytaxti, Parijde,  ósken.
 # glossing = he/she France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.	
@@ -600,7 +600,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-20.2
-# text = 
+# text = Franciyaniń paytaxti, Parijde,  ósken.
 # glossing = France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.	
@@ -615,7 +615,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-20.3
-# text = 
+# text =  Ol  Parijde, Franciyaniń paytaxtinda, ósken. 
 # glossing = he/she Paris-LOC France-GEN capital-POSS.3SG-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.
