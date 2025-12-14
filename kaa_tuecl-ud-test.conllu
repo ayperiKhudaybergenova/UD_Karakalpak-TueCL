@@ -21,11 +21,11 @@
 # text[az] = Fikr eliyәm yağɪş yağɪr.
 # text[uz] = Menimcha, yomg'ir yog'yapti.
 # text[tr] = Yağmur yağdığını zannediyorum.
-1	jawın	jawın	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
-2	jawıp	жап	VERB	_	_	4	ccomp	_	_
-3	жатат	жат	AUX	_	_	2	aux	_	_
-4	деп	де	VERB	_	_	5	advcl	_	_
-5	ойлойм	ойло	VERB	_	_	0	root	_	SpaceAfter=No
+1 Menimshe Men
+2	jawın	jawın	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+3	jawıp	jaw	VERB	_	_	4	ccomp	_	_
+4	atır	atır	AUX	_	_	2	aux	_	_
+5		SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-3.1
