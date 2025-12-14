@@ -31,7 +31,7 @@
 
 
 # sent_id = cairo-3.1
-# text = Ol shegıwdı hám ishiwdi toqtatıwǵa háreket etti
+# text = Ol shegıwdı hám ishiwdi toqtatıwǵa háreket etti.
 # glossing = he/she cigarette smoke-VN-ACC and alcohol drink-VN-ACC stop-CAUS-VN-DAT action do-PST[3]
 # issue:
 # text[en] = He/She tried to stop smoking and drinking.
@@ -39,16 +39,15 @@
 # text[az] = O çalɪşdɪ kɪ siqar çekmә vә әlkol içmәni tәrkidә.
 # text[uz] = U chekish va ichishni tashlashga harakat qildi.
 # text[tr] = O sigara ve alkol içmeyi bırakmayı denedi.
-1	Ал	ал	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-2	тамеки	тамеки	NOUN	_	_	3	obj	_	_
-3	чегүүнү	чек	VERB	_	_	7	ccomp	_	_
-4	жана	жана	CCONJ	_	_	6	cc	_	_
-5	арак	арак	NOUN	_	_	6	obj	_	_
-6	ичүүнү	ич	VERB	_	_	3	conj	_	_
-7	токтотууга	токто	VERB	_	_	9	xcomp	_	_
-8	аракет	араке	VERB	_	_	9	obj	_	_
-9	кылды	кыл	VERB	_	_	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	_
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	shegıwdı	shegıw	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+3	hám	hám	CCONJ	_	_	4	cc	_	_
+4	ishiwdi	ishiw	NOUN	_	Case=Acc|Number=Sing	2	conj	_	_
+5	toqtatıwǵa	toqtatıw	VERB	_	VerbForm=Vnoun|Case=Dat	7	xcomp	_	_
+6	háreket	háreket	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
+7	etti	et	VERB	_	Tense=Past|Person=3	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = cairo-3.2
 # text = Shegıwdı hám ishiwdi toqtatıwǵa háreket etti.
