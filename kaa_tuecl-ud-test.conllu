@@ -37,7 +37,7 @@
 # glossing = rain rain-INF lie.down-NPST-3 say-INF think-NPRS.1SG
 # issue: (It) is raining
 # text[en] = I think that it is raining.
-# text = Жамгыр жаап жатат деп ойлойм.
+# text[ky] = Жамгыр жаап жатат деп ойлойм.
 # text[az] = Fikr eliyәm yağɪş yağɪr.
 # text[uz] = Menimcha, yomg'ir yog'yapti.
 # text[tr] = Yağmur yağdığını zannediyorum.
@@ -54,7 +54,7 @@
 # glossing = he/she cigarette smoke-VN-ACC and alcohol drink-VN-ACC stop-CAUS-VN-DAT action do-PST[3]
 # issue:
 # text[en] = He/She tried to stop smoking and drinking.
-# text = Ал тамеки чегүүнү жана арак ичүүнү токтотууга аракет кылды.
+# text[ky] = Ал тамеки чегүүнү жана арак ичүүнү токтотууга аракет кылды.
 # text[az] = O çalɪşdɪ kɪ siqar çekmә vә әlkol içmәni tәrkidә.
 # text[uz] = U chekish va ichishni tashlashga harakat qildi.
 # text[tr] = O sigara ve alkol içmeyi bırakmayı denedi.
@@ -73,7 +73,7 @@
 # glossing = cigarette smoke-VN-ACC and alcohol drink-VN-ACC stop-CAUS-VN-DAT action do-PST[3]
 # issue:
 # text[en] = He/She tried to stop smoking and drinking.
-# text = Тамеки чегүүнү жана арак ичүүнү токтотууга аракет кылды.
+# text[ky] = Тамеки чегүүнү жана арак ичүүнү токтотууга аракет кылды.
 # text[az] = Siqar çekmә vә әlkol içmәni tәrkitmәyә çalışdı.
 # text[uz] = Chekish va ichishni tashlashga harakat qildi.
 # text[tr] = Sigara ve alkol içmeyi bırakmayı denedi.
@@ -91,7 +91,7 @@
 # glossing = you leave-VN-2SG come-INF lie.down-NPST[3]-Q
 # issue:VN vs. xcomp analysis of infinitive.
 # text[en] = Do you want to go?
-# text = Сен кеткиң келип жатабы?
+# text[ky] = Сен кеткиң келип жатабы?
 # text[az] = Siz getmək istəyirsiniz?
 # text[uz] = Sen ketishni istaysanmi?
 # text[tr] = Sen gitmek istiyor musun?
@@ -122,7 +122,7 @@
 # glossing = Sam window-ACC open[IMP.2SG] 
 # issue:
 # text[en] = Sam, open the window!
-# text = Сэм, терезени ач!
+# text[ky] = Сэм, терезени ач!
 # text[az] = Sam, pәncәrәni aç!
 # text[uz] = Sem, derazani och!
 # text[tr] = Sam, pencereyi aç!
@@ -138,7 +138,7 @@
 # glossing = he/she husband-POSS.3-DAT car-ACC wash-CAUS-PST[3]
 # issue:
 # text[en] = She made her husband wash the car.
-# text = Ал күйөөсүнө унааны жуудурду.
+# text[ky] = Ал күйөөсүнө унааны жуудурду.
 # text[az] = O әrinә maşını yudurtdu.
 # text[uz] = U eriga mashinani yuvdirdi.
 # text[tr] = O kocasına arabayı yıkattırdı.
@@ -154,7 +154,7 @@
 # glossing = husband-POSS.3-DAT car-ACC wash-CAUS-PST[3]
 # issue:
 # text[en] = She made her husband wash the car.
-# text = Күйөөсүнө унааны жуудурду.
+# text[ky] = Күйөөсүнө унааны жуудурду.
 # text[az] = Әrinә maşını yudurtdu.
 # text[uz] = Eriga mashinani yuvdirdi.
 # text[tr] = Kocasına arabayı yıkattırdı.
@@ -169,7 +169,7 @@
 # glossing = Peter-GEN neighbour-POSS.3 fence-ACC red colour-DAT paint-PST[3]
 # issue: "qızıl-ğa" -> "qızıl tüs-kö"
 # text[en] = Peter’s neighbour painted the fence red.
-# text = Питердин кошунасы тосмону кызыл түскө боёду.
+# text[ky] = Питердин кошунасы тосмону кызыл түскө боёду.
 # text[az] = Peterin qonşusu hasarı qırmız rənglədı.
 # text[uz] = Piterning qo'shnisi panjarani qizilga bo'yadi.
 # text[tr] = Peter'in komşusu çiti kırmızı boyadı.
@@ -187,7 +187,7 @@
 # glossing = Peter-GEN neighbour-POSS.3 fence-ACC red-DAT paint-PST[3]
 # issue: "qızıl-ğa"
 # text[en] = Peter’s neighbour painted the fence red.
-# text = Питердин кошунасы тосмону кызылга боёду.
+# text[ky] = Питердин кошунасы тосмону кызылга боёду.
 # text[az] = Peterin qonşusu hasarı qırmız rənglədı.
 # text[uz] = Piterning qo'shnisi panjarani qizilga bo'yadi.
 # text[tr] = Peter'in komşusu çiti kırmızıya boyadı.
@@ -204,7 +204,7 @@
 # glossing = I-GEN father-POSS.1SG you-GEN.SUBST cool-COMP
 # issue:
 # text[en] = My dad is cooler than yours.
-# text = Менин атам сеникинен кыйыныраак.
+# text[ky] = Менин атам сеникинен кыйыныраак.
 # text[az] = Mәnin babam sәninkindən bәtәrdi.
 # text[uz] = Mening dadam senikidan zo'rroq.
 # text[tr] = Benim babam seninkinden daha harika.
@@ -220,7 +220,7 @@
 # glossing = Mary bronze win-PST[3] Peter silver Jane gold 
 # issue:
 # text[en] = Mary won bronze, Peter silver, and Jane gold.
-# text = Мэри коло утту, Питер күмүш, Джейн алтын.
+# text[ky] = Мэри коло утту, Питер күмүш, Джейн алтын.
 # text[az] = Mary bronz qazandı, Peter gümüş, Jane qɪzɪl.
 # text[uz] = Meri bronza, Piter kumush, Jeyn oltin medalni qo'lga kiritdi.
 # text[tr] = Mary bronz kazandı, Peter gümüş, Jane altın.
@@ -242,7 +242,7 @@
 # glossing = Mary bronze Peter silver Jane gold win-PST[3]
 # issue:
 # text[en] = Mary won bronze, Peter silver, and Jane gold.
-# text = Мэри коло, Питер күмүш, Джейн алтын утту.
+# text[ky] = Мэри коло, Питер күмүш, Джейн алтын утту.
 # text[az] = Mary bronz qazandı, Peter gümüş, Jane qɪzɪl.
 # text[uz] = Meri bronza, Piter kumush, Jeyn oltin medalni qo'lga kiritdi.
 # text[tr] = Mary bronz, Peter gümüş, Jane altın kazandı.
@@ -263,7 +263,7 @@
 # glossing = Iguazu big country-Q or small-Q
 # issue:
 # text[en] = Is Iguazu a big or a small country?
-# text = Игуазу чоң өрөөнбү же кичинекейби?
+# text[ky] = Игуазу чоң өрөөнбү же кичинекейби?
 # text[az] = İguazu büyük bir kisvərdir, ya kiçik?
 # text[uz] = Iguazu katta mamlakatmi yoki kichik?
 # text[tr] = İguazu büyük bir ülke mi, yoksa küçük mü?
@@ -284,7 +284,7 @@
 # glossing = Peter Smith also Mary Brown also pass-INF take-NEG-INF stay-PST[3]
 # issue:
 # text[en] = Neither Peter Smith nor Mary Brown could be selected.
-# text = Питер Смит да, Мэри Браун да өтө албай калды.
+# text[ky] = Питер Смит да, Мэри Браун да өтө албай калды.
 # text[az] = Nә Peter Smith nә Mary Brown, intixab ola bildi.
 # text[uz] = Piter Smit ham, Meri Braun ham saylana olmaydi.
 # text[tr] = Ne Peter Smith ne de Mary Brown seçilebilir.
@@ -304,7 +304,7 @@
 # glossing = they who-GEN write-VN-ACC no know-RECP-NEG-NPST-3
 # issue:
 # text[en] = They have no idea who wrote it.
-# text = Алар кимдин жазганын эч билишпейт.
+# text[ky] = Алар кимдин жазганын эч билишпейт.
 # text[az] = Olar kimin yazdığını bilmirlər.
 # text[uz] = Ular kim yozganini bilmaydi.
 # text[tr] = Onlar kimin yazdığını hiç bilmiyorlar.
@@ -320,7 +320,7 @@
 # glossing = who-GEN write-VN-POSS.3-ACC no know-RECP-NEG-NPST-3
 # issue:
 # text[en] = They have no idea who wrote it.
-# text = Кимдин жазганын эч билишпейт.
+# text[ky] = Кимдин жазганын эч билишпейт.
 # text[az] = Kimin yazdığını bilmirlər.
 # text[uz] = Kim yozganini bilmaydi.
 # text[tr] = Kimin yazdığını hiç bilmiyorlar.
@@ -336,7 +336,7 @@
 # glossing = you what-ACC watch-INF lie.down-PRS.PROG-2SG
 # issue:
 # text[en] = What are you looking at?
-# text = Сен эмнени карап жатасың?
+# text[ky] = Сен эмнени карап жатасың?
 # text[az] = Sәn nәmәyә baxɪran?
 # text[uz] = Sen nimaga qarayapsan?
 # text[tr] = Sen neye bakıyorsun?
@@ -353,7 +353,7 @@
 # glossing = what-ACC watch-INF lie.down-PRS.PROG-2SG
 # issue:
 # text[en] = What are you looking at?
-# text = Эмнени карап жатасың?
+# text[ky] = Эмнени карап жатасың?
 # text[az] = Nәmәyә baxɪran?
 # text[uz] = Nimaga qarayapsan?
 # text[tr] = Neye bakıyorsun?
@@ -368,7 +368,7 @@
 # glossing = you when come-SBJV take-PRS.2SG say-INF think-PRS.2SG
 # issue:*
 # text[en] = When do you think you can come?
-# text = Сен качан келе алам деп ойлойсуң?
+# text[ky] = Сен качан келе алам деп ойлойсуң?
 # text[az] = Siz fikr eliriz nə vaxt gələ bilərsiz?
 # text[uz] = Sen qachon kelishing mumkin deb o'ylaysan?
 # text[tr] = Sen ne zaman gelebileceğini düşünüyorsun?
@@ -386,7 +386,7 @@
 # glossing = when come-SBJV take-PRS.2SG say-INF think-PRS.2SG
 # issue:
 # text[en] = When do you think you can come?
-# text = Качан келе алам деп ойлойсуң?
+# text[ky] = Качан келе алам деп ойлойсуң?
 # text[az] = Fikr eliriz nə vaxt gələ bilərsiz?
 # text[uz] = Qachon kelishing mumkin deb o'ylaysan?
 # text[tr] = Ne zaman gelebileceğini düşünüyorsun?
@@ -403,7 +403,7 @@
 # glossing = he/she car buy-INF take-PST.3SG but he/she-GEN younger.brother-POSS.3SG just only bike
 # issue:
 # text[en] = He/She bought a car but his/her younger brother just a bike.
-# text = Ал унаа сатып алды, бирок анын иниси жөн гана велосипед.
+# text[ky] = Ал унаа сатып алды, бирок анын иниси жөн гана велосипед.
 # text[az] = O maşın aldı amma qardaşı fәqәt çәrx aldı.
 # text[uz] = U mashina oldi, lekin ukasi faqat velosiped oldi.
 # text[tr] = O araba aldı ama erkek kardeşi sadece bisiklet.
@@ -424,7 +424,7 @@
 # glossing = car buy-INF take-PST.3SG but he/she-GEN younger.brother-POSS.3SG just only bike
 # issue:
 # text[en] = He/She bought a car but his/her younger brother just a bike.
-# text = Унаа сатып алды, бирок анын иниси жөн гана велосипед.
+# text[ky] = Унаа сатып алды, бирок анын иниси жөн гана велосипед.
 # text[az] = Bir dәnә maşın aldı amma qardaşı fәqәt çәrx aldı.
 # text[uz] = Mashina oldi, lekin ukasi faqat velosiped oldi.
 # text[tr] = Araba aldı ama erkek kardeşi sadece bisiklet.
@@ -444,7 +444,7 @@
 # glossing = Peter and Mary each.other hug-RECP-PST.3SG that-ABL after room-ABL exit-PFV leave-RECP-PST.3SG
 # issue:
 # text[en] = Peter and Mary hugged each other and then left the room.
-# text = Питер менен Мэри бири-бирин кучакташты, андан соң бөлмөдөн чыгып кетишти.
+# text[ky] = Питер менен Мэри бири-бирин кучакташты, андан соң бөлмөдөн чыгып кетишти.
 # text[az] = Peterinәn Mary qucaxlaşdılar vә sonra otaqdan çıxdılar.
 # text[uz] = Piter va Meri bir-birlarini quchoqladilar va shundan so'ng xonadan chiqdilar.
 # text[tr] = Peter ve Mary birbirlerini kucakladılar ve ondan sonra odadan çıktılar.	
@@ -465,7 +465,7 @@
 # glossing = Peter and Mary each other hug-RECP-PST.3SG that-ABL after room-ABL exit-PFV leave-RECP-PST.3SG
 # issue:
 # text[en] = Peter and Mary hugged each other and then left the room.
-# text = Питер менен Мэри кучакташты, андан соң бөлмөдөн чыгып кетишти.
+# text[ky] = Питер менен Мэри кучакташты, андан соң бөлмөдөн чыгып кетишти.
 # text[az] = Peterinәn Mary qucaxlaşdılar vә sonra otaqdan çıxdılar.
 # text[uz] = Piter va Meri bir-birlarini quchoqladilar va shundan so'ng xonadan chiqdilar.
 # text[tr] = Peter ve Mary birbirlerini kucakladılar ve ondan sonra odadan çıktılar.
@@ -488,7 +488,7 @@
 # glossing = he/she hair-POSS.3SG decorate-PFV stand.up-INF.3SG need be-PST.3SG but for.some.reason that day make-VN not 
 # issue:
 # text[en] = He/She should have been doing his/her hair but for some reason he/she wouldn't that day.
-# text = Ал чачын жасалгалап туруш керек болчу, бирок эмнегедир ошол күнү жасаган эмес.
+# text[ky] = Ал чачын жасалгалап туруш керек болчу, бирок эмнегедир ошол күнү жасаган эмес.
 # text[az] = O tüklәrin cürlǝmǝliydi, amma neçә dәlilә görә o gün elǝmәdi.
 # text[uz] = U sochini turmaklashi kerak edi, lekin negadir o'sha kuni turmaklamadi.
 # text[tr] = O saçını yapıyor olmalıydı ama nedense o gün yapmadı.
@@ -512,7 +512,7 @@
 # glossing = hair-POSS.3SG decorate-PFV stand.up-INF.3SG need be-PST.3SG but for.some.reason that day make-VN not 
 # issue:
 # text[en] = He/She should have been doing his/her hair but for some reason he/she wouldn't that day.
-# text = Чачын жасалгалап туруш керек болчу, бирок эмнегедир ошол күнү жасаган эмес.
+# text[ky] = Чачын жасалгалап туруш керек болчу, бирок эмнегедир ошол күнү жасаган эмес.
 # text[az] = Tüklәrin cürlǝmǝliydi, amma neçә dәlilә görә o gün elǝmәdi.
 # text[uz] = Sochini turmaklashi kerak edi, lekin negadir o'sha kuni turmaklamadi.
 # text[tr] = Saçını yapıyor olmalıydı ama nedense o gün yapmadı.
@@ -535,7 +535,7 @@
 # glossing = he/she-DAT equal take-VN not.exist-1SG because.of he/she very fast run-PST.3SG
 # issue:
 # text[en] = I wasn't able to keep up, because he/she ran too fast.
-# text = Ага теңеле алган жокмун, анткени ал абдан тез чуркады.
+# text[ky] = Ага теңеле алган жокмун, анткени ал абдан тез чуркады.
 # text[az] = O çox yeyin qaçdɪğɪ için ona çata bilmәdim.
 # text[uz] = U juda tez yugurgani uchun yeta olmadim.
 # text[tr] = Ayak uyduramadım çünkü çok hızlı koştu.
@@ -557,7 +557,7 @@
 # glossing = this letter Peter-ABL and it yesterday come-PST.3SG
 # issue:
 # text[en] = This letter is from Peter and it was delivered yesterday.
-# text = Бул кат Питерден жана ал кечээ келди.
+# text[ky] = Бул кат Питерден жана ал кечээ келди.
 # text[az] = Bu namә Peterdendir vә dünәn yetişibdir.
 # text[uz] = Bu xat Piterdan va u kecha keldi.
 # text[tr] = Bu mektup Peter'den ve dün iletildi.
@@ -576,7 +576,7 @@
 # glossing = he/she France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.	
-# text = Ал Франциянын борбору Парижде чоңойду.
+# text[ky] = Ал Франциянын борбору Парижде чоңойду.
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = U Fransiya poytaxti Parijda o'sgan.
 # text[tr] = O Fransanın başkenti Paris'te büyüdü.
@@ -593,7 +593,7 @@
 # glossing = France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.	
-# text = Франциянын борбору Парижде чоңойду.
+# text[ky] = Франциянын борбору Парижде чоңойду.
 # text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = Fransiya poytaxti Parijda o'sgan.
 # text[tr] = Fransanın başkenti Paris'te büyüdü.
@@ -609,7 +609,7 @@
 # glossing = he/she Paris-LOC France-GEN capital-POSS.3SG-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.
-# text = Ал Парижде, Франциянын борборунда, чоңойду.
+# text[ky] = Ал Парижде, Франциянын борборунда, чоңойду.
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = U Fransiya poytaxti Parijda o'sgan.
 # text[tr] = O Fransanın başkenti Paris'te büyüdü.
@@ -628,7 +628,7 @@
 # glossing = Paris-LOC France-GEN capital-POSS.3SG-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.
-# text = Парижде, Франциянын борборунда, чоңойду.
+# text[ky] = Парижде, Франциянын борборунда, чоңойду.
 # text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = Fransiya poytaxti Parijda o'sgan.
 # text[tr] = Paris'te, Fransanın başkentinde, büyüdü.
@@ -646,7 +646,7 @@
 # glossing = wife summer.house child-PL room window in.a.hurry clean-INF kitchen clean-NEG-INF put-INF-
 # issue: Both uses of -ki, compound (vs nmod:poss), multi-word expressions, empty token
 # text[en] = My spouse cleaned the windows of the children's room at the summer house hastily, but didn't clean the kitchen's.
-# text = Жубайым дачадагы балдар бөлмөсүнүн терезесин шаша-буша тазалап, ашкананыкын тазалабай коюптур.
+# text[ky] = Жубайым дачадагы балдар бөлмөсүнүн терезесин шаша-буша тазалап, ашкананыкын тазалабай коюптур.
 # text[az] = Ərim bağdakı uşağ otağının pǝncǝrǝsini tez-tez tǝmizləmişdi, aşpazxananınkını tǝmizlǝmǝmişdi.
 # text[uz] = Erim chorbog'dagi bolalar xonasini apil-tapil yig'ishtirib, oshxonadagi stolni ham chiqarib tashlabdi.
 # text[tr] = Eşim yazlıktaki çocuk odasının penceresini apar topar temizlemiş, mutfağınkini temizlememişti.
@@ -672,7 +672,7 @@
 # glossing = I you-DAT this-ACC always tell-PRS.1SG day-LOC tomorrow with friend-POSS.2.SG with phone-LOC talk-RECP-LOC I topic-POSS.3SG-LOC word make-NEG.2SG 
 # issue: Oblique vs object, oblique (?) as temporal modifier
 # text[en] = I always tell you, when you talk with your friend on the phone in the morning, don't talk about me.
-# text = Мен сага муну дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
+# text[ky] = Мен сага муну дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
 # text[az] = Sənə bunu həmişə diyirəm, söbhlər yoldaşıynan telfunda danışanda mənim moridimdə danışma.
 # text[uz] = Senga doim shuni aytaman, ertalab do'sting bilan telefonda gaplashayotganingda men haqimda gapirma.
 # text[tr] = Sana bunu hep söylüyorum, sabahları arkadaşınla telefonda konuşurken benden bahsetme.
@@ -700,7 +700,7 @@
 # glossing = sleep.over-INF clean-INF stay gest dor 
 # issue: Compound_or_obj be_aux
 # text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered from the restaurant was still coming.
-# text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал ресторандан буюртма берген тамак келмек болчу.
+# text[ky] = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал ресторандан буюртма берген тамак келмек болчу.
 # text[az] = Gecəni qalan qonax qapını çalmışdı, amma ev sahab sil-süpür elirdi və resturandan sifariş verən qəza hələ gələcəgidi.
 # text[uz] = Yotgani kelgan mehmon eshikni taqillatdi, lekin uy egasi hali ham tozalash ishlari bilan band edi, restorandan buyurtma qilgan taomi esa hali kelmagan edi.
 # text[tr] = Yatılı kalacak misafir kapıyı çalmıştı ama ev sahibi hala temizlik yapıyordu, restorandan sipariş ettiği yemek ise daha gelecekti.
