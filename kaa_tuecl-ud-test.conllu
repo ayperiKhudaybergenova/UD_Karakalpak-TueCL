@@ -248,16 +248,17 @@
 # text[az] = İguazu büyük bir kisvərdir, ya kiçik?
 # text[uz] = Iguazu katta mamlakatmi yoki kichik?
 # text[tr] = İguazu büyük bir ülke mi, yoksa küçük mü?
-1	Игуазу	Игуазу	PROPN	_	_	3	nsubj	_	_
-2	чоң	чоң	ADJ	_	_	3	amod	_	_
-3-4	өрөөнбү	_	_	_	_	_	_	_	_
-3	өрөөн	өрөөн	NOUN	_	_	0	root	_	_
-4	бү	бы	PART	_	_	3	discourse	_	_
-5	же	же	CCONJ	_	_	6	cc	_	_
-6-7	кичинекейби	_	_	_	_	_	_	_	SpaceAfter=No
-6	кичинекей	кичи	ADJ	_	_	3	conj	_	_
-7	би	бы	PART	_	_	6	discourse	_	_
+1	Iguazu	Iguazu	PROPN	_	_	3	nsubj	_	_
+2	úlken	úlken	ADJ	_	_	3	amod	_	_
+3-4	mámleketpe	_	_	_	_	_	_	_	_
+3	mámleket	mámleket	NOUN	_	_	0	root	_	_
+4	pe	pe	PART	_	_	3	discourse	_	_
+5	yáki	yáki	CCONJ	_	_	6	cc	_	_
+6-7	kishkeneme	_	_	_	_	_	_	_	SpaceAfter=No
+6	kishkene	kishkene	ADJ	_	_	3	conj	_	_
+7	me	me	PART	_	_	6	discourse	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = cairo-11
 # text = Peter Smith da Mary Brown da saylana almadı
@@ -268,17 +269,16 @@
 # text[az] = Nә Peter Smith nә Mary Brown, intixab ola bildi.
 # text[uz] = Piter Smit ham, Meri Braun ham saylana olmaydi.
 # text[tr] = Ne Peter Smith ne de Mary Brown seçilebilir.
-1	Питер	Питер	PROPN	_	_	8	nsubj	_	_
-2	Смит	Смит	PROPN	_	_	1	flat	_	_
-3	да	да	ADV	_	_	1	advmod:emph	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
-5	Мэри	Мэри	PROPN	_	_	1	conj	_	_
-6	Браун	Браун	PROPN	_	_	5	flat	_	_
-7	да	да	ADV	_	_	5	advmod:emph	_	_
-8	өтө	өт	VERB	_	_	0	root	_	_
-9	албай	ал	AUX	_	_	8	aux	_	_
-10	калды	кал	AUX	_	_	8	aux	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	8	punct	_	_
+1	Peter	Peter	PROPN	_	_	8	nsubj	_	_
+2	Smith	Smith	PROPN	_	_	1	flat	_	_
+3	da	da	PART	_	_	1	discourse	_	_
+4	Mary	Mary	PROPN	_	_	1	conj	_	_
+5	Brown	Brown	PROPN	_	_	4	flat	_	_
+6	da	da	PART	_	_	4	discourse	_	_
+7	saylana	sayla	VERB	_	VerbForm=Inf|Voice=Pass	8	xcomp	_	_
+8	almadı	al	AUX	_	Tense=Past|Polarity=Neg|Person=3|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
 
 # sent_id = cairo-12.1
 # text = Olar kim jazǵanın bilmeydi.
@@ -289,12 +289,13 @@
 # text[az] = Olar kimin yazdığını bilmirlər.
 # text[uz] = Ular kim yozganini bilmaydi.
 # text[tr] = Onlar kimin yazdığını hiç bilmiyorlar.
-1	Алар	алар	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
-2	кимдин	ким	PRON	_	_	3	nsubj	_	_
-3	жазганын	жаз	VERB	_	_	5	ccomp	_	_
-4	эч	эч	ADV	_	_	5	advmod	_	_
-5	билишпейт	бил	VERB	_	_	0	root	_	SpaceAfter=No
+1	Olar	olar	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	kimniń	kim	PRON	_	Case=Gen|PronType=Int	3	nsubj	_	_
+3	jazǵanın	jaz	VERB	_	VerbForm=Vnoun|Case=Acc	5	ccomp	_	_
+4	eş	eş	ADV	_	_	5	advmod	_	_
+5	bilmeydi	bil	VERB	_	Tense=Pres|Polarity=Neg|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = cairo-12.2
 # text = Kim jazǵanin bilmeydi
@@ -305,48 +306,12 @@
 # text[az] = Kimin yazdığını bilmirlər.
 # text[uz] = Kim yozganini bilmaydi.
 # text[tr] = Kimin yazdığını hiç bilmiyorlar.
-1	Кимдин	ким	PRON	_	_	2	nsubj	_	_
-2	жазганын	жаз	VERB	_	_	4	ccomp	_	_
-3	эч	эч	ADV	_	_	4	advmod	_	_
-4	билишпейт	бил	VERB	_	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
+1	Kim	kim	PRON	_	Case=Gen|PronType=Int	2	nsubj	_	_
+2	jazǵanın	jaz	VERB	_	VerbForm=Vnoun|Case=Acc|Person[psor]=3	3	ccomp	_	_
+3	bilmeydi	bil	VERB	_	Tense=Pres|Polarity=Neg|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cairo-12.3
-# text = 
-# glossing = they who-GEN write-VN-POSS.3 about no idea-PL-POSS.3 even absent
-# issue:
-# text[en] = They have no idea who wrote it.
-# text = Алар кимдин жазгандыгы жөнүндө эч ойлору да жок.
-# text[az] = Olar kimin yazdığını bilmirlər.irleri yok.
-# text[uz] = Ular kim yozganini bilmaydi.
-# text[tr] = Onlar kimin yazdığı konusunda hiç bir fik.
-1	Алар	алар	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj:outer	_	_
-2	кимдин	ким	PRON	_	_	3	nsubj	_	_
-3	жазгандыгы	жаз	VERB	_	_	8	obl	_	_
-4	жөнүндө	жөнүндө	ADP	_	_	3	case	_	_
-5	эч	эч	DET	_	_	6	det	_	_
-6	ойлору	ой	NOUN	_	_	8	nsubj	_	_
-7	да	да	ADV	_	_	6	advmod:emph	_	_
-8	жок	жок	ADJ	_	_	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = cairo-12.4
-# text = 
-# glossing = who-GEN write-VN-POSS.3 about no idea-PL-POSS.3 even absent
-# issue:
-# text[en] = They have no idea who wrote it.
-# text = Кимдин жазгандыгы жөнүндө эч ойлору да жок.
-# text[az] = Kimin yazdığını bilmirlər.irleri yok.
-# text[uz] = Kim yozganini bilmaydi.
-# text[tr] = Kimin yazdığı konusunda hiç bir fik.
-1	Кимдин	ким	PRON	_	_	2	nsubj	_	_
-2	жазгандыгы	жаз	VERB	_	_	7	obl	_	_
-3	жөнүндө	жөнүндө	ADP	_	_	2	case	_	_
-4	эч	эч	DET	_	_	5	det	_	_
-5	ойлору	ой	NOUN	_	_	7	nsubj	_	_
-6	да	да	ADV	_	_	5	advmod:emph	_	_
-7	жок	жок	ADJ	_	_	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo-13.1
 # text = Sen ne zatqa qarap tursań?
@@ -357,11 +322,13 @@
 # text[az] = Sәn nәmәyә baxɪran?
 # text[uz] = Sen nimaga qarayapsan?
 # text[tr] = Sen neye bakıyorsun?
-1	Сен	сен	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-2	эмнени	эмне	PRON	_	_	3	obl	_	_
-3	карап	кара	VERB	_	_	0	root	_	_
-4	жатасың	жат	AUX	_	_	3	aux	_	SpaceAfter=No
-5	?	?	PUNCT	_	_	3	punct	_	_
+1	Sen	Sen	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	ne	ne	PRON	_	Case=Acc|PronType=Int	3	obl	_	_
+3	zatqa	zat	NUM	_	Case=Acc	0	root	_	_
+4	qarap	qar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	tursań	tur	AUX	_	Tense=Pres|Mood=Ind|Person=2|VerbForm=Fin	3	aux	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = cairo-13.2
 # text = Ne zatqa qarap tursań?
@@ -372,10 +339,11 @@
 # text[az] = Nәmәyә baxɪran?
 # text[uz] = Nimaga qarayapsan?
 # text[tr] = Neye bakıyorsun?
-1	Эмнени	эмне	PRON	_	_	2	obl	_	_
-2	карап	кара	VERB	_	_	0	root	_	_
-3	жатасың	жат	AUX	_	_	2	aux	_	SpaceAfter=No
-4	?	?	PUNCT	_	_	2	punct	_	_
+1	Ne	ne	PRON	_	Case=Acc|PronType=Int	2	obl	_	_
+2	zatqa	zat	NUM	_	Case=Acc	0	root	_	_
+3	qarap	qar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	tursań	tur	AUX	_	Tense=Pres|Mood=Ind|Person=2|VerbForm=Fin	2	aux	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-14.1
 # text = Sen qashan kele alaman dep oylaysań?
@@ -386,13 +354,14 @@
 # text[az] = Siz fikr eliriz nə vaxt gələ bilərsiz?
 # text[uz] = Sen qachon kelishing mumkin deb o'ylaysan?
 # text[tr] = Sen ne zaman gelebileceğini düşünüyorsun?
-1	Сен	сен	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
-2	качан	качан	ADV	_	_	3	advmod	_	_
-3	келе	кел	VERB	_	_	5	ccomp	_	_
-4	алам	ал	AUX	_	_	3	aux	_	_
-5	деп	де	VERB	_	_	6	advcl	_	_
-6	ойлойсуң	ойло	VERB	_	_	0	root	_	SpaceAfter=No
+1	Sen	Sen	PRON	_	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+2	qashan	qashan	ADV	_	_	3	advmod	_	_
+3	kele	kel	VERB	_	VerbForm=Inf	5	ccomp	_	_
+4	alaman	al	AUX	_	Tense=Pres|Person=1|VerbForm=Fin	3	aux	_	_
+5	dep	dep	PART	_	_	6	discourse	_	_
+6	oylaysań	oyla	VERB	_	Tense=Pres|Mood=Ind|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = cairo-14.2
 # text = Qashan kele alaman dep oylaysań?
@@ -403,12 +372,13 @@
 # text[az] = Fikr eliriz nə vaxt gələ bilərsiz?
 # text[uz] = Qachon kelishing mumkin deb o'ylaysan?
 # text[tr] = Ne zaman gelebileceğini düşünüyorsun?
-1	Качан	качан	ADV	_	_	2	advmod	_	_
-2	келе	кел	VERB	_	_	4	ccomp	_	_
-3	алам	ал	AUX	_	_	2	aux	_	_
-4	деп	де	VERB	_	_	5	advcl	_	_
-5	ойлойсуң	ойло	VERB	_	_	0	root	_	SpaceAfter=No
+1	Qashan	qashan	ADV	_	_	2	advmod	_	_
+2	kele	kel	VERB	_	VerbForm=Inf	3	ccomp	_	_
+3	alaman	al	AUX	_	Tense=Pres|Person=1|VerbForm=Fin	2	aux	_	_
+4	dep	dep	PART	_	_	5	discourse	_	_
+5	oylaysań	oyla	VERB	_	Tense=Pres|Mood=Ind|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = cairo-15.1
 # text = Ol mashın satıp aldı bıraq oniń ınısı tek qana velosiped.
@@ -419,18 +389,17 @@
 # text[az] = O maşın aldı amma qardaşı fәqәt çәrx aldı.
 # text[uz] = U mashina oldi, lekin ukasi faqat velosiped oldi.
 # text[tr] = O araba aldı ama erkek kardeşi sadece bisiklet.
-1	Ал	ал	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	унаа	унаа	NOUN	_	_	4	obj	_	_
-3	сатып	сат	VERB	_	_	4	compound	_	_
-4	алды	ал	VERB	_	_	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	бирок	бирок	CCONJ	_	_	8	cc	_	_
-7	анын	ал	PRON	_	_	8	nmod	_	_
-8	иниси	ини	NOUN	_	_	4	conj	_	_
-9	жөн	жөн	ADV	_	_	11	advmod	_	_
-10	гана	гана	ADV	_	_	9	advmod:emph	_	_
-11	велосипед	велосипед	NOUN	_	_	8	orphan	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	4	punct	_	_
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	mashın	mashın	NOUN	_	_	4	obj	_	_
+3	satıp	sat	VERB	_	_	4	compound	_	_
+4	aldı	al	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	bıraq	bıraq	CCONJ	_	_	8	cc	_	_
+6	oniń	ol	PRON	_	Case=Gen|Person=3|PronType=Prs	8	nmod	_	_
+7	ınısı	ını	NOUN	_	_	8	nmod:poss	_	_
+8	tek	qana	ADV	_	_	11	advmod	_	_
+9	velosiped	velosiped	NOUN	_	_	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = cairo-15.2
 # text = Mashın satıp aldı bıraq oniń ınısı tek qana velosiped.
@@ -441,17 +410,16 @@
 # text[az] = Bir dәnә maşın aldı amma qardaşı fәqәt çәrx aldı.
 # text[uz] = Mashina oldi, lekin ukasi faqat velosiped oldi.
 # text[tr] = Araba aldı ama erkek kardeşi sadece bisiklet.
-1	Унаа	унаа	NOUN	_	_	3	obj	_	_
-2	сатып	сат	VERB	_	_	3	compound	_	_
-3	алды	ал	VERB	_	_	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	бирок	бирок	CCONJ	_	_	7	cc	_	_
-6	анын	ал	PRON	_	_	7	nmod	_	_
-7	иниси	ини	NOUN	_	_	3	conj	_	_
-8	жөн	жөн	ADV	_	_	10	advmod	_	_
-9	гана	гана	ADV	_	_	8	advmod:emph	_	_
-10	велосипед	велосипед	NOUN	_	_	7	orphan	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	3	punct	_	_
+1	Mashın	mashın	NOUN	_	_	3	obj	_	_
+2	satıp	sat	VERB	_	_	3	compound	_	_
+3	aldı	al	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	bıraq	bıraq	CCONJ	_	_	7	cc	_	_
+5	oniń	ol	PRON	_	Case=Gen|Person=3|PronType=Prs	7	nmod	_	_
+6	ınısı	ını	NOUN	_	_	7	nmod:poss	_	_
+7	tek	qana	ADV	_	_	10	advmod	_	_
+8	velosiped	velosiped	NOUN	_	_	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = cairo-16
 # text = Peter hám Mary qushaqlastı hám xanadan shığıp ketti.
@@ -463,23 +431,19 @@
 # text[uz] = Piter va Meri bir-birlarini quchoqladilar va shundan so'ng xonadan chiqdilar.
 # text[tr] = Peter ve Mary birbirlerini kucakladılar ve ondan sonra odadan çıktılar.	
 # note: "бири-бирин" - lemma: "бир-бир"
-1	Питер	Питер	PROPN	_	_	7	nsubj	_	_
-2	менен	менен	SCONJ	_	_	3	cc	_	_
-3	Мэри	Мэри	PROPN	_	_	1	conj	_	_
-4	бири	бир	PRON	_	_	7	obj	_	SpaceAfter=No
-5	-	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	бирин	бир	PRON	_	_	4	fixed	_	_
-7	кучакташты	кучакта	VERB	_	_	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	андан	ал	PRON	_	_	12	obl	_	_
-10	соң	соң	ADP	_	_	9	case	_	_
-11	бөлмөдөн	бөлмө	NOUN	_	_	12	obl	_	_
-12	чыгып	чык	VERB	_	_	7	conj	_	_
-13	кетишти	кет	AUX	_	_	12	aux	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	7	punct	_	_
+1	Peter	Peter	PROPN	_	_	7	nsubj	_	_
+2	hám	hám	CCONJ	_	_	3	cc	_	_
+3	Mary	Mary	PROPN	_	_	1	conj	_	_
+4	qushaqlastı	qushaqlan	VERB	_	VerbForm=Fin|Tense=Past|Voice=Refl	7	obj	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	xanadan	xana	NOUN	_	Case=Abl	12	obl	_	_
+7	shığıp	şık	VERB	_	VerbForm=Inf	12	ccomp	_	_
+8	ketti	ket	AUX	_	Tense=Past|Person=3|VerbForm=Fin	12	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	12	punct	_	_
+
 
 # sent_id = cairo-16.1
-# text = 
+# text = Peter hám Mary qushaqlastı hám son xanadan shığıp ketti.
 # glossing = Peter and Mary each other hug-RECP-PST.3SG that-ABL after room-ABL exit-PFV leave-RECP-PST.3SG
 # issue:
 # text[en] = Peter and Mary hugged each other and then left the room.
