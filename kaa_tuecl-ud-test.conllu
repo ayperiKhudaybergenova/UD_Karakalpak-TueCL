@@ -443,7 +443,7 @@
 
 
 # sent_id = cairo-16.1
-# text = Peter hám Mary qushaqlastı hám son xanadan shığıp ketti.
+# text = Peter hám Mary qushaqlastı hám sonnan keyin  xanadan shığıp ketti.
 # glossing = Peter and Mary each other hug-RECP-PST.3SG that-ABL after room-ABL exit-PFV leave-RECP-PST.3SG
 # issue:
 # text[en] = Peter and Mary hugged each other and then left the room.
@@ -452,17 +452,18 @@
 # text[uz] = Piter va Meri bir-birlarini quchoqladilar va shundan so'ng xonadan chiqdilar.
 # text[tr] = Peter ve Mary birbirlerini kucakladılar ve ondan sonra odadan çıktılar.
 # note: omitted "бири-бирин" - lemma: "бир-бир"
-1	Питер	Питер	PROPN	_	_	4	nsubj	_	_
-2	менен	менен	SCONJ	_	_	3	cc	_	_
-3	Мэри	Мэри	PROPN	_	_	1	conj	_	_
-4	кучакташты	кучакта	VERB	_	_	0	root	_	SpaceAfter=No
+1	Peter	Peter	PROPN	_	_	4	nsubj	_	_
+2	hám	hám	CCONJ	_	_	3	cc	_	_
+3	Mary	Mary	PROPN	_	_	1	conj	_	_
+4	qushaqlastı	qushaqlan	VERB	_	VerbForm=Fin|Tense=Past|Voice=Refl	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	андан	ал	PRON	_	_	9	obl	_	_
-7	соң	соң	ADP	_	_	6	case	_	_
-8	бөлмөдөн	бөлмө	NOUN	_	_	9	obl	_	_
-9	чыгып	чык	VERB	_	_	4	conj	_	_
-10	кетишти	кет	AUX	_	_	9	aux	_	SpaceAfter=No
+6	sonnan	son	ADP	_	_	9	case	_	_
+7	keyin	keyin	ADP	_	_	6	compound	_	_
+8	xanadan	xana	NOUN	_	Case=Abl	9	obl	_	_
+9	shığıp	çık	VERB	_	VerbForm=Inf	4	ccomp	_	_
+10	ketti	ket	AUX	_	Tense=Past|Person=3|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
+	_
 
 # sent_id = cairo-17.1
 # text = Ol shashın islegen bolıwı kerek edi biraq negedur sol kúni islemedi.
@@ -473,20 +474,20 @@
 # text[az] = O tüklәrin cürlǝmǝliydi, amma neçә dәlilә görә o gün elǝmәdi.
 # text[uz] = U sochini turmaklashi kerak edi, lekin negadir o'sha kuni turmaklamadi.
 # text[tr] = O saçını yapıyor olmalıydı ama nedense o gün yapmadı.
-1	Ал	ал	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	чачын	чач	NOUN	_	_	3	obj	_	_
-3	жасалгалап	жасалгала	VERB	_	_	5	csubj	_	_
-4	туруш	тур	AUX	_	_	3	aux	_	_
-5	керек	керек	ADJ	_	_	6	nsubj	_	_
-6	болчу	бол	VERB	_	_	0	root	_	SpaceAfter=No
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	shashın	shash	NOUN	_	Person[psor]=3	3	obj	_	_
+3	islegen	isle	VERB	_	VerbForm=Vnoun|Person[psor]=3	5	csubj	_	_
+4	bolıwı	bol	AUX	_	VerbForm=Inf|Person[psor]=3	3	aux	_	_
+5	kerek	kerek	ADJ	_	_	6	nsubj	_	_
+6	edi	bol	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	бирок	бирок	CCONJ	_	_	12	cc	_	_
-9	эмнегедир	эмнеге	ADV	_	_	12	advmod	_	_
-10	ошол	ошо	DET	_	_	11	det	_	_
-11	күнү	күн	NOUN	_	_	12	obl:tmod	_	_
-12	жасаган	жаса	VERB	_	_	6	conj	_	_
-13	эмес	эмес	ADV	_	_	12	advmod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	6	punct	_	_
+8	biraq	biraq	CCONJ	_	_	12	cc	_	_
+9	negedur	neg	ADV	_	_	12	advmod	_	_
+10	sol	sol	DET	_	_	11	det	_	_
+11	kúni	kún	NOUN	_	_	12	obl:tmod	_	_
+12	islemedi	isle	VERB	_	Tense=Past|Polarity=Neg|Person=3|VerbForm=Fin	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = cairo-17.2
 # text = Shashın islegen bolıwı kerek edi biraq negedur sol kúni islemedi.
@@ -497,19 +498,19 @@
 # text[az] = Tüklәrin cürlǝmǝliydi, amma neçә dәlilә görә o gün elǝmәdi.
 # text[uz] = Sochini turmaklashi kerak edi, lekin negadir o'sha kuni turmaklamadi.
 # text[tr] = Saçını yapıyor olmalıydı ama nedense o gün yapmadı.
-1	Чачын	чач	NOUN	_	_	2	obj	_	_
-2	жасалгалап	жасалгала	VERB	_	_	4	csubj	_	_
-3	туруш	тур	AUX	_	_	2	aux	_	_
-4	керек	керек	ADJ	_	_	5	nsubj	_	_
-5	болчу	бол	VERB	_	_	0	root	_	SpaceAfter=No
+1	Shashın	shash	NOUN	_	Person[psor]=3	2	obj	_	_
+2	islegen	isle	VERB	_	VerbForm=Vnoun|Person[psor]=3	4	csubj	_	_
+3	bolıwı	bol	AUX	_	VerbForm=Inf|Person[psor]=3	2	aux	_	_
+4	kerek	kerek	ADJ	_	_	5	nsubj	_	_
+5	edi	bol	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	бирок	бирок	CCONJ	_	_	11	cc	_	_
-8	эмнегедир	эмнеге	ADV	_	_	11	advmod	_	_
-9	ошол	ошо	DET	_	_	10	det	_	_
-10	күнү	күн	NOUN	_	_	11	obl:tmod	_	_
-11	жасаган	жаса	VERB	_	_	5	conj	_	_
-12	эмес	эмес	ADV	_	_	11	advmod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	5	punct	_	_
+7	biraq	biraq	CCONJ	_	_	11	cc	_	_
+8	negedur	neg	ADV	_	_	11	advmod	_	_
+9	sol	sol	DET	_	_	10	det	_	_
+10	kúni	kún	NOUN	_	_	11	obl:tmod	_	_
+11	islemedi	isle	VERB	_	Tense=Past|Polarity=Neg|Person=3|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = cairo-18
 # text = Oǵan jete alǵan joqpan sebebi ol dım tez juwırdı.
@@ -520,17 +521,18 @@
 # text[az] = O çox yeyin qaçdɪğɪ için ona çata bilmәdim.
 # text[uz] = U juda tez yugurgani uchun yeta olmadim.
 # text[tr] = Ayak uyduramadım çünkü çok hızlı koştu.
-1	Ага	ал	PRON	_	_	2	obl	_	_
-2	теңеле	теңе	VERB	_	_	0	root	_	_
-3	алган	ал	AUX	_	_	2	aux	_	_
-4	жокмун	жок	AUX	_	_	2	aux	_	SpaceAfter=No
+1	Oǵan	Ol	PRON	_	Case=Dat|Person=3|PronType=Prs	2	obl	_	_
+2	jete	jet	VERB	_	VerbForm=Inf	0	root	_	_
+3	alǵan	al	AUX	_	VerbForm=Vnoun	2	aux	_	_
+4	joqpan	joq	AUX	_	Polarity=Neg|Person=1|VerbForm=Fin	2	aux	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	анткени	анткени	SCONJ	_	_	10	mark	_	_
-7	ал	ал	PRON	_	_	10	nsubj	_	_
-8	абдан	абдан	ADV	_	_	9	advmod	_	_
-9	тез	тез	ADV	_	_	10	advmod	_	_
-10	чуркады	чурка	VERB	_	_	2	advcl	_	SpaceAfter=No
+6	sebebi	sebep	NOUN	_	_	10	mark	_	_
+7	ol	ol	PRON	_	_	10	nsubj	_	_
+8	dım	dım	ADV	_	_	9	advmod	_	_
+9	tez	tez	ADV	_	_	10	advmod	_	_
+10	juwırdı	juwır	VERB	_	Tense=Past|Person=3|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = cairo-19
 # text = Bul xat Peterden hám  ol keshe keldi.
@@ -541,14 +543,15 @@
 # text[az] = Bu namә Peterdendir vә dünәn yetişibdir.
 # text[uz] = Bu xat Piterdan va u kecha keldi.
 # text[tr] = Bu mektup Peter'den ve dün iletildi.
-1	Бул	бул	DET	_	_	2	det	_	_
-2	кат	кат	NOUN	_	_	3	nsubj	_	_
-3	Питерден	Питер	PROPN	_	_	0	root	_	_
-4	жана	жана	SCONJ	_	_	7	cc	_	_
-5	ал	ал	PRON	_	_	7	nsubj	_	_
-6	кечээ	кечээ	ADV	_	_	7	advmod	_	_
-7	келди	кел	VERB	_	_	3	conj	_	SpaceAfter=No
+1	Bul	Bul	DET	_	_	2	det	_	_
+2	xat	xat	NOUN	_	_	3	nsubj	_	_
+3	Peterden	Peter	PROPN	_	Case=Abl	0	root	_	_
+4	hám	hám	CCONJ	_	_	7	cc	_	_
+5	ol	ol	PRON	_	Case=Nom|Person=3|PronType=Prs	7	nsubj	_	_
+6	keshe	keshe	ADV	_	_	7	advmod	_	_
+7	keldi	kel	VERB	_	Tense=Past|Person=3|VerbForm=Fin	3	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = cairo-20.1
 # text = Ol Franciyaniń paytaxti, Parijde,  ósken.
@@ -559,12 +562,13 @@
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = U Fransiya poytaxti Parijda o'sgan.
 # text[tr] = O Fransanın başkenti Paris'te büyüdü.
-1	Ал	ал	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	Франциянын	Франция	PROPN	_	_	3	nmod	_	_
-3	борбору	борбор	NOUN	_	_	4	nmod	_	_
-4	Парижде	Париж	PROPN	_	_	5	obl	_	_
-5	чоңойду	чоңой	VERB	_	_	0	root	_	SpaceAfter=No
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	Franciyaniń	Fransiya	PROPN	_	Case=Gen|Person=3|PronType=Prs	3	nmod	_	_
+3	paytaxti	poytaxt	NOUN	_	_	4	nmod	_	_
+4	Parijde	Parij	PROPN	_	Case=Loc	5	obl	_	_
+5	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = cairo-20.2
 # text = Franciyaniń paytaxti, Parijde,  ósken.
@@ -575,11 +579,12 @@
 # text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = Fransiya poytaxti Parijda o'sgan.
 # text[tr] = Fransanın başkenti Paris'te büyüdü.
-1	Франциянын	Франция	PROPN	_	_	2	nmod	_	_
-2	борбору	борбор	NOUN	_	_	3	nmod	_	_
-3	Парижде	Париж	PROPN	_	_	4	obl	_	_
-4	чоңойду	чоңой	VERB	_	_	0	root	_	SpaceAfter=No
+1	Franciyaniń	Fransiya	PROPN	_	Case=Gen|Person=3|PronType=Prs	2	nmod	_	_
+2	paytaxti	poytaxt	NOUN	_	_	3	nmod	_	_
+3	Parijde	Parij	PROPN	_	Case=Loc	4	obl	_	_
+4	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = cairo-20.3
 # text =  Ol  Parijde, Franciyaniń paytaxtinda, ósken. 
@@ -590,17 +595,18 @@
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = U Fransiya poytaxti Parijda o'sgan.
 # text[tr] = O Fransanın başkenti Paris'te büyüdü.
-1	Ал	ал	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-2	Парижде	Париж	PROPN	_	_	7	obl	_	SpaceAfter=No
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	Parijde	Parij	PROPN	_	Case=Loc	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
-4	Франциянын	Франция	PROPN	_	_	5	nmod	_	_
-5	борборунда	борбор	NOUN	_	_	2	appos	_	SpaceAfter=No
+4	Franciyaniń	Fransiya	PROPN	_	Case=Gen|Person=3|PronType=Prs	5	nmod	_	_
+5	paytaxtinda	poytaxt	PROPN	_	Case=Loc	2	appos	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	чоңойду	чоңой	VERB	_	_	0	root	_	SpaceAfter=No
+7	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = cairo-20.4
-# text = 
+# text = Parijde, Franciyaniń paytaxtinda, ósken.
 # glossing = Paris-LOC France-GEN capital-POSS.3SG-LOC grow.up-PST.3SG 
 # issue:
 # text[en] = He/She grew up in Paris, the capital of France.
@@ -608,13 +614,14 @@
 # text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = Fransiya poytaxti Parijda o'sgan.
 # text[tr] = Paris'te, Fransanın başkentinde, büyüdü.
-1	Парижде	Париж	PROPN	_	_	6	obl	_	SpaceAfter=No
+1	Parijde	Parij	PROPN	_	Case=Loc	6	obl	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
-3	Франциянын	Франция	PROPN	_	_	4	nmod	_	_
-4	борборунда	борбор	NOUN	_	_	1	appos	_	SpaceAfter=No
+3	Franciyaniń	Fransiya	PROPN	_	Case=Gen|Person=3|PronType=Prs	4	nmod	_	_
+4	paytaxtinda	poytaxt	PROPN	_	Case=Loc	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	чоңойду	чоңой	VERB	_	_	0	root	_	SpaceAfter=No
+6	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = udtw23-1
 # text = 
