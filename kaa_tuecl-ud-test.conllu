@@ -963,11 +963,12 @@
 18	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = udtw23-13
-# text = Кардиганым үйдө бекен?
+# text = 
 # translit = Kardiğa-nım üy-dö b-eken?
 # glossing = cardigan-POSS.1SG home-LOC Q-COP.3SG
 # issue: Question particle
 # text[en] = Is my cardigan at home? (i.e., Did I leave it at home?)
+# text = Кардиганым үйдө бекен?
 # text[az] = Jakətim evdǝ iymiş?
 # text[uz] = Kardiganim uyda ekanmi?
 # text[tr] = Hırkam evde miymiş?
@@ -980,11 +981,12 @@
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-13.1
-# text = Кардиганым үйдө болгон бекен?
+# text = 
 # translit = Kardiğa-nım üy-dö bol-ğon b-eken? 
 # glossing = cardigan-POSS.1SG home-LOC be-PST.3SG Q-COP.3SG
 # issue: Question particle
 # text[en] = Is my cardigan at home? (i.e., Did I leave it at home?)
+# text = Кардиганым үйдө болгон бекен?
 # text[az] = Jakətim evdǝ iymiş?
 # text[uz] = Kardiganim uyda ekanmi?
 # text[tr] = Hırkam evde miymiş?
@@ -998,11 +1000,12 @@
 6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-14
-# text = Иш-чара бүгүн өткөрүлөбү?
+# text = 
 # translit = Iş-çara büğün öt-kör-ülö-bü? 
 # glossing = [passive]
 # issue: Question particle
 # text[en] = Is the event being held today?
+# text = Иш-чара бүгүн өткөрүлөбү?
 # text[az] = Mərasim büyün bərgüzar olacax?
 # text[uz] = Tadbir bugun bo'ladimi?
 # text[tr] = Bugün mü yapılacak etkinlik?
@@ -1016,11 +1019,12 @@
 7	?	?	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = udtw23-15
-# text = Натыйжалар жарыяланыптыр да, ээ?
+# text = 
 # translit = Natıyja-lar jarıyala-n-ıp-tır da, ee?
 # glossing = resalt-PL publish--INF- also isn't
 # issue: Question particle, tag question
 # text[en] = The results have been announced, haven't they?
+# text = Натыйжалар жарыяланыптыр да, ээ?
 # text[az] = Nəticələr gəlmiş; belə dǝyil?
 # text[uz] = Natijalar e’lon qilingan, shunday emasmi?
 # text[tr] = Sonuçlar açıklanmış, değil mi?
@@ -1032,11 +1036,12 @@
 6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-16
-# text = Айша бул китепти окуган эмес.
+# text = 
 # translit = Ayşa bul kitep-ti oku-ğan emes. 
 # glossing = Ayşe this book-ACC read-VN not [Present Pefect Tense]
 # issue: Negation, participle 'oku(ma)mış'
 # text[en] = It is not the case that Ayşe has read this book.
+# text = Айша бул китепти окуган эмес.
 # text[az] = Ayşə bu kitabı oxumamış dǝyil.
 # text[uz] = Oysha bu kitobni o'qimagan emas.
 # text[tr] = Ayşe bu kitabı okumamış değil.
@@ -1048,11 +1053,12 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-16.1
-# text = Айша бул китепти окубай койгон жок.
+# text = 
 # translit = Ayşa bul kitep-ti oku-ba-y koy-ğon joq.
 # glossing = Ayşe this book-ACC read-NEG-INF put- not
 # issue: Negation, participle 'oku(ma)mış' 
 # text[en] = Ayşe didn't not read this book. [This is not the case, that Ayşe didn't read the book.]
+# text = Айша бул китепти окубай койгон жок.
 # text[az] = Ayşə bu kitabı oxumamış dǝyil.
 # text[uz] = Oysha bu kitobni o'qimagan emas.
 # text[tr] = Ayşe bu kitabı okumamış değil.
@@ -1065,11 +1071,12 @@
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-17
-# text = Негизинен ал окуганды эмес, сүрөт тартканды жакшы көрөт.
+# text = 
 # translit = Neğiz-inen al oku-ğan-dı emes, süröt tart-kan-dı jakşı kör-ö-t.
 # glossing = basic- he/she read-PTCP-ACC not, picture draw-PTCP-ACC good see-3SG
 # issue: Negation, participle
 # text[en] = In general they like to paint, not to read.
+# text = Негизинен ал окуганды эмес, сүрөт тартканды жакшы көрөт.
 # text[az] = Kollən, oxumğı yox, amma nəqqaşi çekmağı söyür.
 # text[uz] = Umuman olganda, o'qishni emas, rasm chizishni yaxshi ko'radi.
 # text[tr] = Genel olarak okumayı değil, resim yapmayı seviyor.
@@ -1085,11 +1092,12 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = udtw23-18
-# text = Ал окугандары эмес, окуй тургандары тууралуу айтып жатат.
+# text = 
 # translit = Al oku-ğan-da-rı emes, oku-y tur-ğan-da-rı tuuraluu ayt-ıp jat-a-t.
 # glossing = he/she read- not read- stay- about tell- lie.down-NPST-3
 # issue: Negation, participle
 # text[en] = They're telling me what they will read, not what they have read.
+# text = Ал окугандары эмес, окуй тургандары тууралуу айтып жатат.
 # text[az] = Oxuduxlarını yox oxuyacaxlarını annadır.
 # text[uz] = Nimani o'qiganini emas, nimani o'qimoqchiligini aytyapti.
 # text[tr] = Okuduklarını değil, okuyacaklarını anlatıyor.
@@ -1105,11 +1113,12 @@
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = udtw23-19
-# text = Мунун көгү жакшынакайыраак экен, мага көгүн берип коёсуңбу?
+# text =
 # translit = Mun-un köğ-ü jakşınakay-ıraak eken, mağa köğ-ün ber-ip koyo-osuŋ-bu?
 # glossing = give-INF
 # issue: Zero A -> N derivation, -si
 # text[en] = The blue [one] of these is prettier, could you give me the blue one?
+# text = Мунун көгү жакшынакайыраак экен, мага көгүн берип коёсуңбу?
 # text[az] = Bunun abisi çoxtər yaxçıdı. mənə abini verərsən?
 # text[uz] = Buning ko'ki chiroyliroq, menga ko'kini bera olasanmi?
 # text[tr] = Bunun mavisi daha güzel, bana maviyi verir misin? 
@@ -1127,11 +1136,12 @@
 11	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-20
-# text = Жаштарды ишке ашырылбас максаттарынан баш тарттырышыбыз керек.
+# text =
 # translit = Jaş-tar-dı iş-ke aş-ırıl-bas maksat-ta-rı-nan baş tart-tı-rı-şı-bız kerek.
 # glossing = 
 # issue: Multiple TAM markers, multi-word expressions
 # text[en] = We must make the young abandon unattainable goals.
+# text = Жаштарды ишке ашырылбас максаттарынан баш тарттырышыбыз керек.
 # text[az] = Cəvanlara əlçatmaz hədəflərini tərk etdirməliyik.
 # text[uz] = Biz yoshlarni erisha olmaydigan maqsadlardan voz kechtirishimiz kerak.
 # text[tr] = Gençlere erişilebilir olmayan hedefleri terk ettirmeliyiz.
