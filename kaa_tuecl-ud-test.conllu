@@ -1155,11 +1155,12 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = udtw23-21
-# text = Мугалим китепти алып мектепке кетти.
+# text =
 # translit = Muğalim kitep-ti al-ıp mektep-ke ket-ti.
 # glossing = teacher book-ACC take-PFV school-DAT leave-PST-3SG
 # issue: V + V as a single verb
 # text[en] = The teacher took the book and left for school.
+# text = Мугалим китепти алып мектепке кетти.
 # text[az] = Moəllim kitabı alıp, mədrəsəyə getdi.
 # text[uz] = O'qituvchi kitobni olib maktabga ketdi.
 # text[tr] = Öğretmen kitabı alıp okula gitti.
@@ -1171,11 +1172,12 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-22
-# text = Мугалим китепти мектепке алып кетти.
+# text =
 # translit = Muğalim kitep-ti mektep-ke al-ıp ket-ti.
 # glossing = teacher book-ACC school-DAT take-PFV leave-PST-3SG
 # issue: V + V as a single verb
 # text[en] = The teacher took the book to school.
+# text = Мугалим китепти мектепке алып кетти.
 # text[az] = Moəllim kitabı alıp, mədrəsəyə apardı.
 # text[uz] = O'qituvchi kitobni maktabga olib ketdi.
 # text[tr] = Öğretmen kitabı okula götürdü.
@@ -1187,11 +1189,12 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1
-# text = Дениз уктады.
+# text = 
 # translit = Deniz ukta-dı.
 # glossing = Deniz sleep-PST-3SG
 # issue: Simple sentences, [intransitive]
 # text[en] = Deniz slept.
+# text = Дениз уктады.
 # text[az] = Deniz yoxladı.
 # text[uz] = Deniz uxladi.
 # text[tr] = Deniz uyudu.
@@ -1200,11 +1203,12 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 2
-# text = Дениз китеп окуп жатат.
+# text = 
 # translit = Deniz kitep oku-p jat-a-t.
 # glossing = Deniz book read-PFV lie.down-NPST-3
 # issue: Simple sentences, [transitive]
 # text[en] = Deniz is reading a book.
+# text = Дениз китеп окуп жатат.
 # text[az] = Deniz kitab oxur.
 # text[uz] = Deniz kitob o'qiyapti.
 # text[tr] = Deniz kitap okuyor.
@@ -1215,11 +1219,12 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 3
-# text = Дениз кечинде үйдө китеп окуйт.
+# text = 
 # translit = Deniz keç-in-de üy-dö kitep oku-y-t.
 # glossing = Deniz late-POSS.3SG-LOC home-LOC book read-PRS-3SG
 # issue: Simple sentences, [with other modifiers]
 # text[en] = Deniz reads books in the evenings.
+# text = Дениз кечинде үйдө китеп окуйт.
 # text[az] = Deniz axşamlar evdə kitab oxur.
 # text[uz] = Deniz oqshomlari uyda kitob o'qiydi.
 # text[tr] = Deniz akşamları evde kitap okur.
@@ -1231,11 +1236,12 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 4
-# text = Дениз эжесине китепти берди.
+# text = 
 # translit = Deniz eje-si-ne kitep-ti ber-di.
 # glossing = Deniz elder.sister-POSS.3SG-DAT book-ACC give-PST-3SG
 # issue: Object/oblique, [Dativ modifier]
 # text[en] = Deniz gave the book to his/her sister / to his brother.
+# text = Дениз эжесине китепти берди.
 # text[az] = Deniz qardaşına kitabı verdi.
 # text[uz] = Deniz ukasiga kitobni berdi.
 # text[tr] = Deniz kardeşine kitabı verdi.
@@ -1246,11 +1252,12 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 5
-# text = Дениз китепти үйүнө алып кетти.
+# text = 
 # translit = Deniz kitep-ti üy-ü-nö alı-p ket-ti.
 # glossing = Deniz book-ACC home-POSS.3SG-DAT take-INF leave-PST-3SG
 # issue: Object/oblique, [Another dative modifier].
 # text[en] = Deniz took the book home.
+# text = Дениз китепти үйүнө алып кетти.
 # text[az] = Deniz kitabı evə apardı.
 # text[uz] = Deniz kitobni uyiga olib ketdi.
 # text[tr] = Deniz kitabı eve götürdü.
@@ -1262,11 +1269,12 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 6
-# text = Мугалим балдарга сабак өттү.
+# text = 
 # translit = Muğalim bal-dar-ğa sabak öt-tü.
 # glossing = teacher child-PL-DAT lesson pass-PST-3SG
 # issue: Object/oblique, [Another dative modifier]
 # text[en] = The teacher lectured the children.
+# text = Мугалим балдарга сабак өттү.
 # text[az] = Moəllim uşaqlara dərs verdi.
 # text[uz] = O'qituvchi bolalarga dars berdi.
 # text[tr] = Öğretmen çocuklara ders verdi.
@@ -1277,11 +1285,12 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 7
-# text = Дениз досуна китеп сатып алды.
+# text =
 # translit = Deniz dos-un-a kitep satıp aldı.
 # glossing = Deniz friend-POSS.3SG-DAT book sell-PFV take-PST-3SG
 # issue: Object/oblique,  [Another dative modifier]
 # text[en] = Deniz bought a book for his friend / for her friend.
+# text = Дениз досуна китеп сатып алды.
 # text[az] = Deniz yoldaşına bir dənə kitab aldı.
 # text[uz] = Deniz do'stiga kitob sotib oldi.
 # text[tr] = Deniz arkadaşına bir kitap aldı.
@@ -1293,11 +1302,12 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 8
-# text = Дениз эжеси менен жарашты.
+# text =
 # translit = Deniz eje-si menen jaraş-tı.
 # glossing = Deniz elder.sister-POSS.3SG with make.peace-PST.3SG
 # issue: Object/oblique, [Comitative]
 # text[en] = Deniz made peace with her sister / his brother.
+# text = Дениз эжеси менен жарашты.
 # text[az] = Deniz qardaşıynan barışdı.
 # text[uz] = Deniz akasi bilan yarashdi.
 # text[tr] = Deniz kardeşiyle barıştı.
@@ -1308,11 +1318,12 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 8.1
-# text = Дениз байкеси менен элдешти.
+# text = 
 # translit = Deniz bayke-si menen eldeş-ti.
 # glossing = Deniz elder.brother-POSS.3SG with make.peace-PST.3SG
 # issue: Object/oblique, [Comitative]
 # text[en] = Deniz made peace with her sister / his brother.
+# text = Дениз байкеси менен элдешти.
 # text[az] = Deniz qardaşıynan barışdı.
 # text[uz] = Deniz akasi bilan yarashdi.
 # text[tr] = Deniz kardeşiyle barıştı.
@@ -1323,11 +1334,12 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 9
-# text = Дениз досторуна нааразы.
+# text = 
 # translit = Deniz dos-tor-u-na naarazı.
 # glossing = Deniz friend-PL-POSS.3SG-DAT complaine-PRS.3SG
 # issue: Object/oblique, [Ablative modifier]
 # text[en] = Deniz is complaining about his friend / her friend.
+# text = Дениз досторуна нааразы.
 # text[az] = Deniz yoldaşlarınnan şikayət elir.
 # text[uz] = Deniz do'stlaridan shikoyat qildi.
 # text[tr] = Deniz arkadaşlarından yakınıyor.
@@ -1337,11 +1349,12 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 9.1
-# text = Дениз досунун үстүнөн арызданып жатат.
+# text = 
 # translit = Deniz dos-u-nun üst-ü-nön arızdan-ıp jat-a-t.
 # glossing = Deniz friend-POSS.3SG-GEN top-POSS.3SG-ABL complaine-PFV lie.down-NPST-3
 # issue: Object/oblique, [Ablative modifier]
 # text[en] = Deniz is complaining about his friend / her friend.
+# text = Дениз досунун үстүнөн арызданып жатат.
 # text[az] = Deniz yoldaşlarınnan şikayət elir.
 # text[uz] = Deniz do'stlaridan shikoyat qildi.
 # text[tr] = Deniz arkadaşlarından yakınıyor.
@@ -1353,11 +1366,12 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 10
-# text = Дениз эрте уктады.
+# text =
 # translit = Deniz erte ukta-dı.
 # glossing = Deniz early sleep-PST-3SG
 # issue: Object/oblique, [Ablative more clearly a modifier]
 # text[en] = Deniz slept early.
+# text = Дениз эрте уктады.
 # text[az] = Deniz tezdən yatdı.
 # text[uz] = Deniz barvaqt uxladi.
 # text[tr] = Deniz erkenden uyudu.
@@ -1367,11 +1381,12 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 11
-# text = Дениз досу даярдаган тамактан эки табак жеди.
+# text = 
 # translit = Deniz dos-u dayarda-ğan tamak-tan eki tabak je-di.
 # glossing = Deniz friend- prepare-VN food- two plate eat-PST-3SG
 # issue: Object/oblique, [Ablative, part/whole]
 # text[en] = Deniz ate two plates from (of) the meal his friend cooked / her friend cooked.
+# text = Дениз досу даярдаган тамактан эки табак жеди.
 # text[az] = Deniz yoldaşının pişirdigi qəzadan ikki boşqab yedi.
 # text[uz] = Deniz do'sti tayyorlagan ovqatdan ikki likopcha yedi.
 # text[tr] = Deniz arkadaşının yaptığı yemekten iki tabak yedi.
@@ -1385,11 +1400,12 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 12
-# text = Дениз үч саат уктады.
+# text =
 # translit = Deniz üç saat ukta-dı.
 # glossing = Deniz three hour sleep-PST-3SG
 # issue: Object/oblique, [Non-case marked duration / distance modifier]
 # text[en] = Deniz slept for three hours.
+# text = Дениз үч саат уктады.
 # text[az] = Deniz üç saat yuxladı.
 # text[uz] = Deniz uch soat uxladi.
 # text[tr] = Deniz üç saat uyudu.
@@ -1400,11 +1416,12 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 13
-# text = Дениз өтө ылдам.
+# text =
 # translit = Deniz ötö ıldam.
 # glossing = Deniz very fast
 # issue: Copula, [Adj. predicate]
 # text[en] = Deniz is very fast. 
+# text = Дениз өтө ылдам.
 # text[az] = Deniz çok yeyindir.
 # text[uz] = Deniz juda chaqqon.
 # text[tr] = Deniz çok hızlı.
@@ -1414,11 +1431,12 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 14
-# text = Дениз студент.
+# text = 
 # translit = Deniz student.
 # glossing = Deniz student
 # issue: Copula, [Nom. predicate]
 # text[en] = Deniz is a student.
+# text = Дениз студент.
 # text[az] = Deniz mohəssildir.
 # text[uz] = Deniz talaba.
 # text[tr] = Deniz öğrenci.
@@ -1427,11 +1445,12 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 14.1
-# text = Дениз студент кыз.
+# text = 
 # translit = Deniz student qız.
 # glossing = Deniz student girl
 # issue: Copula, [Nom. predicate]
 # text[en] = Deniz is a student.
+# text = Дениз студент кыз.
 # text[az] = Deniz mohəssildir.
 # text[uz] = Deniz talaba.
 # text[tr] = Deniz öğrenci.
@@ -1441,11 +1460,12 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 15
-# text = Дениз студент.
+# text =
 # translit = Deniz student.
 # glossing = Deniz student
 # issue: Copula, [Nom. Predicate with -dir]
 # text[en] = Deniz is a student. 
+# text = Дениз студент.
 # text[az] = Deniz mohəssildir.
 # text[uz] = Deniz talabadir.
 # text[tr] = Deniz öğrencidir.
@@ -1455,11 +1475,12 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 16
-# text = Дениз доктур болот.
+# text = 
 # translit = Deniz doktur bol-ot.
 # glossing = Deniz doctor be-FUT-3SG
 # issue: Copula
 # text[en] = Deniz will become a doctor. ['become']
+# text = Дениз доктур болот.
 # text[az] = Deniz düktür olacax.
 # text[uz] = Deniz shifokor bo'ladi.
 # text[tr] = Deniz doktor olacak.
@@ -1469,11 +1490,12 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 17
-# text = Дениз үйдө.
+# text = 
 # translit = Deniz üy-dö.
 # glossing = Deniz home-LOC
 # issue: Copula, [with case marking]
 # text[en] = Deniz is at home. 
+# text = Дениз үйдө.
 # text[az] = Deniz evdə.
 # text[uz] = Deniz uyda.
 # text[tr] = Deniz evde.
@@ -1482,11 +1504,12 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 18
-# text = Дениз үйдө болчу.
+# text = 
 # translit = Deniz üy-dö bol-çu.
 # glossing = Deniz home-LOC be-PST.PFV.3SG
 # issue: Copula, [non-zero copular suffix]
 # text[en] = Deniz was at home.
+# text = Дениз үйдө болчу.
 # text[az] = Deniz evdəyidi.
 # text[uz] = Deniz uyda edi.
 # text[tr] = Deniz evdeydi.
@@ -1496,11 +1519,12 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 19
-# text = Дениз үйдө эле.
+# text = 
 # translit = Deniz üy-dö ele.
 # glossing = Deniz home-LOC be-COP.PST.3SG
 # issue: Copula, [Non-suffix copula]
 # text[en] = Deniz was at home.
+# text = Дениз үйдө эле.
 # text[az] = Deniz evdə iydi.
 # text[uz] = Deniz uyda bo'lgandi.
 # text[tr] = Deniz evde idi.
@@ -1510,11 +1534,12 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 20
-# text = Белек Дениз үчүн болчу.
+# text =
 # translit = Belek Deniz üçün bol-çu.
 # glossing = present Deniz for be-PST.PFV.3SG
 # issue: Copula, [Copular suffix attached to postposition]
 # text[en] = The present was for Deniz.
+# text = Белек Дениз үчүн болчу.
 # text[az] = Hediye Deniz içindi.
 # text[uz] = Sovg'a Deniz uchun edi.
 # text[tr] = Hediye Deniz içindi.
