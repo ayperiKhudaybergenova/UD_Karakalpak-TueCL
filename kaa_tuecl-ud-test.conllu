@@ -644,7 +644,7 @@
 
 
 # sent_id = udtw23-1
-# text = 
+# text = Jubayım jazǵı úydegi balalar bólmesiniń aynasın apıl-tapıl tazaladi, biraq asxananıkın tazalamadı.
 # glossing = wife summer.house child-PL room window in.a.hurry clean-INF kitchen clean-NEG-INF put-INF-
 # issue: Both uses of -ki, compound (vs nmod:poss), multi-word expressions, empty token
 # text[en] = My spouse cleaned the windows of the children's room at the summer house hastily, but didn't clean the kitchen's.
@@ -670,7 +670,7 @@
 15	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = udtw23-2
-# text = 
+# text = Men saǵan hárdayim aytaman, dostıń menen azanda soyleskende men tuwralı aytpa.
 # glossing = I you-DAT this-ACC always tell-PRS.1SG day-LOC tomorrow with friend-POSS.2.SG with phone-LOC talk-RECP-LOC I topic-POSS.3SG-LOC word make-NEG.2SG 
 # issue: Oblique vs object, oblique (?) as temporal modifier
 # text[en] = I always tell you, when you talk with your friend on the phone in the morning, don't talk about me.
@@ -698,7 +698,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-3
-# text = 
+# text = Túnep qalmaqshı bolǵan mıyman esikti qaqtı, biraq úy iyesi ele tazalap atır edi hám ol restarannan buyırtpa bergen awqat ele jolda edi.
 # glossing = sleep.over-INF clean-INF stay gest dor 
 # issue: Compound_or_obj be_aux
 # text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered from the restaurant was still coming.
@@ -733,7 +733,7 @@
 25	.	.	PUNCT	sent	_	23	punct	_	_
 
 # sent_id = udtw23-4
-# text = 
+# text = Ayşe shıpaker
 # glossing = Ayşe — doctor
 # issue: Null morpheme copula
 # text[en] = Ayşe is a doctor.
@@ -747,7 +747,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-5
-# text = 
+# text = Bizler sheshiwge háreket etip atırǵan másele - kitap shkafında hátte bes kitap ushın da orın joq.
 # glossing = we solve-VN-
 # issue: Null morpheme copula with multiple subjects, productive/lexicalized derivation, internally_divided_case
 # text[en] = The (problem) we're trying to solve is that the bookshelf doesn't have room for even five books.
@@ -772,7 +772,7 @@
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = udtw23-5.1
-# text = 
+# text = Bizler sheshiwge háreket etip atırǵan másele - kitap shkafında hátte bes kitap ushın da orın joqlıǵı.
 # glossing = 
 # issue: Null morpheme copula with multiple subjects, productive/lexicalized derivation, internally_divided_case
 # text[en] = The (problem) we're trying to solve is that the bookshelf doesn't have room for even five books.
@@ -822,7 +822,7 @@
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = udtw23-6
-# text = 
+# text = Onıń kempir apası miyribiyke edi.
 # glossing = he/she-GEN grandmother-POSS.3SG med woman be-COP.PST.3SG
 # issue: Copula, multiword token compound
 # text[en] = His/her grandmother was a nurse.
@@ -838,7 +838,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-7
-# text = 
+# text = Xosh, kitap shkafındaǵılar qay jerde edi?
 # glossing = all.right then book shelf where be-COP.PST.3SG
 # issue: Copula “idi”, derivation, -ki
 # text[en] = Okay, then where are/were the ones on the bookshelf? (So, where were the [ones] on the bookshelf?)
@@ -858,7 +858,7 @@
 9	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = udtw23-8
-# text =
+# text = Sude ush saattan berli ofiste joq eken, Ayşe da úyde emes eken.
 # glossing =
 # issue: Temporal modifier / oblique, existential, “değil” negation, multiword token analytic verb form
 # text[en] = Sude wasn't in the office for a period of three hours, and Ayşe also wasn't at home.
@@ -884,7 +884,7 @@
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = udtw23-9
-# text =
+# text =Dukanda miywe bar, biraq ol jaqsı emes.
 # glossing = 
 # issue: Existential, “değil” negation
 # text[en] = There's fruit at the store, but it's not nice.
@@ -902,7 +902,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-10
-# text =
+# text = Deniz shıpaker boladi, bilip qoy!
 # glossing = Deniz doctor be-FUT.3SG know-INF put
 # issue: Copula, light verb auxiliary
 # text[en] = Deniz will be a doctor, know this!
@@ -920,7 +920,7 @@
 7	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-11
-# text = 
+# text = Deniz uyqlap qalǵan edi.
 # glossing = Deniz sleep-INF stay-VN be-COP.PST.3SG
 # issue: Copula
 # text[en] = Deniz had fallen asleep.
@@ -935,7 +935,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-12
-# text = 
+# text = Jıynalıs bolatuǵınliǵın esitip  qattı tań qalıp qalǵan bolıwı kerek maǵan tıgılıp qarap qaldı.
 # glossing = 'qal-dı' stay-PST[3]
 # issue: Converb, copula / AUX
 # text[en] = When it was being announced that there would be a meeting they must've been so surprised that they were left looking at me.
@@ -963,7 +963,7 @@
 18	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = udtw23-13
-# text = 
+# text = Meniń kardiganim úyde ma eken?
 # translit = Kardiğa-nım üy-dö b-eken?
 # glossing = cardigan-POSS.1SG home-LOC Q-COP.3SG
 # issue: Question particle
@@ -1000,7 +1000,7 @@
 6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-14
-# text = 
+# text = Máresim búgin ba eken?
 # translit = Iş-çara büğün öt-kör-ülö-bü? 
 # glossing = [passive]
 # issue: Question particle
@@ -1019,7 +1019,7 @@
 7	?	?	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = udtw23-15
-# text = 
+# text = Nátiyjeler jarıyalanǵan , solay emes pe?
 # translit = Natıyja-lar jarıyala-n-ıp-tır da, ee?
 # glossing = resalt-PL publish--INF- also isn't
 # issue: Question particle, tag question
@@ -1036,7 +1036,7 @@
 6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-16
-# text = 
+# text = Ayşa bul kitapti oqımaǵan emes.
 # translit = Ayşa bul kitep-ti oku-ğan emes. 
 # glossing = Ayşe this book-ACC read-VN not [Present Pefect Tense]
 # issue: Negation, participle 'oku(ma)mış'
@@ -1071,7 +1071,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-17
-# text = 
+# text = Negızı ol oqıǵandı emes, boyaǵandı jaqsı kóredi.
 # translit = Neğiz-inen al oku-ğan-dı emes, süröt tart-kan-dı jakşı kör-ö-t.
 # glossing = basic- he/she read-PTCP-ACC not, picture draw-PTCP-ACC good see-3SG
 # issue: Negation, participle
@@ -1092,7 +1092,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = udtw23-18
-# text = 
+# text = Olar maǵan ne oqıytuǵınliǵın aytıp atır , ne oqiǵanlıǵın emes.
 # translit = Al oku-ğan-da-rı emes, oku-y tur-ğan-da-rı tuuraluu ayt-ıp jat-a-t.
 # glossing = he/she read- not read- stay- about tell- lie.down-NPST-3
 # issue: Negation, participle
@@ -1113,7 +1113,7 @@
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = udtw23-19
-# text =
+# text =Bulardıń kók reńlisi sulıwlaw , kók reńlisin bere alasız ba?
 # translit = Mun-un köğ-ü jakşınakay-ıraak eken, mağa köğ-ün ber-ip koyo-osuŋ-bu?
 # glossing = give-INF
 # issue: Zero A -> N derivation, -si
@@ -1136,7 +1136,7 @@
 11	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-20
-# text =
+# text =Bizler jaslardı erisip bolmaytuǵın maqsetlerden bas tarttırıwımız kerek.
 # translit = Jaş-tar-dı iş-ke aş-ırıl-bas maksat-ta-rı-nan baş tart-tı-rı-şı-bız kerek.
 # glossing = 
 # issue: Multiple TAM markers, multi-word expressions
@@ -1155,7 +1155,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = udtw23-21
-# text =
+# text =Muǵallım kitapti alıp mektepke ketti.
 # translit = Muğalim kitep-ti al-ıp mektep-ke ket-ti.
 # glossing = teacher book-ACC take-PFV school-DAT leave-PST-3SG
 # issue: V + V as a single verb
@@ -1172,7 +1172,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-22
-# text =
+# text =Muǵallım kitapti mektepke alıp ketti.
 # translit = Muğalim kitep-ti mektep-ke al-ıp ket-ti.
 # glossing = teacher book-ACC school-DAT take-PFV leave-PST-3SG
 # issue: V + V as a single verb
@@ -1189,7 +1189,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1
-# text = 
+# text = Deniz uyqladi.
 # translit = Deniz ukta-dı.
 # glossing = Deniz sleep-PST-3SG
 # issue: Simple sentences, [intransitive]
@@ -1203,7 +1203,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 2
-# text = 
+# text = Deniz kitap oqıp atir.
 # translit = Deniz kitep oku-p jat-a-t.
 # glossing = Deniz book read-PFV lie.down-NPST-3
 # issue: Simple sentences, [transitive]
@@ -1219,7 +1219,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 3
-# text = 
+# text = Deniz keshte kitap oqıydı.
 # translit = Deniz keç-in-de üy-dö kitep oku-y-t.
 # glossing = Deniz late-POSS.3SG-LOC home-LOC book read-PRS-3SG
 # issue: Simple sentences, [with other modifiers]
@@ -1236,7 +1236,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 4
-# text = 
+# text = Deniz úkesine kitap berdi.
 # translit = Deniz eje-si-ne kitep-ti ber-di.
 # glossing = Deniz elder.sister-POSS.3SG-DAT book-ACC give-PST-3SG
 # issue: Object/oblique, [Dativ modifier]
@@ -1252,7 +1252,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 5
-# text = 
+# text = Deniz kitaptı úyine alıp ketti.
 # translit = Deniz kitep-ti üy-ü-nö alı-p ket-ti.
 # glossing = Deniz book-ACC home-POSS.3SG-DAT take-INF leave-PST-3SG
 # issue: Object/oblique, [Another dative modifier].
@@ -1269,7 +1269,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 6
-# text = 
+# text = Muǵallım balalarǵa sabaq berdi.
 # translit = Muğalim bal-dar-ğa sabak öt-tü.
 # glossing = teacher child-PL-DAT lesson pass-PST-3SG
 # issue: Object/oblique, [Another dative modifier]
@@ -1285,7 +1285,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 7
-# text =
+# text =Deniz dostına kitap satıp aldı.
 # translit = Deniz dos-un-a kitep satıp aldı.
 # glossing = Deniz friend-POSS.3SG-DAT book sell-PFV take-PST-3SG
 # issue: Object/oblique,  [Another dative modifier]
@@ -1302,7 +1302,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 8
-# text =
+# text =Deńiz ajapası menen jarastı.
 # translit = Deniz eje-si menen jaraş-tı.
 # glossing = Deniz elder.sister-POSS.3SG with make.peace-PST.3SG
 # issue: Object/oblique, [Comitative]
@@ -1334,7 +1334,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 9
-# text = 
+# text = Deniz dostınnan shıkayat etti.
 # translit = Deniz dos-tor-u-na naarazı.
 # glossing = Deniz friend-PL-POSS.3SG-DAT complaine-PRS.3SG
 # issue: Object/oblique, [Ablative modifier]
@@ -1349,7 +1349,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 9.1
-# text = 
+# text = Deniz erte uyqladı.
 # translit = Deniz dos-u-nun üst-ü-nön arızdan-ıp jat-a-t.
 # glossing = Deniz friend-POSS.3SG-GEN top-POSS.3SG-ABL complaine-PFV lie.down-NPST-3
 # issue: Object/oblique, [Ablative modifier]
@@ -1366,7 +1366,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 10
-# text =
+# text =Deniz erte uyqladı.
 # translit = Deniz erte ukta-dı.
 # glossing = Deniz early sleep-PST-3SG
 # issue: Object/oblique, [Ablative more clearly a modifier]
@@ -1381,7 +1381,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 11
-# text = 
+# text =Deńiz dosti tayyarlaǵan awqattan eki tabaq jedi.
 # translit = Deniz dos-u dayarda-ğan tamak-tan eki tabak je-di.
 # glossing = Deniz friend- prepare-VN food- two plate eat-PST-3SG
 # issue: Object/oblique, [Ablative, part/whole]
@@ -1400,7 +1400,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 12
-# text =
+# text =Deniz ush saat uyqladı.
 # translit = Deniz üç saat ukta-dı.
 # glossing = Deniz three hour sleep-PST-3SG
 # issue: Object/oblique, [Non-case marked duration / distance modifier]
@@ -1416,7 +1416,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 13
-# text =
+# text =Deniz júdá shaqqan.
 # translit = Deniz ötö ıldam.
 # glossing = Deniz very fast
 # issue: Copula, [Adj. predicate]
@@ -1431,7 +1431,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 14
-# text = 
+# text = Deniz student.
 # translit = Deniz student.
 # glossing = Deniz student
 # issue: Copula, [Nom. predicate]
@@ -1445,7 +1445,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 14.1
-# text = 
+# text = Deniz studentdur.
 # translit = Deniz student qız.
 # glossing = Deniz student girl
 # issue: Copula, [Nom. predicate]
@@ -1460,7 +1460,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 15
-# text =
+# text =Deniz shıpaker boladi.
 # translit = Deniz student.
 # glossing = Deniz student
 # issue: Copula, [Nom. Predicate with -dir]
@@ -1475,7 +1475,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 16
-# text = 
+# text = Deniz shıpaker boladi.
 # translit = Deniz doktur bol-ot.
 # glossing = Deniz doctor be-FUT-3SG
 # issue: Copula
@@ -1490,7 +1490,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 17
-# text = 
+# text = Deniz úyde.
 # translit = Deniz üy-dö.
 # glossing = Deniz home-LOC
 # issue: Copula, [with case marking]
@@ -1504,7 +1504,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 18
-# text = 
+# text = Deniz úyde edi.
 # translit = Deniz üy-dö bol-çu.
 # glossing = Deniz home-LOC be-PST.PFV.3SG
 # issue: Copula, [non-zero copular suffix]
@@ -1519,7 +1519,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 19
-# text = 
+# text = Deniz úyde bolǵan.
 # translit = Deniz üy-dö ele.
 # glossing = Deniz home-LOC be-COP.PST.3SG
 # issue: Copula, [Non-suffix copula]
@@ -1534,7 +1534,7 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 20
-# text =
+# text =Sawǵa Deniz ushın edi.
 # translit = Belek Deniz üçün bol-çu.
 # glossing = present Deniz for be-PST.PFV.3SG
 # issue: Copula, [Copular suffix attached to postposition]
