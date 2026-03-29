@@ -1550,7 +1550,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 21
-# text = 
+# text = Deniz uyqlaǵan edi.
 # glossing = Deniz sleep-INF stay-VN
 # issue: Copula as auxiliary, [complex tense formed by copular suffix]
 # text[en] = Deniz had slept. 
@@ -1579,7 +1579,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 23
-# text = 
+# text = Deniz uyqlaǵan boladı.
 # translit = Deniz ukta-ğan bol-o-t.
 # glossing = Deniz sleep-VN be-FUT-3SG
 # issue: Copula as auxiliary, [with auxiliary 'ol']
@@ -1594,7 +1594,7 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 24
-# text = 
+# text = Onıń anasınıń armanı Denizdiń jaqsi mektepte oqıwı edi.
 # glossing = mother-POSS.3SG-GEN dream-POSS.3SG Deniz-GEN good school-LOC read be-COP.PST.3SG
 # issue: Copula with subordinate clauses / verbal nouns, [Verbal-noun/copula with differing subjects]
 # text[en] = His/her mother's dream was for Deniz to study in a good school. 
@@ -1612,7 +1612,7 @@
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 25
-# text = 
+# text = Denizdiń jaqsı mektepte oqımaǵanı onıń anasın qáweterge saldı.
 # glossing = Deniz-GEN good school-LOC read-NEG-VN-- mother-POSS.3SG-ACC worry-DAT put-
 # issue: Copula with subordinate clauses / verbal nouns, [alternation with no double subject]
 # text[en] = The fact that Deniz did not study in a good school worried her mother. 
@@ -1630,7 +1630,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 26
-# text = 
+# text = Stol ústinde kóp kıtaplar bar , shkafta heshqandayı joq.
 # glossing = table-LOC many book exist book shelf-LOC not.exist
 # issue: Existentials, [Positive/negative existentials]
 # text[en] = There are many books on the table, none in the bookshelf. 
@@ -1669,7 +1669,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 27
-# text = 
+# text = Denizdiń hesh qanday kıtabı  joq.
 # glossing = Deniz-GEN nothing one book-POSS.3SG not.exist
 # issue: Existentials, [expressions of possession]
 # text[en] = Deniz does not have any books.
@@ -1685,7 +1685,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 28
-# text = 
+# text = Deniz úyde emes edi.
 # glossing = Deniz home-LOC not be-COP.PST.3SG
 # issue: Negation, [Nominal predicate negation]
 # text[en] = Deniz was not at home.
@@ -1700,7 +1700,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 29
-# text =
+# text = Deniz waqtında uyqlamaydı.
 # glossing = Deniz own time-POSS.3SG-LOC sleep-NEG-3SG
 # issue: Negation, [simple negation]
 # text[az] = Deniz vəxtikən yatmır.
@@ -1715,7 +1715,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 30
-# text = 
+# text = Deniz uyqlay almaydı.
 # glossing = Deniz sleep- take-NEG-INF lie.down-NPST-3
 # issue: Negation, [with -abil]
 # text[en] = Deniz cannot sleep.
@@ -1730,7 +1730,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 31
-# text = 
+# text = Deniz waqtında uyqlay almawı múmkin.
 # glossing = Deniz own time-POSS.3SG-LOC sleep take-NEG maybe
 # issue: Negation, [with double -abil]
 # text[en] = Deniz may not be able to sleep on time. 
@@ -1747,7 +1747,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 32
-# text = 
+# text = Deniz anasın kórmey qaldı.
 # glossing = Deniz mother-POSS.3SG-ACC see-NEG-INF stay-PST[3]
 # issue: Negation, [neg. with aux -ol]
 # text[en] = (It turned out that) Deniz did not see her/his mother.
@@ -1762,7 +1762,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 33
-# text = 
+# text = Deniz anasın kórip qalmadı.
 # glossing = Deniz mother-POSS.3SG-ACC see-INF stay-VN not
 # issue: Negation, [negation on aux]
 # text[en] = (It turned out that) Deniz did not see her/his mother.
@@ -1778,7 +1778,7 @@
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 34
-# text =
+# text =Deniz anasın kórmey qalmadı.
 # glossing = Deniz mother-POSS.3SG-ACC see-NEG-INF stay-VN not
 # issue: Negation, [double negation]
 # text[en] = (It turned out that) Deniz did not not-see her/his mother.
@@ -1794,7 +1794,7 @@
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 35
-# text = 
+# text = Oqıǵanların túsinbeydi.
 # glossing = read-VN-PL-3SG.POSS understand-NEG-INF lie.down-NPST-3
 # issue: Negation
 # text[en] = He/She does not understand things he/she reads.
@@ -1810,7 +1810,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 36
-# text = 
+# text = Oqıǵanların túsingeni joq.
 # glossing = read-VN-PL-3SG.POSS understand-INF lie.down-VN not
 # issue: Negation
 # text[en] = He/She does not understand things he/she reads.
@@ -1827,7 +1827,7 @@
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 37
-# text =
+# text = Oqıǵanların túsinbeydi emes.
 # glossing = read-VN-PL-3SG.POSS understand-NEG.INF lie.down-VN not
 # issue: Negation [double negation]
 # text[en] = It is not that he/she does not understand things he/she reads.
@@ -1844,7 +1844,7 @@
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 38
-# text = 
+# text = Oqıwdı emes, súwret sızıwdı jaqsi kóredi.
 # glossing = read-PTCP-ACC not, picture draw-PTCP-ACC good see-3SG
 # issue: Negation, [coordination with 'degil' and elision]
 # text[en] = (He/she does) not (like) reading, (but) he/she likes painting.
@@ -1862,7 +1862,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 39
-# text = 
+# text = Deniz xanada emes edi.
 # glossing = Deniz room-LOC not be-COP.PST.3SG
 # issue: Negation, [simple negation with 'değil']
 # text[en] = Deniz was not in the room. 
@@ -1877,7 +1877,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 40
-# text = 
+# text = Deniz xanada joq edi.
 # glossing = Deniz room-LOC not be-COP.PST.3SG
 # issue: Negation, [version with 'yok']
 # text[en] = Deniz was not in the room. 
@@ -1892,7 +1892,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 41
-# text =
+# text = Deniz kitaplar oqıwdı qáleydi.
 # glossing = Deniz-GEN book read-INF-POSS.3SG come-INF lie.down-NPST-3
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Deniz wants read books.
@@ -1923,7 +1923,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 43
-# text = 
+# text = Deniz ákesi oǵan kıtaplar oqıp beriwin qáleydi.
 # Note: changed from: 'text = Дениз атасын ага китеп окуп беришин каалайт.'
 # glossing = Deniz father-ACC he/she.DAT book read-INF give-VN-POSS.3SG want-3SG.PRES
 # issue: Clausal arguments/modifiers, non-finite verbs.
@@ -1943,7 +1943,7 @@
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 44
-# text = 
+# text = Deniz ózi menen ózi bolıwdı jaqsi kóredi.
 # glossing = Deniz self-POSS.3SG with self-POSS.3SG be-VN-ACC good see-3SG.PRES
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Deniz wants to be by himself/herself. 
@@ -1962,7 +1962,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 45
-# text = 
+# text = Anası oqıp bergen gezinde , Denizge uyqlaw ańsatlasadı.
 # glossing = mother-POSS.3SG-GEN book read-VN-POSS.3SG Deniz-GEN sleep-POSS.3SG-ACC facilitate-3SG.PRES
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = When her/his mother reads, it becomes easier for Deniz to sleep. (lit: Her mother's reading eases Deniz' sleep.)
@@ -1979,7 +1979,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 46
-# text = 
+# text = Balalarǵa kıtap oqıp beriw olardıń rawajlanıwı ushın áhmiyetlidur.
 # glossing = child-PL-DAT book read-INF give-VN they-GEN grow-INF - develop-VN-POSS.3SG for meaning-
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Reading to children is important for their development.
@@ -2000,7 +2000,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 47
-# text = 
+# text = Deniz uyqıdan aldın kitap oqıydı.
 # glossing = Deniz book read-INF lie.down-INF sleep-PROG-3SG
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Deniz reads before sleep.(lit: Deniz sleeps by reading)
@@ -2016,7 +2016,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 48
-# text = 
+# text = Deniz dem alıs ekenligi esinnen shıǵıp,oqıwǵa ketti.
 # glossing = Deniz holiday that forget-INF school-DAT go-INF-
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Deniz (evidentially) went to school (because) she/he had forgotten that it was holiday.
@@ -2034,7 +2034,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 49
-# text = 
+# text = Deniz sumkasın aldı hám oqıwǵa ketti sebebi dem alıs ekenligi esinnen shiqqan edi.
 # glossing = Deniz holiday that forget-INF bag-POSS.3SG-ACC take-INF school-DAT go-INF-
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Deniz took her/his bag and (evidentially) went to school (because) she/he had forgotten that it was holiday.
@@ -2075,7 +2075,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 50
-# text = 
+# text = Eger Deniz kesh uyqıǵa jatsa, oqıwǵa keshigedi.
 # glossing = Deniz late sleep-COND school-DAT late be-COP.PST.3SG
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = If Deniz sleeps late, he/she would be late.
@@ -2092,7 +2092,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 51
-# text = 
+# text = Eger Deniz kesh uyqıǵa jatsa, oqıwǵa keshigedi.
 # glossing = Deniz late sleep-COND school-DAT late-INF stay
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = If Deniz sleeps late, he/she will be late.
@@ -2126,7 +2126,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 52
-# text = 
+# text = Eger bala uyqlaǵanda, kino kórgen bolar edik.
 # glossing = child sleep-COND movie watch be
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = If the child would sleep, we would watch a movie.
@@ -2142,7 +2142,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 53
-# text =
+# text = Eger bala bizler úyge baraman degenshe uyqlap qalsa, bizler onı oyatıwımız kerek boladı.
 # glossing = if child I-PL home-DAT enough sleep-INF stay-COND go-VN awake need be
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = If the child sleeps before we arrive home, we will need to wake him/her up.
@@ -2165,7 +2165,7 @@
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 54
-# text = 
+# text = Kewline alma
 # glossing = attention-DAT take.IMP-NEG
 # issue: MWE / segmentation
 # text[en] = Nevermind. [Typo]
@@ -2178,7 +2178,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 55
-# text = 
+# text =
 # glossing = attention-DAT take.IMP-NEG
 # issue: MWE / segmentation
 # text[en] = Nevermind. [Typo]
@@ -2191,7 +2191,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 56
-# text = 
+# text = Menimshe, bala erte uyqlaydı.
 # glossing = child early sleep-FUT-3SG say-INF think-INF lie.down-NPST[1]
 # issue: MWE / segmentation
 # text[en] = I think that the child will sleep early.
@@ -2224,7 +2224,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 57
-# text = 
+# text = Deniz tuwısqanların jek kóredi.
 # glossing = Deniz one relative-POSS.3SG-[ACC] hate see-PRS.3SG
 # issue: MWE / segmentation
 # text[en] = Deniz hates their sibling.
@@ -2240,7 +2240,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 58
-# text = 
+# text = Men ertendi shıdamsızlıq penen kútip atirman.
 # glossing = morning-ATTR day-LOC patience-ABE with.INST wait-INF lie.down-NPST[1]
 # issue: MWE / segmentation
 # text[en] = I am looking forward to tomorrow.
@@ -2257,7 +2257,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 59
-# text =
+# text = Emlewxana xalıq xizmetine tapsırıldı.
 # glossing = hospital people service-POSS.3SG-DAT give-PASS-PST.3SG
 # issue: MWE / segmentation
 # text[en] = The hospital was made available to the public.
@@ -2272,7 +2272,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 60
-# text = 
+# text = Úlken úydegi bala kitap oqıp atir.
 # glossing = big home-LOC-ATTR child book read-INF lie.down-NPST-3
 # issue: MWE / segmentation
 # text[en] = The child in the big house is reading (a) book.
@@ -2289,7 +2289,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 61
-# text = 
+# text = Úlken úydegi kıtap oqıp atir.
 # glossing = big home-LOC-ATTR book read-INF lie.down-NPST-3
 # issue: MWE / segmentation
 # text[en] = The one in the big house is reading (a) book.
