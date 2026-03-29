@@ -1459,8 +1459,8 @@
 # text[az] = Deniz evdə.
 # text[uz] = Deniz uyda.
 # text[tr] = Deniz evde.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	0	root	_	SpaceAfter=No
+1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
+2	úyde	úy	NOUN	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 18
@@ -1473,9 +1473,9 @@
 # text[az] = Deniz evdəyidi.
 # text[uz] = Deniz uyda edi.
 # text[tr] = Deniz evdeydi.
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	3	obl	_	_
-3	болчу	бол	VERB	_	_	0	root	_	SpaceAfter=No
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	úyde	úy	NOUN	_	_	3	obl	_	_
+3	edi	bol	AUX	_	Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 19
@@ -1488,10 +1488,10 @@
 # text[az] = Deniz evdə iydi.
 # text[uz] = Deniz uyda bo'lgandi.
 # text[tr] = Deniz evde idi.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	0	root	_	_
-3	эле	э	AUX	_	_	2	cop	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	2	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	úyde	úy	NOUN	_	_	3	obl	_	_
+3	bolǵan	bol	VERB	_	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 20
 # text =Sawǵa Deniz ushın edi.
@@ -1503,11 +1503,11 @@
 # text[az] = Hediye Deniz içindi.
 # text[uz] = Sovg'a Deniz uchun edi.
 # text[tr] = Hediye Deniz içindi.
-1	Белек	белек	NOUN	_	_	4	nsubj	_	_
-2	Дениз	Дениз	PROPN	_	_	4	obl	_	_
-3	үчүн	үчүн	ADP	_	_	2	case	_	_
-4	болчу	бол	VERB	_	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
+1	Sawǵa	sawǵa	NOUN	_	_	3	obl	_	_
+2	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+3	ushın	ush	NOUN	_	_	0	root	_	SpaceAfter=No
+4	edi	bol	VERB	_	_	3	aux	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 21
 # text = Deniz uyqlaǵan edi.
@@ -1518,9 +1518,9 @@
 # text[az] = Deniz yatmışdı.
 # text[uz] = Deniz uxlagandi.
 # text[tr] = Deniz uyumuştu.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	уктап	укта	VERB	_	_	0	root	_	_
-3	калган	кал	AUX	_	_	2	aux	_	SpaceAfter=No
+1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
+2	uyqlaǵan	uyqla	VERB	_	_	0	root	_	SpaceAfter=No
+3	edi	bol	VERB	_	_	2	aux	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 22
@@ -1548,9 +1548,9 @@
 # text[az] = Deniz yatmış olacax.
 # text[uz] = Deniz uxlagan bo'ladi.
 # text[tr] = Deniz uyumuş olacak.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	уктаган	укта	VERB	_	_	0	root	_	_
-3	болот	бол	AUX	_	_	2	aux	_	SpaceAfter=No
+1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
+2	uyqlaǵan	uyqla	VERB	_	_	4	acl	_	SpaceAfter=No
+3	boladı	bol	VERB	_	_	2	aux	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 24
@@ -1562,14 +1562,15 @@
 # text[az] = Anasının arzusu Denizin yaxçı bir mədrəsəde ders oxumasıydı.
 # text[uz] = Onasining orzusi Denizning yaxshi maktabda o'qishi edi.
 # text[tr] = Annesinin hayali Deniz'in iyi bir okulda okumasıydı.
-1	Апасынын	апа	NOUN	_	_	2	nmod:poss	_	_
-2	кыялы	кыял	NOUN	_	_	6	nsubj:outer	_	_
-3	Дениздин	Дениз	PROPN	_	_	6	nsubj	_	_
-4	жакшы	жакшы	ADJ	_	_	5	amod	_	_
-5	мектепте	мектеп	NOUN	_	_	6	obl	_	_
-6	окушу	оку	VERB	_	_	0	root	_	_
-7	эле	э	AUX	_	_	6	cop	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	_
+1	Onıń	on	PRON	_	_	4	nmod:poss	_	_
+2	anasınıń	ana	NOUN	_	_	4	nmod:poss	_	_
+3	armanı	arman	NOUN	_	_	4	nsubj	_	_
+4	Denizdiń	Deniz	PROPN	_	_	6	nmod:poss	_	_
+5	jaqsi	jaqsi	ADJ	_	_	6	amod	_	_
+6	mektepte	mektep	NOUN	_	_	7	obl	_	_
+7	oqıwı	oqı	VERB	_	_	0	root	_	_
+8	edi	bol	VERB	_	_	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 25
 # text = Denizdiń jaqsı mektepte oqımaǵanı onıń anasın qáweterge saldı.
@@ -1580,14 +1581,15 @@
 # text[az] = Denizin yaxçı bir mədrəsədə dərs oxumaması anasını nigəran elirdi.
 # text[uz] = Denizning yaxshi maktabda o'qimasligi onasini havotirga solardi.
 # text[tr] = Deniz'in iyi bir okulda okumaması annesini kaygılandırıyordu.
-1	Дениздин	Дениз	PROPN	_	_	4	nsubj	_	_
-2	жакшы	жакшы	ADJ	_	_	3	amod	_	_
-3	мектепте	мектеп	NOUN	_	_	4	obl	_	_
-4	окубагандыгы	оку	VERB	_	_	7	csubj	_	_
-5	апасын	апа	NOUN	_	_	7	obj	_	_
-6	санаага	санаа	NOUN	_	_	7	obl	_	_
-7	салчу	сал	VERB	_	_	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	7	punct	_	_
+1	Denizdiń	Deniz	PROPN	_	_	4	nmod:poss	_	_
+2	jaqsı	jaqsi	ADJ	_	_	3	amod	_	_
+3	mektepte	mektep	NOUN	_	_	4	obl	_	_
+4	oqımaǵanı	oqı	VERB	_	_	0	root	_	SpaceAfter=No
+5	onıń	on	PRON	_	_	7	nmod:poss	_	_
+6	anasın	ana	NOUN	_	_	7	obj	_	_
+7	qáweterge	qáweter	NOUN	_	_	4	obl	_	_
+8	saldı	sal	VERB	_	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 26
 # text = Stol ústinde kóp kıtaplar bar , shkafta heshqandayı joq.
@@ -1598,15 +1600,16 @@
 # text[az] = Mizin üstündə çox kitab var, kitabxanda yox.
 # text[uz] = Stolda ko'p kitob bor, kitob javonida esa yo'q.
 # text[tr] = Masada çok kitap var, kitaplıkta yok.
-1	Столдо	стол	NOUN	_	_	4	obl	_	_
-2	көп	көп	DET	_	_	3	det	_	_
-3	китеп	китеп	NOUN	_	_	4	nsubj	_	_
-4	бар	бар	ADJ	_	_	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	китеп	китеп	NOUN	_	_	7	nmod	_	_
-7	текчеде	текче	NOUN	_	_	8	obl	_	_
-8	жок	жок	ADJ	_	_	4	parataxis	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	_
+1	Stol	Stol	NOUN	_	_	4	obl	_	_
+2	ústinde	úst	NOUN	_	_	1	case	_	_
+3	kóp	kóp	ADJ	_	_	4	amod	_	_
+4	kıtaplar	kıtap	NOUN	_	_	0	root	_	_
+5	bar	bar	VERB	_	_	4	cop	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	shkafta	shkaf	NOUN	_	_	8	obl	_	_
+8	heshqandayı	heshqanday	ADJ	_	_	9	amod	_	_
+9	joq	joq	VERB	_	_	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 26.1
 # text =
@@ -1637,11 +1640,11 @@
 # text[az] = Denizin heç kitabı yox.
 # text[uz] = Denizning hech qanday kitobi yo'q.
 # text[tr] = Deniz'in hiç kitabı yok.
-1	Дениздин	Дениз	PROPN	_	_	4	nmod:poss	_	_
-2	эч	эч	DET	_	_	4	det	_	_
-3	бир	бир	NUM	_	_	2	fixed	_	_
-4	китеби	китеп	NOUN	_	_	5	nsubj	_	_
-5	жок	жок	ADJ	_	_	0	root	_	SpaceAfter=No
+1	Denizdiń	Deniz	PROPN	_	_	3	nmod:poss	_	_
+2	hesh	hesh	DET	_	_	3	det	_	_
+3	qanday	qanday	ADJ	_	_	5	nsubj	_	_
+4	kıtabı	kıtap	NOUN	_	_	5	obj	_	_
+5	joq	joq	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 28
@@ -1653,11 +1656,11 @@
 # text[az] = Deniz evdə dəyildi.
 # text[uz] = Deniz uyda emasdi.
 # text[tr] = Deniz evde değildi.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	0	root	_	_
-3	эмес	эмес	ADV	_	_	2	advmod	_	_
-4	эле	э	AUX	_	_	2	cop	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	úyde	úy	NOUN	_	_	3	obl	_	_
+3	emes	emes	ADJ	_	_	0	root	_	_
+4	edi	bol	VERB	_	_	3	aux	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 29
 # text = Deniz waqtında uyqlamaydı.
@@ -1668,11 +1671,10 @@
 # text = Дениз өз убагында уктабайт.
 # text[uz] = Deniz vaqtida uxlamaydi.
 # text[tr] = Deniz zamanında uyumuyor.
-1	Дениз	Дениз	PROPN	_	_	4	nsubj	_	_
-2	өз	өз	DET	_	_	3	det	_	_
-3	убагында	убак	NOUN	_	_	4	obl:tmod	_	_
-4	уктабайт	укта	VERB	_	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	waqtında	waqt	NOUN	_	_	3	obl	_	_
+3	uyqlamaydı	uyqla	VERB	_	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 30
 # text = Deniz uyqlay almaydı.
@@ -1683,11 +1685,10 @@
 # text[az] = Deniz yata bilmir.
 # text[uz] = Deniz uxlay olmaydi.
 # text[tr] = Deniz uyuyamıyor.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	уктай	укта	VERB	_	_	0	root	_	_
-3	албай	ал	AUX	_	_	2	aux	_	_
-4	жатат	жат	AUX	_	_	2	aux	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	uyqlay	uyqla	VERB	_	_	3	aux	_	_
+3	almaydı	al	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 31
 # text = Deniz waqtında uyqlay almawı múmkin.
@@ -1698,13 +1699,12 @@
 # text[az] = Deniz vəxtikən yatmıya bilir.
 # text[uz] = Deniz vaqtida uxlay olmasligi mumkin.
 # text[tr] = Deniz zamaninda uyuyamayabilir.
-1	Дениз	Дениз	PROPN	_	_	4	nsubj	_	_
-2	өз	өз	DET	_	_	3	det	_	_
-3	убагында	убак	NOUN	_	_	4	obl:tmod	_	_
-4	уктай	укта	VERB	_	_	6	csubj	_	_
-5	албашы	ал	AUX	_	_	4	aux	_	_
-6	мүмкүн	мүмкүн	ADJ	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+2	waqtında	waqt	ADV	_	_	4	advmod	_	_
+3	uyqlay	uyqla	VERB	_	_	4	aux	_	_
+4	almawı	al	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
+5	múmkin	múmkin	ADJ	_	_	4	xcomp	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 32
 # text = Deniz anasın kórmey qaldı.
@@ -1715,11 +1715,11 @@
 # text[az] = Deniz anasın görmədi.
 # text[uz] = Deniz onasini ko'rmay qoldi.
 # text[tr] = Deniz annesini görmemiş oldu.
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	апасын	апа	NOUN	_	_	3	obj	_	_
-3	көрбөй	көр	VERB	_	_	0	root	_	_
-4	калды	кал	AUX	_	_	3	aux	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+2	anasın	ana	PRON	_	_	4	obj	_	_
+3	kórmey	kór	VERB	_	VerbForm=Conv	4	aux	_	SpaceAfter=No
+4	qaldı	qal	VERB	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 33
 # text = Deniz anasın kórip qalmadı.
@@ -1730,12 +1730,11 @@
 # text[az] = [This structure is not possible in Azeri.]
 # text[uz] = Deniz onasini ko'rib qolmadi.
 # text[tr] = Deniz annesini görmüş olmadı.
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	апасын	апа	NOUN	_	_	3	obj	_	_
-3	көрүп	көр	VERB	_	_	0	root	_	_
-4	калган	кал	AUX	_	_	3	aux	_	_
-5	жок	жок	AUX	_	_	3	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	anasın	ana	PRON	_	_	3	obj	_	_
+3	kórip	qór	VERB	_	VerbForm=Conv	4	aux	_	_
+4	qalmadı	qal	VERB	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 34
 # text =Deniz anasın kórmey qalmadı.
@@ -1746,12 +1745,11 @@
 # text[az] = Deniz anasın görməmiş olmadı.
 # text[uz] = Deniz onasini ko'rmay qolmadi.
 # text[tr] = Deniz annesini görmemiş olmadı.
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	апасын	апа	NOUN	_	_	3	obj	_	_
-3	көрбөй	көр	VERB	_	_	0	root	_	_
-4	калган	кал	AUX	_	_	3	aux	_	_
-5	жок	жок	AUX	_	_	3	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	anasın	ana	PRON	_	_	3	obj	_	_
+3	kórmey	qór	VERB	_	VerbForm=Conv	4	aux	_	_
+4	qalmadı	qal	VERB	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 35
 # text = Oqıǵanların túsinbeydi.
@@ -1762,12 +1760,9 @@
 # text[az] = Oxuduxlarını düşünmürü.
 # text[uz] = O'qiganlarini tushunmaydi.
 # text[tr] = Okuduklarını anlamıyor.
-1-2	Окугандарын	_	_	_	_	_	_	_	_
-1	Окуган	оку	VERB	_	_	2	acl	_	_
-2	дарын	_	PRON	_	_	3	obj	_	_
-3	түшүнбөй	түшүн	VERB	_	_	0	root	_	_
-4	жатат	жат	AUX	_	_	3	aux	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	_
+1	Oqıǵanların	oqı	VERB	_	VerbForm=Part	2	obj	_	_
+2	túsinbeydi	túsin	VERB	_	Tense=Pres|Polarity=Neg	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 36
 # text = Oqıǵanların túsingeni joq.
@@ -1778,13 +1773,10 @@
 # text[az] = Oxuduxlarını düşünmürü.
 # text[uz] = O‘qiganlarini tushungani yo‘q.
 # text[tr] = Okuduklarını anlıyor değil.
-1-2	Окугандарын	_	_	_	_	_	_	_	_
-1	Окуган	оку	VERB	_	_	2	acl	_	_
-2	дарын	_	PRON	_	_	3	ccomp	_	_
-3	түшүнүп	түшүн	VERB	_	_	0	root	_	_
-4	жаткан	жат	AUX	_	_	3	aux	_	_
-5	жок	жок	AUX	_	_	3	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	_
+1	Oqıǵanların	oqı	VERB	_	VerbForm=Part	2	obj	_	_
+2	túsingeni	túsin	VERB	_	VerbForm=Part|Tense=Past	3	nsubj	_	_
+3	joq	joq	AUX	_	Polarity=Neg	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 37
 # text = Oqıǵanların túsinbeydi emes.
@@ -1795,13 +1787,10 @@
 # text[az] = Oxuduxlarını düşünmürü.
 # text[uz] = O‘qiganlarini tushunmaydi emas.
 # text[tr] = Okuduklarını anlamıyor değil.
-1-2	Окугандарын	_	_	_	_	_	_	_	_
-1	Окуган	оку	VERB	_	_	2	acl	_	_
-2	дарын	_	PRON	_	_	3	ccomp	_	_
-3	түшүнбөй	түшүн	VERB	_	_	0	root	_	_
-4	жаткан	жат	AUX	_	_	3	aux	_	_
-5	жок	жок	AUX	_	_	3	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	_
+1	Oqıǵanların	oqı	VERB	_	VerbForm=Part	2	obj	_	_
+2	túsinbeydi	túsin	VERB	_	Tense=Pres|Polarity=Neg	3	nsubj	_	_
+3	emes	emes	AUX	_	Polarity=Neg	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 38
 # text = Oqıwdı emes, súwret sızıwdı jaqsi kóredi.
@@ -1812,14 +1801,12 @@
 # text[az] = Oxumağı yox, nəqqaşi çekmağı söyür.
 # text[uz] = O‘qishni emas, rasm chizishni yaxshi ko‘radi.
 # text[tr] = Okumayı değil, resim yapmayı seviyor.
-1	Окуганды	оку	VERB	_	_	7	xcomp	_	_
-2	эмес	эмес	ADV	_	_	1	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	_
-4	сүрөт	сүрөт	NOUN	_	_	5	compound	_	_
-5	тартканды	тарт	VERB	_	_	1	conj	_	_
-6	жакшы	жакшы	ADJ	_	_	7	compound	_	_
-7	көрөт	көр	VERB	_	_	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	7	punct	_	_
+1	Oqıwdı	oqı	VERB	_	_	3	obj	_	SpaceAfter=No
+2	emes	emes	AUX	_	Polarity=Neg	1	dep	_	_
+3	súwret	súwret	NOUN	_	_	5	nsubj	_	_
+4	sızıwdı	sız	VERB	_	_	5	obj	_	_
+5	jaqsi	kóredi	VERB	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 39
 # text = Deniz xanada emes edi.
@@ -1830,11 +1817,11 @@
 # text[az] = Deniz otaqda dəyildi.
 # text[uz] = Deniz xonada emasdi.
 # text[tr] = Deniz odada değildi.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	бөлмөдө	бөлмө	NOUN	_	_	0	root	_	_
-3	эмес	эмес	ADV	_	_	2	advmod	_	_
-4	эле	э	AUX	_	_	2	cop	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+2	xanada	xana	NOUN	_	_	4	obl	_	_
+3	emes	emes	AUX	_	Polarity=Neg	4	aux	_	_
+4	edi	bol	VERB	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 40
 # text = Deniz xanada joq edi.
@@ -1845,11 +1832,11 @@
 # text[az] = Deniz otaqda yoxdu(r).
 # text[uz] = Deniz xonada yo'q edi.
 # text[tr] = Deniz odada yoktu .
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	бөлмөдө	бөлмө	NOUN	_	_	3	obl	_	_
-3	жок	жок	ADJ	_	_	0	root	_	_
-4	эле	э	AUX	_	_	3	cop	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+2	xanada	xana	NOUN	_	_	4	obl	_	_
+3	joq	joq	AUX	_	Polarity=Neg	4	aux	_	_
+4	edi	bol	VERB	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 41
 # text = Deniz kitaplar oqıwdı qáleydi.
@@ -1860,12 +1847,11 @@
 # text[az] = Deniz kitab oxumaq istəyir.
 # text[uz] = Deniz kitob o'qimoqchi.
 # text[tr] = Deniz kitap okumak isitiyor.
-1	Дениздин	Дениз	PROPN	_	_	3	nsubj	_	_
-2	китеп	китеп	NOUN	_	_	3	obj	_	_
-3	окугусу	оку	VERB	_	_	4	csubj	_	_
-4	келип	кел	VERB	_	_	0	root	_	_
-5	жатат	жат	AUX	_	_	4	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	4	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+2	xanada	xana	NOUN	_	_	4	obl	_	_
+3	joq	joq	AUX	_	Polarity=Neg	4	aux	_	_
+4	edi	bol	VERB	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 42
 # text =
@@ -1892,15 +1878,14 @@
 # text[az] = Deniz babasının ona kitab oxumasını istəyir.
 # text[uz] = Deniz otasining kitob o‘qib berishini xohlaydi.
 # text[tr] = Deniz babasının kendisine kitap okumasını istiyor.
-1	Дениз	Дениз	PROPN	_	_	7	nsubj	_	_
-2	атасынын	ата	NOUN	_	_	5	nsubj	_	_
-3	ага	ал	PRON	_	_	5	obl	_	_
-4	китеп	китеп	NOUN	_	_	5	obj	_	_
-5	окуп	оку	VERB	_	_	7	ccomp	_	_
-6	берүүсүн	бер	AUX	_	_	5	aux	_	_
-7	каалап	каала	VERB	_	_	0	root	_	_
-8	жатат	жат	AUX	_	_	7	aux	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	7	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	5	nsubj	_	_
+2	ákesi	áke	NOUN	_	_	5	nsubj:poss	_	_
+3	oǵan	ol	PRON	_	_	5	iobj	_	_
+4	kıtaplar	kıtap	NOUN	_	_	5	obj	_	_
+5	oqıp	oq	VERB	_	VerbForm=Conv	0	root	_	_
+6	beriwin	ber	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	qáleydi	qál	VERB	_	Tense=Pres	5	aux	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 44
 # text = Deniz ózi menen ózi bolıwdı jaqsi kóredi.
@@ -1912,14 +1897,14 @@
 # text[uz] = Deniz o‘zi bilan o‘zi bo‘lishni yaxshi ko‘radi.
 # text[tr] = Deniz kendi kendine olmayı seviyor.
 # Note: this needs double check: is 'өзү менен өзү' really fixed? is бол here VERB or AUX?
-1	Дениз	Дениз	PROPN	_	_	7	nsubj	_	_
-2	өзү	өз	PRON	_	_	5	obl	_	_
-3	менен	менен	ADP	_	_	2	fixed	_	_
-4	өзү	өз	PRON	_	_	2	fixed	_	_
-5	болууну	бол	VERB	_	_	7	xcomp	_	_
-6	жакшы	жакшы	ADJ	_	_	7	compound	_	_
-7	көрөт	көр	VERB	_	_	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	7	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	5	nsubj	_	_
+2	ózi	óz	PRON	_	_	5	nsubj	_	_
+3	menen	men	PRON	_	_	5	obl	_	_
+4	ózi	óz	PRON	_	_	5	nsubj	_	_
+5	bolıwdı	bol	VERB	_	_	0	root	_	_
+6	jaqsi	jaqsi	ADJ	_	_	5	advmod	_	_
+7	kóredi	kóre	VERB	_	Tense=Pres	5	aux	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 45
 # text = Anası oqıp bergen gezinde , Denizge uyqlaw ańsatlasadı.
@@ -1930,13 +1915,15 @@
 # text[az] = Anasının kitab oxuması Dənizin yuxusunu rahatlaşdırır.
 # text[uz] = Onasining kitob o‘qishi Denizning uxlashini osonlashtiradi.
 # text[tr] = Annesinin kitap okuması Deniz'in uyumasını kolaylaştırıyor.
-1	Апасынын	апа	NOUN	_	_	3	nsubj	_	_
-2	китеп	китеп	NOUN	_	_	3	obj	_	_
-3	окушу	оку	VERB	_	_	6	csubj	_	_
-4	Дениздин	Дениз	PROPN	_	_	5	nmod:poss	_	_
-5	укташын	укта	VERB	_	_	6	ccomp	_	_
-6	жеңилдетет	жеңилде	VERB	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	Anası	ana	NOUN	_	_	4	nsubj	_	_
+2	oqıp	oq	VERB	_	VerbForm=Conv	4	aux	_	_
+3	bergen	ber	VERB	_	VerbForm=Part	4	aux	_	_
+4	gezinde	gez	NOUN	_	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Denizge	Deniz	PROPN	_	_	7	iobj	_	_
+7	uyqlaw	uyqla	VERB	_	VerbForm=Inf	4	conj	_	_
+8	ańsatlasadı	ańsatla	VERB	_	Tense=Pres	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 46
 # text = Balalarǵa kıtap oqıp beriw olardıń rawajlanıwı ushın áhmiyetlidur.
@@ -1947,17 +1934,15 @@
 # text[az] = Uşaqlara kitab oxumaq təkamulları için əhəmmiyətlidir.
 # text[uz] = Bolalarga kitob o‘qish ularning rivojlanishi uchun muhimdir.
 # text[tr] = Çocuklara kitap okumak gelişimleri için önemli.
-1	Балдарга	бала	NOUN	_	_	3	obl	_	_
-2	китеп	китеп	NOUN	_	_	3	obj	_	_
-3	окуп	оку	VERB	_	_	10	csubj	_	_
-4	берүү	бер	AUX	_	_	3	aux	_	_
-5	алардын	алар	PRON	_	_	6	nmod:poss	_	_
-6	өсүп	өс	VERB	_	_	8	advcl	_	SpaceAfter=No
-7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
-8	өнүгүүсү	өнүк	VERB	_	_	10	advcl	_	_
-9	үчүн	үчүн	ADP	_	_	8	case	_	_
-10	маанилүү	маанилүү	ADJ	_	_	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	_	_
+1	Balalarǵa	Bala	NOUN	_	_	4	iobj	_	_
+2	kıtap	kıtap	NOUN	_	_	4	obj	_	_
+3	oqıp	oq	VERB	_	VerbForm=Conv	4	aux	_	_
+4	beriw	ber	VERB	_	_	0	root	_	_
+5	olardıń	olar	PRON	_	_	7	nsubj	_	_
+6	rawajlanıwı	rawajlan	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	ushın	ushın	ADP	_	_	6	mark	_	_
+8	áhmiyetlidur	áhmiyetli	ADJ	_	_	4	acl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 47
 # text = Deniz uyqıdan aldın kitap oqıydı.
@@ -1968,12 +1953,12 @@
 # text[az] = Deniz kitap okuyarak uyuyor.
 # text[uz] = Deniz kitob o‘qib uxlayapti.
 # text[tr] = Deniz kitap okuyarak uyuyor.
-1	Дениз	Дениз	NOUN	_	_	5	nsubj	_	_
-2	китеп	китеп	NOUN	_	_	3	obl	_	_
-3	окуп	оку	VERB	_	_	5	advcl	_	_
-4	жатып	жат	AUX	_	_	3	aux	_	_
-5	уктайт	укта	VERB	_	_	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	uyqıdan	uyqı	NOUN	_	_	3	obl	_	_
+3	aldın	aldın	ADV	_	_	0	root	_	_
+4	kıtap	kıtap	NOUN	_	_	5	obj	_	_
+5	oqıydı	oqı	VERB	_	Tense=Past	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 48
 # text = Deniz dem alıs ekenligi esinnen shıǵıp,oqıwǵa ketti.
@@ -1985,13 +1970,15 @@
 # text[uz] = Deniz ta’til ekanligini unutib, maktabga ketgan.
 # text[tr] = Deniz tatil olduğunu unutup okula gitmiş.
 # note: cop/aux
-1	Дениз	Дениз	PROPN	_	_	6	nsubj	_	_
-2	каникул	каникул	NOUN	_	_	4	ccomp	_	_
-3	экенин	экен	AUX	_	_	2	aux	_	_
-4	унутуп	унут	VERB	_	_	6	advcl	_	_
-5	мектепке	мектеп	NOUN	_	_	6	obl	_	_
-6	барыптыр	бар	VERB	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	5	nsubj	_	_
+2	dem	dem	NOUN	_	_	5	obl	_	_
+3	alıs	al	VERB	_	_	5	aux	_	_
+4	ekenligi	eken	VERB	_	_	5	aux	_	_
+5	esinnen	esin	NOUN	_	_	0	root	_	_
+6	shıǵıp	shıǵ	VERB	_	VerbForm=Conv	5	conj	_	_
+7	oqıwǵa	oqı	VERB	_	VerbForm=Inf	6	advcl	_	_
+8	ketti	ket	VERB	_	Tense=Past	6	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 49
 # text = Deniz sumkasın aldı hám oqıwǵa ketti sebebi dem alıs ekenligi esinnen shiqqan edi.
@@ -2003,16 +1990,20 @@
 # text[uz] = Deniz ta’til ekanligini unutib, sumkasini olib, maktabga ketgan.
 # text[tr] = Deniz tatil olduğunu unutup çantasını alıp okula gitmiş.
 # note: cop/aux
-1	Дениз	Дениз	PROPN	_	_	9	nsubj	_	_
-2	каникул	каникул	NOUN	_	_	4	ccomp	_	_
-3	экенин	экен	AUX	_	_	2	aux	_	_
-4	унутуп	унут	VERB	_	_	9	advcl	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	сумкасын	сумка	NOUN	_	_	7	obj	_	_
-7	алып	ал	VERB	_	_	9	advcl	_	_
-8	мектепке	мектеп	NOUN	_	_	9	obl	_	_
-9	барыптыр	бар	VERB	_	_	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	sumkasın	sumka	NOUN	_	_	3	obj	_	_
+3	aldı	al	VERB	_	Tense=Past	0	root	_	_
+4	hám	hám	CCONJ	_	_	5	cc	_	_
+5	oqıwǵa	oqı	VERB	_	VerbForm=Inf	3	conj	_	_
+6	ketti	ket	VERB	_	Tense=Past	5	aux	_	_
+7	sebebi	sebep	NOUN	_	_	9	mark	_	_
+8	dem	dem	NOUN	_	_	9	obl	_	_
+9	alıs	al	VERB	_	_	5	acl	_	_
+10	ekenligi	eken	VERB	_	_	9	aux	_	_
+11	esinnen	esin	NOUN	_	_	9	obl	_	_
+12	shiqqan	shiqq	VERB	_	VerbForm=Part	10	aux	_	_
+13	edi	bol	VERB	_	_	10	aux	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 49.1
 # text = 
@@ -2043,13 +2034,14 @@
 # text[az] = Deniz gec yatsa mədrəsəyə gecikip.
 # text[uz] = Deniz kech uxlasa, maktabga kechikadi.
 # text[tr] = Deniz geç uyursa okula geç kalır.
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	кеч	кеч	ADV	_	_	3	advmod	_	_
-3	уктаса	укта	VERB	_	_	5	advcl	_	_
-4	мектепке	мектеп	NOUN	_	_	5	obl	_	_
-5	кечигет	кеч	VERB	_	_	0	root	_	_
-6	эле	э	AUX	_	_	5	aux	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+1	Eger	eger	SCONJ	_	_	6	mark	_	_
+2	Deniz	Deniz	PROPN	_	_	6	nsubj	_	_
+3	kesh	kesh	ADJ	_	_	4	amod	_	_
+4	uyqıǵa	uyqı	VERB	_	_	6	obl	_	_
+5	jatsa	jat	VERB	_	_	6	aux	_	_
+6	oqıwǵa	oqı	VERB	_	VerbForm=Inf	0	root	_	_
+7	keshigedi	keshige	VERB	_	Tense=Pres	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 51
 # text = Eger Deniz kesh uyqıǵa jatsa, oqıwǵa keshigedi.
@@ -2060,13 +2052,14 @@
 # text[az] = Deniz gec yatsa mədrəsəyə gec qalacax.
 # text[uz] = Deniz kech uxlasa, maktabga kech qoladi.
 # text[tr] = Deniz geç uyursa okula geç kalacak.
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	кеч	кеч	ADJ	_	_	3	advmod	_	_
-3	уктаса	укта	VERB	_	_	6	advcl	_	_
-4	мектепке	мектеп	NOUN	_	_	6	obl	_	_
-5	кечигип	кеч	VERB	_	_	6	advcl	_	_
-6	барат	бар	VERB	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	Eger	Eger	SCONJ	_	_	6	mark	_	_
+2	Deniz	Deniz	PROPN	_	_	5	nsubj	_	_
+3	kesh	kesh	ADJ	_	_	4	amod	_	_
+4	uyqıǵa	uyqı	NOUN	_	_	5	obl	_	_
+5	jatsa	jat	VERB	_	_	6	advcl	_	_
+6	oqıwǵa	oqı	VERB	_	_	0	root	_	_
+7	keshigedi	keshige	VERB	_	Tense=Pres	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 51.1
 # text = 
@@ -2094,12 +2087,15 @@
 # text[az] = Uşaq yatsaydı filmə baxacaqıdıx.
 # text[uz] = Agar bola uxlaganida, kino ko'rgan bo'lardik.
 # text[tr] = Çocuk uyumuş olsaydı film izleyecektik.
-1	Бала	бала	NOUN	_	_	2	nsubj	_	_
-2	уктаса	укта	VERB	_	_	4	advcl	_	_
-3	кино	кино	NOUN	_	_	4	obj	_	_
-4	көрөт	көр	VERB	_	_	0	root	_	_
-5	элек	э	AUX	_	_	4	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	4	punct	_	_
+1	Eger	Eger	SCONJ	_	_	6	mark	_	_
+2	bala	bala	NOUN	_	_	6	nsubj	_	_
+3	uyqlaǵanda	uyqla	VERB	_	_	6	advcl	_	_
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	kino	kino	NOUN	_	_	6	nsubj	_	_
+6	kórgen	kór	VERB	_	VerbForm=Part	0	root	_	_
+7	bolar	bol	VERB	_	_	6	aux	_	_
+8	edik	ed	VERB	_	_	6	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 53
 # text = Eger bala bizler úyge baraman degenshe uyqlap qalsa, bizler onı oyatıwımız kerek boladı.
@@ -2110,19 +2106,20 @@
 # text[az] = Əyər uşaq biz evə getməmış yatsa, yetişincə gərək onu oyandırax.
 # text[uz] = Agar bola uyga ketmasdan uxlab qolsa, borganimizda uyg'otishimiz kerak bo'ladi.
 # text[tr] = Eğer çocuk eve gitmeden uyursa vardığımızda uyandırmamız gerekecek.
-1	Эгер	эгер	SCONJ	_	_	6	mark	_	_
-2	бала	бала	NOUN	_	_	6	nsubj	_	_
-3	биз	биз	PROPN	_	_	5	nsubj	_	_
-4	үйгө	үй	NOUN	_	_	5	obl	_	_
-5	жеткиче	жет	VERB	_	_	6	advcl	_	_
-6	уктап	укта	VERB	_	_	12	advcl	_	_
-7	калса	кал	AUX	_	_	6	aux	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	6	punct	_	_
-9	барганыбызда	бар	VERB	_	_	12	advcl	_	_
-10	ойготушубуз	ойго	VERB	_	_	12	csubj	_	_
-11	керек	керек	ADJ	_	_	12	xcomp	_	_
-12	болот	бол	VERB	_	_	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	12	punct	_	_
+1	Eger	Eger	SCONJ	_	_	10	mark	_	_
+2	bala	bala	NOUN	_	_	10	nsubj	_	_
+3	bizler	biz	PRON	_	_	4	nsubj	_	_
+4	úyge	úy	NOUN	_	_	10	obl	_	_
+5	baraman	bar	VERB	_	Tense=Pres	10	advcl	_	_
+6	degenshe	degenshe	SCONJ	_	_	10	mark	_	_
+7	uyqlap	uyqla	VERB	_	VerbForm=Conv	10	advcl	_	_
+8	qalsa	qal	VERB	_	_	10	aux	_	_
+9	bizler	biz	PRON	_	_	10	nsubj	_	_
+10	onı	ol	PRON	_	_	0	root	_	_
+11	oyatıwımız	oyat	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	kerek	kerek	ADJ	_	_	11	advmod	_	_
+13	boladı	bol	VERB	_	Tense=Pres	11	aux	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 54
 # text = Kewline alma
@@ -2133,9 +2130,8 @@
 # text[az] = Boşla.
 # text[uz] = Hechqisi yoʻq.
 # text[tr] = Boş ver.
-1	Көңүлгө	көңүл	NOUN	_	_	2	obl	_	_
-2	алба	ал	VERB	_	_	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	_
+1	Kewline	Kewline	PROPN	_	_	2	obj	_	_
+2	alma	al	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
 
 # sent_id = 55
 # text =
@@ -2159,13 +2155,12 @@
 # text[az] = Fikr elirəm ki uşaq tez yatacax.
 # text[uz] = Menimcha, bola erta uxlaydi.
 # text[tr] = Çocuğun erken uyuyacağını zannediyorum.
-1	Бала	бала	NOUN	_	_	3	nsubj	_	_
-2	эрте	эрте	ADV	_	_	3	advmod	_	_
-3	уктайт	укта	VERB	_	_	4	ccomp	_	_
-4	деп	де	VERB	_	_	5	advcl	_	_
-5	ойлоп	ойло	VERB	_	_	0	root	_	_
-6	жатам	жат	AUX	_	_	5	aux	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+1	Menimshe	menimshe	ADV	_	_	4	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	bala	bala	NOUN	_	_	4	nsubj	_	_
+4	erte	erte	ADJ	_	_	5	advmod	_	_
+5	uyqlaydı	uyqla	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 56.1
 # text = 
