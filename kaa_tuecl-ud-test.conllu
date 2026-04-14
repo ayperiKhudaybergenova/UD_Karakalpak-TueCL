@@ -2187,12 +2187,11 @@
 # text[az] = Deniz qardaşınnan acığı gelir.
 # text[uz] = Deniz birodarini yomon koʻradi.
 # text[tr] = Deniz kardeşinden nefret ediyor.
-1	Дениз	Дениз	PROPN	_	_	5	nsubj	_	_
-2	бир	бир	NUM	_	_	3	compound	_	_
-3	тууганын	тууган	NOUN	_	_	5	obj	_	_
-4	жек	жек	NOUN	_	_	5	compound	_	_
-5	көрөт	көр	VERB	_	_	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	tuwısqanların	tuwısqan	NOUN	_	_	3	obj	_	_
+3	jek	jek	ADV	_	_	4	advmod	_	_
+4	kóredi	kór	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 58
 # text = Men ertendi shıdamsızlıq penen kútip atirman.
@@ -2203,13 +2202,13 @@
 # text[az] = Sabahı səbirsizliklə gözləyirəm.
 # text[uz] = Ertangi kunni intiqlik bilan kutaman.
 # text[tr] = Yarını iple çekiyorum.
-1	Эртеңки	эртең	ADJ	_	_	2	amod	_	_
-2	күндү	күн	NOUN	_	_	5	obj	_	_
-3	чыдамсыздык	чыдамсыз	NOUN	_	_	5	obl	_	_
-4	менен	менен	ADP	_	_	3	case	_	_
-5	күтүп	күт	VERB	_	_	0	root	_	_
-6	жатам	жат	AUX	_	_	5	aux	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+1	Men	men	PRON	_	_	6	nsubj	_	_
+2	ertendi	erten	ADV	_	_	6	obj	_	_
+3	shıdamsızlıq	shıdamsızlıq	NOUN	_	_	6	obl	_	_
+4	penen	penen	ADP	_	_	3	case	_	_
+5	kútip	kút	VERB	_	VerbForm=Conv	6	aux	_	_
+6	atirman	atır	AUX	_	Tense=Pres|Person=1	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 59
 # text = Emlewxana xalıq xizmetine tapsırıldı.
@@ -2220,10 +2219,10 @@
 # text[az] = Xəstəxana xalqın xidmətinə verildi.
 # text[uz] = Kasalxona davlat xizmatiga topshirildi.
 # text[tr] = Hastane halkın hizmetine sunuldu.
-1	Оорукана	оорукана	NOUN	_	_	4	nsubj	_	_
-2	эл	эл	NOUN	_	_	3	nmod:poss	_	_
-3	кызматына	кызмат	NOUN	_	_	4	obl	_	_
-4	берилди	бер	VERB	_	_	0	root	_	SpaceAfter=No
+1	Emlewxana	emlewxana	NOUN	_	_	4	nsubj	_	_
+2	xalıq	xalıq	NOUN	_	_	3	nmod	_	_
+3	xizmetine	xizmet	NOUN	_	Case=Dat	4	obl	_	_
+4	tapsırıldı	tapsır	VERB	_	Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 60
@@ -2235,13 +2234,13 @@
 # text[az] = Böyük evdəki uşaq kitab oxur.
 # text[uz] = Katta uydagi bola kitob o'qiyapti.
 # text[tr] = Büyük evdeki çocuk kitap okuyor.
-1	Чоң	чоң	ADJ	_	_	2	amod	_	_
-2	үйдөгү	үй	NOUN	_	_	3	nmod	_	_
-3	бала	бала	NOUN	_	_	5	nsubj	_	_
-4	китеп	китеп	NOUN	_	_	5	obj	_	_
-5	окуп	оку	VERB	_	_	0	root	_	_
-6	жатат	жат	AUX	_	_	5	aux	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+1	Úlken	úlken	ADJ	_	_	2	amod	_	_
+2	úydegi	úy	NOUN	_	_	3	nmod	_	_
+3	bala	bala	NOUN	_	_	5	nsubj	_	_
+4	kitap	kitap	NOUN	_	_	5	obj	_	_
+5	oqıp	oq	VERB	_	VerbForm=Conv	6	aux	_	_
+6	atir	atır	AUX	_	Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 61
 # text = Úlken úydegi kıtap oqıp atir.
@@ -2252,14 +2251,12 @@
 # text[az] = Böyük evdəki kitab oxur.
 # text[uz] = Katta uydagi kitob o'qiyapti.
 # text[tr] = Büyük evdeki kitap okuyor.
-1	Чоң	чоң	ADJ	_	_	2	amod	_	_
-2-3	үйдөгү	_	_	_	_	_	_	_	_
-2	үйдө	үй	NOUN	_	_	3	nmod	_	_
-3	гү	ки	PRON	_	_	5	nsubj	_	_
-4	китеп	китеп	NOUN	_	_	5	obj	_	_
-5	окуп	оку	VERB	_	_	0	root	_	_
-6	жатат	жат	AUX	_	_	5	aux	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+1	Úlken	úlken	ADJ	_	_	2	amod	_	_
+2	úydegi	úy	NOUN	_	_	3	nmod	_	_
+3	kıtap	kıtap	NOUN	_	_	4	nsubj	_	_
+4	oqıp	oq	VERB	_	VerbForm=Conv	5	aux	_	_
+5	atir	atır	AUX	_	Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 62
 # text = 
