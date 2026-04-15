@@ -2259,7 +2259,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 62
-# text = 
+# text = Úlken úydegi balanıń shashı sarı, kishkene úydegisiniki qońır. 
 # glossing = big house-LOC.REL child-GEN hair-3SG yellow, small house-LOC.REL-3SG-GEN brown
 # issue: MWE / segmentation 
 # text[en] = The hair of the child in the big house is blond, the one of the one in the small house is brown.
@@ -2282,7 +2282,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 63
-# text = 
+# text = Pıyazlardı qızarǵanǵa shekem quwırıń.
 # glossing = onion-ACC become.red-VN-DAT until fry-IMP-2SG.FRM
 # issue: MWE / segmentation
 # text[en] = Fry the onions until they become dark pinк.
@@ -2297,7 +2297,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 64
-# text = 
+# text = Úydiń aldında úsh mashına qoyıw ornı bar.
 # glossing = home-GEN front-POSS.3SG-LOC three car.PRTV car stop place exist
 # issue: MWE / segmentation
 # text[en] = There is a three-car parking place in front of the house.
@@ -2316,7 +2316,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 65
-# text = 
+# text = Múqáddes kitapsız dinler da bar.
 # glossing = holy book-ABE religion-PL also exist
 # issue: MWE / segmentation (китепсиз 'kitepsiz')
 # text[en] = There are religions without holly books.
@@ -2332,7 +2332,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 65.1
-# text = 
+# text = Múqáddes kitapsız dinler da bar.
 # glossing = holy book-POSS.3SG be-NEG-PTCP religion-PL also exist
 # issue: MWE / segmentation
 # text[en] = There are also/even religions without holy books.
@@ -2349,7 +2349,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 66
-# text = 
+# text = Kishi aynalı úyde jeterlishe jaqtılıq joq.
 # glossing = small window.ORN home-LOC enough-ORN light not.exist
 # issue: MWE / segmentation
 # text[en] = There is not enough light in the house with small windows.
@@ -2382,7 +2382,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 67
-# text = 
+# text = Deniz úyge keldi ma?
 # glossing = Deniz home-DAT come-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz come home?
@@ -2398,7 +2398,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 68
-# text =
+# text = Deniz úyge kelgen ba edi?
 # glossing = Deniz home-DAT come-PST.PFV Q-COP.PST.3SG
 # issue: Question particle, [Canopula/aux attached to -mi]
 # text[en] = Had Deniz come home? 
@@ -2415,7 +2415,7 @@
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 69
-# text = 
+# text = Deniz úyde ma?
 # glossing = Deniz home-LOC-Q
 # issue: Question particle, [Copula "mi"]
 # text[en] = Is Deniz at home? 
@@ -2430,7 +2430,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 70
-# text = 
+# text = Deniz úyde edi ma?
 # glossing = Deniz home-LOC be-PST.3SG Q-COP.3SG
 # issue: Question particle, [Copula, with additonal affix on -mi]
 # text[en] = Is Deniz at home? 
@@ -2447,7 +2447,7 @@
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 71
-# text =
+# text = Deniz úyde edi ma?
 # glossing = Deniz home-LOC Q-COP.PST.3SG
 # issue: Question particle
 # text[en] = Was Deniz at home?
@@ -2463,7 +2463,7 @@
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 72
-# text = 
+# text = Deniz úyde emes pa edi?
 # glossing = Deniz home-LOC not Q-COP.PST.3SG
 # issue: Question particle, [with negation]
 # text[en] = Was Deniz not at home?
@@ -2480,7 +2480,7 @@
 6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 73
-# text =
+# text =Deniz úyde emes pa?
 # glossing = Deniz home-LOC not.exist-Q
 # issue: Question particle, [Negation with 'yok']
 # text[en] = Is Deniz not at home?
@@ -2496,7 +2496,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 74
-# text =
+# text = Úyde nan barma?
 # glossing = home-LOC bread exist-Q
 # issue: Question particle
 # text[en] = Is there (any) bread at home?
@@ -2528,7 +2528,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 76
-# text =
+# text = 
 # glossing = home-LOC bread exist-Q
 # issue: Question particle
 # text[en] = Is there (any) bread at home?
@@ -2544,7 +2544,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 77
-# text =
+# text = Oqıǵanlarınızdı túsinip atirǵan ba edińiz?
 # glossing = read-VN-POSS.2SG.FRM-ACC understand-INF lie.down-PST.PROG-2SG.FRM-Q 
 # issue: Question particle, [multiple affixes on -mu]
 # text[en] = Were you understanding what you read? 
@@ -2560,7 +2560,7 @@
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 78
-# text = 
+# text = Deniz kitaptı  Ayhanǵa azanda berdi ma?
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2579,7 +2579,7 @@
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 79
-# text =
+# text =Azanda Deniz kitaptı  Ayhanǵa berdi ma?
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2598,7 +2598,7 @@
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 80
-# text =
+# text = Deniz kitaptı  azanda Ayhanǵa berdi ma?
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2617,7 +2617,7 @@
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 81
-# text = 
+# text = Azanda Deniz Ayhanǵa kitaptı  berdi ma?
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2636,7 +2636,7 @@
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 82
-# text =
+# text = Deniz  Ayhanǵa kitaptı  azanda berdi ma?
 # glossing = Deniz book-ACC Ayhan-DAT tomorrow with give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2655,7 +2655,7 @@
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 83
-# text = 
+# text = Kógin bere alasız ba?
 # glossing = I-DAT.1SG blue-ACC give-PRS-2SG-Q
 # issue: [zero A -> N derivation]
 # text[en] = Can you give me the blue one?
@@ -2671,7 +2671,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 84
-# text =
+# text = Kók versiyasi jaqsiraq .
 # glossing = this-GEN blue-POSS.3SG good-COMP
 # issue: [-si, (pro)nominals]
 # text[en] = The blue (version) of this is nicer. 
@@ -2685,7 +2685,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 85
-# text = 
+# text = Meniń mashinam Deńizdikiniń kógi.
 # glossing = I-GEN car-POSS.1SG Deniz-GEN-ATTR-POSS.3SG blue-POSS.3SG
 # issue:
 # text[en] = My car is the blue (version) of Deniz'es.
@@ -2702,7 +2702,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 86
-# text =
+# text = Kitap oqılıp atir.
 # glossing = book read-PASS-INF lie.down-NPST-3
 # issue: Passive example
 # text[en] = The book is being read.
@@ -2716,7 +2716,7 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 87
-# text = 
+# text = Kitap barlıq mekteplerde oqıtıladı.
 # glossing = book all school-PL-LOC read-CAUS-CAUS-PASS-FUT.3SG
 # issue: Double causative example
 # text[en] = The book will be made to be made to be read in all schools.
@@ -2731,7 +2731,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 88
-# text = 
+# text = Denizdi uyqlattı.
 # glossing = Deniz sleep-CAUS-PASS-PST.3SG
 # issue: Passive/Causative, [Causative example]
 # text[en] = Deniz was made to sleep.
@@ -2744,7 +2744,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 89
-# text = 
+# text = Olar ketti.
 # glossing = they leave-PST.3SG
 # issue: Plural Subject, but singular Verb
 # text[en] = They are gone. / They left.
@@ -2757,7 +2757,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 89.1
-# text = 
+# text = Ol ketti.
 # glossing = they leave-RECP-PST.3SG
 # issue: Plural Subject, Plural Verb and additionally the reciprocal marker (RECP). Lit: They left (together).
 # text[en] = They are gone together. / They left together.
@@ -2770,7 +2770,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 90
-# text = 
+# text = Deniz usı jerge kelip, kitap oqıp turatuǵın edi.
 # glossing = he/she leave-PST.3SG
 # issue: Plural Subject, but singular Verb
 # text[en] = He/She left./ He/She is gone.
@@ -2783,7 +2783,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 91
-# text =
+# text = Siz da biz benen kelesiz, durıs pa?
 # glossing = Deniz this place-LOC come-INF, free time-PL--LOC book read-3SG used-to
 # issue: Miscellaneous, [idi + epenthesis]
 # text[en] = Deniz used to come here and read a book in her free time.
@@ -2804,7 +2804,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 92
-# text = 
+# text = Siz da biz benen kelesiz, durıs pa?
 # glossing = you also we with come-2SG, right-?
 # issue: Miscellaneous, [Tag question]
 # text[en] = You are coming with us, aren't you?
@@ -2824,7 +2824,7 @@
 9	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 93
-# text = 
+# text = Ol sonday bir kitap ,onı oqıǵan adam dúnyaǵa názeri burınǵıday bolmaydı.
 # glossing = that such one book it read-VN person world-DAT again before-like eye view with look able-NEG-INF-3SG
 # issue: Miscellaneous, ['ki' connecting sentences, MWE]
 # text[en] = It was such a book that the person who read it wouldn't be able to see the world as they did before.
@@ -2855,7 +2855,7 @@
 19	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 94
-# text = 
+# text = Sen birinshi tazalawdı tamamla , keyin bizler utyuglew menen shuǵıllanamız.
 # glossing = you first cleaning-VN-ACC finish then we iron-1PL
 # issue: Miscellaneous, ['de' connecting sentences, -lIk derivation]
 # text[en] = You finish the cleaning first, then we will handle the ironing.
@@ -2874,7 +2874,7 @@
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 95
-# text =
+# text =Aytıwlarına qaraǵanda, Aysha Hakanǵa úy jumısına járdemlesken.
 # glossing = say--PL-DAT look-VN-LOC Ayşe Hakan-DAT house assignment-ACC do-NMLZ-DAT help give-INF-EVID
 # issue: Miscellaneous, [mişmiş/mışmış evidentiality]
 # text[en] = Seemingly Ayşe helped Hakan do his homework.
@@ -2916,7 +2916,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 96
-# text = 
+# text = Ulıwma alǵanda, bul áwmetli film edi.
 # glossing = general take-VN-LOC success- one movie become-PST.3SG
 # issue: Miscellaneous, [N/Adj + olarak]
 # text[en] = It was a successful film overall.
@@ -2933,7 +2933,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 97
-# text = 
+# text = Alma terekleri Aprel-May aylarında gúllep óz-ara shańlanadı.
 # glossing = apple tree-PL april-may month-PL-?-LOC bloom-INF cross pollinate-RECP-3PL
 # issue: "алма дарактар" - 'alma daraqtar'
 # text[en] = Apple trees bloom (approximately) April to May and cross-pollinate.
