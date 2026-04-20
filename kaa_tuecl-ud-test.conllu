@@ -1419,8 +1419,8 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 15
-# text =Deniz shıpaker boladi.
-# translit = Deniz student.
+
+# text = Deniz student.
 # glossing = Deniz student
 # issue: Copula, [Nom. Predicate with -dir]
 # text[en] = Deniz is a student. 
@@ -1436,7 +1436,7 @@
 
 # sent_id = 16
 
-# translit = Deniz doktur bol-ot.
+# text =Deniz shıpaker.
 # glossing = Deniz doctor be-FUT-3SG
 # issue: Copula
 # text[en] = Deniz will become a doctor. ['become']
@@ -1444,10 +1444,8 @@
 # text[az] = Deniz düktür olacax.
 # text[uz] = Deniz shifokor bo'ladi.
 # text[tr] = Deniz doktor olacak.
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	доктур	доктур	NOUN	_	_	3	xcomp	_	_
-3	болот	бол	VERB	_	_	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
+2	shıpaker	shıpaker	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
 
 # sent_id = 17
 # text = Deniz úyde.
@@ -2267,19 +2265,16 @@
 # text[az] = Böyük evdəki uşağın tüklәri sarıdır, kiçik evdəkininki qəhveyidir.
 # text[uz] = Katta uydagi bolaning sochi sargʻish, kichik uydaginiki jigarrang.
 # text[tr] = Büyük evdeki çocuğun saçları sarı, küçük evdekininki kahverengi.
-1	Чоң	чоң	ADJ	_	_	2	amod	_	_
-2	үйдөгү	үй	NOUN	_	_	3	nmod	_	_
-3	баланын	бала	NOUN	_	_	4	nmod:poss	_	_
-4	чачы	чач	NOUN	_	_	5	nsubj	_	_
-5	сары	сары	ADJ	_	_	0	root	_	SpaceAfter=No
+1	Úlken	úlken	ADJ	_	_	2	amod	_	_
+2	úydegi	úy	NOUN	_	_	3	nmod	_	_
+3	balanıń	bala	NOUN	_	Case=Gen	4	nmod:poss	_	_
+4	shashı	shash	NOUN	_	Case=Nom|Person[psor]=3	5	nsubj	_	_
+5	sarı	sarı	ADJ	_	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	кичинекей	кичинекей	ADJ	_	_	8	amod	_	_
-8-10	үйдөгүнүкү	_	_	_	_	_	_	_	_
-8	үйдө	үй	NOUN	_	Case=Loc|Number=Sing	9	nmod	_	_
-9	гүнү	ки	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
-10	кү	ки	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
-11	күрөң	күрөң	ADJ	_	_	5	conj	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	5	punct	_	_
+7	kishkene	kishkene	ADJ	_	_	8	amod	_	_
+8	úydegisiniki	úydegi	NOUN	_	_	9	nsubj	_	_
+9	qońır	qońır	ADJ	_	_	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 63
 # text = Pıyazlardı qızarǵanǵa shekem quwırıń.
@@ -2290,10 +2285,10 @@
 # text[az] = Soğanları qərələnə çan qızardın.
 # text[uz] = Piyozni toʻq pushti rangga aylanguniga qadar qovuring.
 # text[tr] = Soğanları koyu pembeleşinceye kadar kavurun.
-1	Пиязды	пияз	NOUN	_	_	4	obj	_	_
-2	кызарганга	кызар	VERB	_	_	4	advcl	_	_
-3	чейин	чейин	ADP	_	_	2	case	_	_
-4	кууруңуз	куур	VERB	_	_	0	root	_	SpaceAfter=No
+1	Pıyazlardı	pıyaz	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
+2	qızarǵanǵa	qızar	VERB	_	VerbForm=Part|Case=Dat	4	advcl	_	_
+3	shekem	shekem	ADP	_	_	2	case	_	_
+4	quwırıń	quwır	VERB	_	Mood=Imp|Person=2	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 64
@@ -2305,15 +2300,14 @@
 # text[az] = Evin qabağında üç maşınlıq park yeri var.
 # text[uz] = Uyning oldida uchta mashina uchun toʻxtash joyi bor.
 # text[tr] = Evin önünde üç arabalık park yeri var.
-1	Үйдүн	үй	NOUN	_	_	2	nmod:poss	_	_
-2	алдында	алды	NOUN	_	_	8	obl	_	_
-3	үч	үч	NUM	_	_	4	nummod	_	_
-4	унаалык	унаа	NOUN	_	_	7	nmod	_	_
-5	унаа	унаа	NOUN	_	_	6	obj	_	_
-6	токтоотуучу	токто	VERB	_	_	7	acl	_	_
-7	жай	жай	NOUN	_	_	8	nsubj	_	_
-8	бар	бар	ADJ	_	_	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	_
+1	Úydiń	úy	NOUN	_	Case=Gen	5	nmod	_	_
+2	aldında	ald	NOUN	_	Case=Loc	5	obl	_	_
+3	úsh	úsh	NUM	_	_	4	nummod	_	_
+4	mashına	mashına	NOUN	_	_	5	nmod	_	_
+5	qoyıw	qoy	VERB	_	VerbForm=Inf	6	nsubj	_	_
+6	ornı	orn	NOUN	_	Case=Nom|Person[psor]=3	0	root	_	_
+7	bar	bar	AUX	_	_	6	cop	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 65
 # text = Múqáddes kitapsız dinler da bar.
@@ -2324,12 +2318,12 @@
 # text[az] = Muqəddəs kitabı olmuyan dinlər də var.
 # text[uz] = Muqaddas kitobsiz dinlar ham bor.
 # text[tr] = Kutsal kitapsız dinler de var.
-1	Ыйык	ыйык	ADJ	_	_	2	amod	_	_
-2	китепсиз	китепсиз	NOUN	_	_	3	nmod	_	_
-3	диндер	дин	NOUN	_	_	5	nsubj	_	_
-4	да	да	ADV	_	_	3	advmod:emph	_	_
-5	бар	бар	ADJ	_	_	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
+1	Múqáddes	múqáddes	ADJ	_	_	2	amod	_	_
+2	kitapsız	kitap	NOUN	_	_	3	amod	_	_
+3	dinler	din	NOUN	_	Number=Plur	0	root	_	_
+4	da	da	PART	_	_	3	discourse	_	_
+5	bar	bar	AUX	_	_	3	cop	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 65.1
 # text = Múqáddes kitapsız dinler da bar.
@@ -2357,13 +2351,13 @@
 # text[az] = Kiçik pəncərəli evlərdə kifayət qədər işıq yoxdur.
 # text[uz] = Kichkina derazali uyda yorugʻlik yetarli emas.
 # text[tr] = Küçük pencereli evde yeterince ışık yok.
-1	Кичине	кичине	ADJ	_	_	2	amod	_	_
-2	терезелүү	терезе	NOUN	_	_	3	nmod	_	_
-3	үйдө	үй	NOUN	_	_	6	obl	_	_
-4	жетиштүү	жетиштүү	ADJ	_	_	5	amod	_	_
-5	жарык	жарык	NOUN	_	_	6	nsubj	_	_
-6	жок	жок	ADJ	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	Kishi	kishi	ADJ	_	_	2	amod	_	_
+2	aynalı	ayna	NOUN	_	_	3	nmod	_	_
+3	úyde	úy	NOUN	_	Case=Loc	5	obl	_	_
+4	jeterlishe	jeterlishe	ADV	_	_	5	advmod	_	_
+5	jaqtılıq	jaqtılıq	NOUN	_	Case=Nom	0	root	_	_
+6	joq	joq	AUX	_	Polarity=Neg	5	cop	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 66.1
 # text = 
@@ -2390,11 +2384,10 @@
 # text[az] = Deniz evə gəldi?
 # text[uz] = Deniz uyga keldimi?
 # text[tr] = Deniz eve geldi mi?
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	үйгө	үй	NOUN	_	_	3	obl	_	_
-3-4	келдиби	_	_	_	_	_	_	_	SpaceAfter=No
-3	келди	кел	VERB	_	_	0	root	_	_
-4	би	бы	PART	_	_	3	discourse	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	úyge	úy	NOUN	_	Case=Dat	3	obl	_	_
+3	keldi	kel	VERB	_	Tense=Past|Person=3	0	root	_	_
+4	ma	ma	PART	_	_	3	discourse	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 68
@@ -2406,12 +2399,11 @@
 # text[az] = Deniz evə gəlmişdi?
 # text[uz] = Deniz uyga kelganmidi?
 # text[tr] = Deniz eve gelmiş miydi? 
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	үйгө	үй	NOUN	_	_	3	obl	_	_
-3	келген	кел	VERB	_	_	0	root	_	_
-4-5	беле	_	_	_	_	_	_	_	SpaceAfter=No
-4	б	бы	PART	_	_	3	discourse	_	_
-5	еле	э	AUX	_	_	3	aux	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	úyge	úy	NOUN	_	Case=Dat	3	obl	_	_
+3	kelgen	kel	VERB	_	VerbForm=Part|Tense=Past	0	root	_	_
+4	ba	ba	PART	_	_	3	discourse	_	_
+5	edi	bol	AUX	_	Tense=Past	3	aux	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 69
@@ -2423,10 +2415,9 @@
 # text[az] = Deniz evdə?
 # text[uz] = Deniz uydami?
 # text[tr] = Deniz evde mi?
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2-3	үйдөбү	_	_	_	_	_	_	_	SpaceAfter=No
-2	үйдө	үй	NOUN	_	_	0	root	_	_
-3	бү	бы	PART	_	_	2	discourse	_	_
+1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
+2	úyde	úy	NOUN	_	Case=Loc	0	root	_	_
+3	ma	ma	PART	_	_	2	discourse	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 70
