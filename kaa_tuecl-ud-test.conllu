@@ -2421,7 +2421,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 70
-# text = Deniz úyde edi ma?
+# text = 
 # glossing = Deniz home-LOC be-PST.3SG Q-COP.3SG
 # issue: Question particle, [Copula, with additonal affix on -mi]
 # text[en] = Is Deniz at home? 
@@ -2429,13 +2429,11 @@
 # text[az] = Deniz evdədir?
 # text[uz] = Deniz uydamikan?
 # text[tr] = Deniz evde midir?
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	3	obl	_	_
-3	болду	бол	VERB	_	_	0	root	_	_
-4-5	бекен	_	_	_	_	_	_	_	SpaceAfter=No
-4	б	бы	PART	_	_	3	discourse	_	_
-5	екен	экен	AUX	_	_	3	aux	_	_
-6	?	?	PUNCT	_	_	3	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	úyde	úy	NOUN	_	Case=Loc	3	obl	_	_
+3	edi	edi	AUX	_	Tense=Past	0	root	_	_
+4	ma	ma	PART	_	_	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 71
 # text = Deniz úyde edi ma?
@@ -2446,14 +2444,14 @@
 # text[az] = Deniz evdə iydi?
 # text[uz] = Deniz uyda edimi?
 # text[tr] = Deniz evde miydi?
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	0	root	_	_
-3-4	беле	_	_	_	_	_	_	_	SpaceAfter=No
-3	б	бы	PART	_	_	2	discourse	_	_
-4	еле	э	AUX	_	_	2	cop	_	_
-5	?	?	PUNCT	_	_	2	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	úyde	úy	NOUN	_	Case=Loc	3	obl	_	_
+3	edi	edi	AUX	_	Tense=Past	0	root	_	_
+4	ma	ma	PART	_	_	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 72
+
+# sent_id = 72 *
 # text = Deniz úyde emes pa edi?
 # glossing = Deniz home-LOC not Q-COP.PST.3SG
 # issue: Question particle, [with negation]
@@ -2462,13 +2460,12 @@
 # text[az] = Deniz evdə dəyildi?
 # text[uz] = Deniz uyda emasmidi?
 # text[tr] = Deniz evde değil miydi?
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	0	root	_	_
-3	эмес	эмес	ADV	_	_	2	advmod	_	_
-4-5	беле	_	_	_	_	_	_	_	SpaceAfter=No
-4	б	бы	PART	_	_	2	discourse	_	_
-5	еле	э	AUX	_	_	2	cop	_	_
-6	?	?	PUNCT	_	_	2	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+2	úyde	úy	NOUN	_	Case=Loc	3	obl	_	_
+3	emes	emes	AUX	_	Polarity=Neg	4	cop	_	_
+4	edi	edi	AUX	_	Tense=Past	0	root	_	_
+5	pa	pa	PART	_	_	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 73
 # text =Deniz úyde emes pa?
@@ -2479,11 +2476,10 @@
 # text[az] = Deniz evdə yoxdu(r)?
 # text[uz] = Deniz uyda yo'qmi?
 # text[tr] = Deniz evde yok mu?
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	3	obl	_	_
-3-4	жокпу	_	_	_	_	_	_	_	SpaceAfter=No
-3	жок	жок	ADJ	_	_	0	root	_	_
-4	пу	бы	PART	_	_	3	discourse	_	_
+1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
+2	úyde	úy	NOUN	_	Case=Loc	3	obl	_	_
+3	emes	emes	AUX	_	Polarity=Neg	0	root	_	_
+4	pa	pa	PART	_	_	3	discourse	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 74
@@ -2495,12 +2491,11 @@
 # text[az] = Evdə çörək var?
 # text[uz] = Uyda non bormi?
 # text[tr] = Evde ekmek var mi?
-1	Үйдө	үй	NOUN	_	_	3	obl	_	_
-2	нан	нан	NOUN	_	_	3	nsubj	_	_
-3-4	барбы	_	_	_	_	_	_	_	SpaceAfter=No
-3	бар	бар	ADJ	_	_	0	root	_	_
-4	бы	бы	PART	_	_	3	discourse	_	_
-5	?	?	PUNCT	_	_	3	punct	_	_
+1	Úyde	úy	NOUN	_	Case=Loc	0	root	_	_
+2	nan	nan	NOUN	_	_	1	nsubj	_	_
+3	bar	bar	AUX	_	_	1	cop	_	_
+4	ma	ma	PART	_	_	1	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 75*
 # text = 
@@ -2511,12 +2506,11 @@
 # text[az] = Evdə çörək var?
 # text[uz] = Non uyda bormi?
 # text[tr] = Evde mi ekmek var?
-1	Үйдө	үй	NOUN	_	_	3	obl	_	_
-2	нан	нан	NOUN	_	_	3	nsubj	_	_
-3-4	барбы	_	_	_	_	_	_	_	SpaceAfter=No
-3	бар	бар	ADJ	_	_	0	root	_	_
-4	бы	бы	PART	_	_	3	discourse	_	_
-5	?	?	PUNCT	_	_	3	punct	_	_
+1	Oqıǵanlarınızdı	oqı	VERB	_	VerbForm=Part|Case=Acc|Person[psor]=2|Number=Plur	2	obj	_	_
+2	túsinip	túsin	VERB	_	VerbForm=Conv	3	aux	_	_
+3	atirǵan	atır	AUX	_	Tense=Pres	0	root	_	_
+4	ba	ba	PART	_	_	3	discourse	_	_
+5	edińiz	edi	AUX	_	Tense=Past|Person=2|Number=Plur	3	aux	_	SpaceAfter=No
 
 # sent_id = 76
 # text = 
@@ -2534,7 +2528,7 @@
 4	бы	бы	PART	_	_	3	discourse	_	_
 5	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 77
+# sent_id = 77*
 # text = Oqıǵanlarınızdı túsinip atirǵan ba edińiz?
 # glossing = read-VN-POSS.2SG.FRM-ACC understand-INF lie.down-PST.PROG-2SG.FRM-Q 
 # issue: Question particle, [multiple affixes on -mu]
@@ -2543,12 +2537,11 @@
 # text[az] = Oxuduğuzu düsünürdüz?
 # text[uz] = O'qiganingizni tushundingizmi?
 # text[tr] = Okuduğunuzu anlıyor muydunuz?
-1	Окуганыңызды	оку	VERB	_	_	2	ccomp	_	_
-2	түшүнүп	түшүн	VERB	_	_	0	root	_	_
-3-4	жаттыңызбы	_	_	_	_	_	_	_	SpaceAfter=No
-3	жаттыңыз	жат	AUX	_	_	2	aux	_	_
-4	бы	бы	PART	_	_	2	discourse	_	_
-5	?	?	PUNCT	_	_	2	punct	_	_
+1	Oqıǵanlarınızdı	oqı	VERB	_	VerbForm=Part|Case=Acc|Person[psor]=2|Number=Plur	2	obj	_	_
+2	túsinip	túsin	VERB	_	VerbForm=Conv	3	aux	_	_
+3	atirǵan	atır	AUX	_	Tense=Pres	0	root	_	_
+4	ba	ba	PART	_	_	3	discourse	_	_
+5	edińiz	edi	AUX	_	Tense=Past|Person=2|Number=Plur	3	aux	_	SpaceAfter=No
 
 # sent_id = 78
 # text = Deniz kitaptı  Ayhanǵa azanda berdi ma?
@@ -2559,15 +2552,13 @@
 # text[az] = Söbh Deniz kitabı Ayhana verdi?
 # text[uz] = Ertalab Deniz kitobni Oyxonga berdimi?
 # text[tr] = Sabah Deniz kitabı Ayhan'a verdi mi?
-1	Эртең	эртең	ADV	_	_	6	advmod	_	_
-2	менен	менен	ADP	_	_	1	fixed	_	_
-3	Дениз	Дениз	PROPN	_	_	6	nsubj	_	_
-4	китепти	китеп	NOUN	_	_	6	obj	_	_
-5	Айханга	Айхан	PROPN	_	_	6	obl	_	_
-6-7	бердиби	_	_	_	_	_	_	_	SpaceAfter=No
-6	берди	бер	VERB	_	_	0	root	_	_
-7	би	бы	PART	_	_	6	discourse	_	_
-8	?	?	PUNCT	_	_	6	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+2	kitaptı	kitap	NOUN	_	Case=Acc	4	obj	_	_
+3	Ayhanǵa	Ayhan	PROPN	_	Case=Dat	4	iobj	_	_
+4	azanda	azan	NOUN	_	_	0	root	_	_
+5	berdi	ber	VERB	_	Tense=Past|Person=3	4	aux	_	_
+6	ma	ma	PART	_	_	4	discourse	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 79
 # text =Azanda Deniz kitaptı  Ayhanǵa berdi ma?
@@ -2578,15 +2569,13 @@
 # text[az] = Söbh Deniz kitabı Ayhana verdi?
 # text[uz] = Ertalab kitobni Oyxonga Deniz berdimi?
 # text[tr] = Sabah Deniz mi kitabı Ayhan'a verdi?
-1	Эртең	эртең	ADV	_	_	6	advmod	_	_
-2	менен	менен	ADP	_	_	1	fixed	_	_
-3	Дениз	Дениз	PROPN	_	_	6	nsubj	_	_
-4	китепти	китеп	NOUN	_	_	6	obj	_	_
-5	Айханга	Айхан	PROPN	_	_	6	obl	_	_
-6-7	бердиби	_	_	_	_	_	_	_	SpaceAfter=No
-6	берди	бер	VERB	_	_	0	root	_	_
-7	би	бы	PART	_	_	6	discourse	_	_
-8	?	?	PUNCT	_	_	6	punct	_	_
+1	Azanda	azan	NOUN	_	_	4	obl	_	_
+2	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+3	kitaptı	kitap	NOUN	_	Case=Acc	4	obj	_	_
+4	Ayhanǵa	Ayhan	PROPN	_	Case=Dat	0	root	_	_
+5	berdi	ber	VERB	_	Tense=Past|Person=3	4	aux	_	_
+6	ma	ma	PART	_	_	4	discourse	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 80
 # text = Deniz kitaptı  azanda Ayhanǵa berdi ma?
@@ -2597,15 +2586,12 @@
 # text[az] = Söbh kitabı Deniz Ayhana verdi?
 # text[uz] = Ertalab Deniz Oyxonga kitobni berdimi?
 # text[tr] = Sabah Deniz kitabı mı Ayhan'a verdi?
-1	Эртең	эртең	ADV	_	_	6	advmod	_	_
-2	менен	менен	ADP	_	_	1	fixed	_	_
-3	Дениз	Дениз	PROPN	_	_	6	nsubj	_	_
-4	китепти	китеп	NOUN	_	_	6	obj	_	_
-5	Айханга	Айхан	PROPN	_	_	6	obl	_	_
-6-7	бердиби	_	_	_	_	_	_	_	SpaceAfter=No
-6	берди	бер	VERB	_	_	0	root	_	_
-7	би	бы	PART	_	_	6	discourse	_	_
-8	?	?	PUNCT	_	_	6	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+2	kitaptı	kitap	NOUN	_	Case=Acc	4	obj	_	_
+3	azanda	azan	NOUN	_	_	4	obl	_	_
+4	Ayhanǵa	Ayhan	PROPN	_	Case=Dat	0	root	_	_
+5	berdi	ber	VERB	_	Tense=Past|Person=3	4	aux	_	_
+6	ma	ma	PART	_	_	4	discourse	_	SpaceAfter=No
 
 # sent_id = 81
 # text = Azanda Deniz Ayhanǵa kitaptı  berdi ma?
@@ -2616,15 +2602,12 @@
 # text[az] = Söbh kitabı Deniz Ayhana verdi?
 # text[uz] = Ertalab Deniz kitobni Oyxonga berdimi?
 # text[tr] = Sabah Deniz kitabı Ayhan'a mı verdi?
-1	Эртең	эртең	ADV	_	_	6	advmod	_	_
-2	менен	менен	ADP	_	_	1	fixed	_	_
-3	Дениз	Дениз	PROPN	_	_	6	nsubj	_	_
-4	китепти	китеп	NOUN	_	_	6	obj	_	_
-5	Айханга	Айхан	PROPN	_	_	6	obl	_	_
-6-7	бердиби	_	_	_	_	_	_	_	SpaceAfter=No
-6	берди	бер	VERB	_	_	0	root	_	_
-7	би	бы	PART	_	_	6	discourse	_	_
-8	?	?	PUNCT	_	_	6	punct	_	_
+1	Azanda	azan	NOUN	_	_	4	obl	_	_
+2	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
+3	Ayhanǵa	Ayhan	PROPN	_	Case=Dat	4	iobj	_	_
+4	kitaptı	kitap	NOUN	_	Case=Acc	0	root	_	_
+5	berdi	ber	VERB	_	Tense=Past|Person=3	4	aux	_	_
+6	ma	ma	PART	_	_	4	discourse	_	SpaceAfter=No
 
 # sent_id = 82
 # text = Deniz  Ayhanǵa kitaptı  azanda berdi ma?
@@ -2635,15 +2618,13 @@
 # text[az] = Deniz kitabı Ayhana söbh verdi?
 # text[uz] = Deniz kitobni Oyxonga ertalab berdimi?
 # text[tr] = Deniz kitabı Ayhan'a sabah mı verdi?
-1	Дениз	Дениз	PROPN	_	_	6	nsubj	_	_
-2	китепти	китеп	NOUN	_	_	6	obj	_	_
-3	Айханга	Айхан	PROPN	_	_	6	obl	_	_
-4	эртең	эртең	ADV	_	_	6	advmod	_	_
-5	менен	менен	ADP	_	_	4	fixed	_	_
-6-7	бердиби	_	_	_	_	_	_	_	SpaceAfter=No
-6	берди	бер	VERB	_	_	0	root	_	_
-7	би	бы	PART	_	_	6	discourse	_	_
-8	?	?	PUNCT	_	_	6	punct	_	_
+1	Deniz	Deniz	PROPN	_	_	5	nsubj	_	_
+2	Ayhanǵa	Ayhan	PROPN	_	Case=Dat	5	iobj	_	_
+3	kitaptı	kitap	NOUN	_	Case=Acc	5	obj	_	_
+4	azanda	azan	NOUN	_	_	5	obl	_	_
+5	berdi	ber	VERB	_	Tense=Past|Person=3	0	root	_	SpaceAfter=No
+6	ma	ma	PART	_	_	5	discourse	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 83
 # text = Kógin bere alasız ba?
@@ -2654,12 +2635,11 @@
 # text[az] = Mənə abisini verərsən?
 # text[uz] = Menga ko'kni bera olasizmi?
 # text[tr] = Bana maviyi verir misin?
-1	Мага	мен	PRON	_	_	3	obl	_	_
-2	көктү	көк	ADJ	_	_	3	obj	_	_
-3-4	бересиңби	_	_	_	_	_	_	_	SpaceAfter=No
-3	бересиң	бер	VERB	_	_	0	root	_	_
-4	би	бы	PART	_	_	3	discourse	_	_
-5	?	?	PUNCT	_	_	3	punct	_	_
+1	Kógin	kógin	VERB	_	_	2	obj	_	_
+2	bere	ber	VERB	_	VerbForm=Conv	0	root	_	_
+3	alasız	al	AUX	_	Person=2|Number=Plur|Tense=Pres	2	aux	_	_
+4	ba	ba	PART	_	_	2	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 84
 # text = Kók versiyasi jaqsiraq .
@@ -2670,9 +2650,9 @@
 # text[az] = Bunun abisi daha gözəldir.
 # text[uz] = Buning ko‘k rangi chiroyliroq.
 # text[tr] = Bunun mavisi daha güzel.
-1	Мунун	бул	PRON	_	_	2	nmod:poss	_	_
-2	көгү	көк	ADJ	_	_	3	nsubj	_	_
-3	жакшыраак	жакшы	ADJ	_	_	0	root	_	SpaceAfter=No
+1	Kók	kók	ADJ	_	Degree=Pos	2	amod	_	_
+2	versiyasi	versiya	NOUN	_	Case=Nom|Person[psor]=3	3	nsubj	_	_
+3	jaqsiraq	jaqsi	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 85
@@ -2684,13 +2664,11 @@
 # text[az] = Mənim maşınım Denizinkinin abisi.
 # text[uz] = Mening mashinam Deniznikining ko‘ki.
 # text[tr] = Benim arabam Deniz'inkinin mavisi.
-1	Менин	мен	PRON	_	_	2	nmod:poss	_	_
-2	унаам	унаа	NOUN	_	_	5	nsubj	_	_
-3-4	Дениздикинин	_	_	_	_	_	_	_	_
-3	Денизди	Дениз	PROPN	_	_	4	nmod:poss	_	_
-4	кинин	ки	PRON	_	_	5	nmod:poss	_	_
-5	көгү	көк	ADJ	_	_	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
+1	Meniń	men	PRON	_	Case=Gen|Person=1	2	nmod:poss	_	_
+2	mashinam	mashina	NOUN	_	Case=Nom|Person[psor]=1	4	nsubj	_	_
+3	Deńizdikiniń	Deniz	PROPN	_	Case=Gen|Person[psor]=3	4	nmod:poss	_	_
+4	kógi	kók	NOUN	_	Case=Nom|Person[psor]=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 86
 # text = Kitap oqılıp atir.
@@ -2701,12 +2679,12 @@
 # text[az] = Kitab oxunur.
 # text[uz] = Kitob o‘qilyapti.
 # text[tr] = Kitap okunuyor.
-1	Китеп	китеп	NOUN	_	_	2	nsubj	_	_
-2	окулуп	оку	VERB	_	_	0	root	_	_
-3	жатат	жат	AUX	_	_	2	aux	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	2	punct	_	_
+1	Kitap	kitap	NOUN	_	_	3	nsubj:pass	_	_
+2	oqılıp	oqı	VERB	_	VerbForm=Conv|Voice=Pass	3	aux	_	_
+3	atir	atır	AUX	_	Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 87
+# sent_id = 87*
 # text = Kitap barlıq mekteplerde oqıtıladı.
 # glossing = book all school-PL-LOC read-CAUS-CAUS-PASS-FUT.3SG
 # issue: Double causative example
@@ -2715,10 +2693,10 @@
 # text[az] = Kitab tamam mədrəsələrdə oxutdurulacax.
 # text[uz] = Kitob barcha maktablarda o‘qitiladi.
 # text[tr] = Kitap bütün okullarda okutturulacak.
-1	Китеп	китеп	NOUN	_	_	4	nsubj:pass	_	_
-2	бардык	бардык	DET	_	_	3	det	_	_
-3	мектептерде	мектеп	NOUN	_	_	4	obl	_	_
-4	окуттурулат	оку	VERB	_	_	0	root	_	SpaceAfter=No
+1	Kitap	kitap	NOUN	_	_	3	nsubj:pass	_	_
+2	barlıq	barlıq	DET	_	_	3	amod	_	_
+3	mekteplerde	mektep	NOUN	_	Case=Loc|Number=Plur	4	obl	_	_
+4	oqıtıladı	oqıt	VERB	_	Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 88
@@ -2730,8 +2708,8 @@
 # text[az] = Deniz yuxladıldı.
 # text[uz] = Denizni uxlatishdi.
 # text[tr] = Deniz uyutuldu.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj:pass	_	_
-2	уктатылды	укта	VERB	_	_	0	root	_	SpaceAfter=No
+1	Denizdi	Deniz	PROPN	_	Case=Acc	2	obj	_	_
+2	uyqlattı	uyqla	VERB	_	Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 89
@@ -2743,8 +2721,8 @@
 # text[az] = Olar getdi.
 # text[uz] = Ular ketdi.
 # text[tr] = Onlar gitti.
-1	Алар	алар	PRON	_	_	2	nsubj	_	_
-2	кетти	кет	VERB	_	_	0	root	_	SpaceAfter=No
+1	Olar	olar	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	ketti	ket	VERB	_	Tense=Past|Person=3|Number=Plur	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 89.1
@@ -2756,12 +2734,12 @@
 # text[az] = Onlar gittiler. [note: It doesn't work with RECP in az]
 # text[uz] = 
 # text[tr] = Onlar gittiler. [note: It doesn't work with RECP in tr]
-1	Алар	алар	PRON	_	_	2	nsubj	_	_
-2	кетишти	кет	VERB	_	_	0	root	_	SpaceAfter=No
+1	Ol	ol	PRON	_	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	_
+2	ketti	ket	VERB	_	Tense=Past|Person=3|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 90
-# text = Deniz usı jerge kelip, kitap oqıp turatuǵın edi.
+# text = .
 # glossing = he/she leave-PST.3SG
 # issue: Plural Subject, but singular Verb
 # text[en] = He/She left./ He/She is gone.
@@ -2774,7 +2752,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 91
-# text = Siz da biz benen kelesiz, durıs pa?
+# text =  Deniz usı jerge kelip, kitap oqıp turatuǵın edi.
 # glossing = Deniz this place-LOC come-INF, free time-PL--LOC book read-3SG used-to
 # issue: Miscellaneous, [idi + epenthesis]
 # text[en] = Deniz used to come here and read a book in her free time.
@@ -2782,17 +2760,16 @@
 # text[az] = Deniz buralara gəlip, boş vəxtində kitab oxuyar iydi.
 # text[uz] = Deniz bu yerga kelib, bo‘sh vaqtlarida kitob o‘qir edi.
 # text[tr] = Deniz buralara gelir, boş vakitlerinde kitap okur idi.
-1	Дениз	Дениз	PROPN	_	_	4	nsubj	_	_
-2	бул	бул	DET	_	_	3	det	_	_
-3	жакка	жак	NOUN	_	_	4	obl	_	_
-4	келип	кел	VERB	_	_	0	root	_	SpaceAfter=No
+1	Deniz	Deniz	PROPN	_	_	7	nsubj	_	_
+2	usı	usı	DET	_	_	3	det	_	_
+3	jerge	jer	NOUN	_	Case=Dat	4	obl	_	_
+4	kelip	kel	VERB	_	VerbForm=Conv	7	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	бош	бош	ADJ	_	_	7	amod	_	_
-7	убактыларында	убакыт	NOUN	_	_	9	obl:tmod	_	_
-8	китеп	китеп	NOUN	_	_	9	obj	_	_
-9	окуйт	оку	VERB	_	_	4	conj	_	_
-10	эле	э	AUX	_	_	9	aux	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	4	punct	_	_
+6	kitap	kitap	NOUN	_	_	7	obj	_	_
+7	oqıp	oq	VERB	_	VerbForm=Conv	8	aux	_	_
+8	turatuǵın	tur	VERB	_	VerbForm=Part|Tense=Pres	0	root	_	_
+9	edi	bol	AUX	_	Tense=Past	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 92
 # text = Siz da biz benen kelesiz, durıs pa?
@@ -2803,15 +2780,14 @@
 # text[az] = Sən də bizinən gəlirən, elə dəğil?
 # text[uz] = Siz biz bilan kelasiz, to‘g‘rimi?
 # text[tr] = Sen de bizimle geliyorsun, değil mi?
-1	Сен	сен	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
-2	да	да	ADV	_	_	1	advmod:emph	_	_
-3	биз	биз	PRON	_	_	5	obl	_	_
-4	менен	менен	CCONJ	_	_	3	case	_	_
-5	келесиң	кел	VERB	_	_	0	root	_	SpaceAfter=No
+1	Siz	siz	PRON	_	Case=Nom|Person=2|Number=Sing	4	nsubj	_	_
+2	da	da	PART	_	_	1	discourse	_	_
+3	biz	biz	PRON	_	Case=Ins|Person=1|Number=Plur	4	obl	_	_
+4	benen	bilen	ADP	_	_	3	case	_	_
+5	kelesiz	kel	VERB	_	Tense=Pres|Person=2	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7-8	туурабы	_	_	_	_	_	_	_	SpaceAfter=No
-7	туура	туура	ADJ	_	_	5	discourse	_	_
-8	бы	бы	PART	_	_	7	discourse	_	_
+7	durıs	durıs	ADJ	_	_	5	parataxis	_	_
+8	pa	pa	PART	_	_	7	discourse	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 93
@@ -2825,25 +2801,19 @@
 # text[tr] = O öyle bir kitap ki okuyan bir daha dünyaya aynı gözle bakamaz.
 # note: There is no 'ki' connecting sentences in Kyrgyz. 
 # added адам - adam 'nsubj'
-1	Ал	ал	PRON	_	_	5	nsubj	_	_
-2	yшунчалык	ушунчалык	ADV	_	_	3	advmod	_	_
-3	укмуш	укмуш	ADJ	_	_	5	amod	_	_
-4	бир	бир	DET	_	_	5	det	_	_
-5	китеп	китеп	NOUN	_	_	6	xcomp	_	_
-6	дейсиң	де	VERB	_	_	17	parataxis	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
-8	аны	ал	PRON	_	_	9	obj	_	_
-9	окуган	оку	VERB	_	_	10	acl	_	_
-10	адам	адам	NOUN	_	_	17	nsubj	_	_
-11	дүйнөгө	дүйнө	NOUN	_	_	17	obj	_	_
-12	кайра	кайра	ADV	_	_	17	advmod	_	_
-13	мурункудай	мурункудай	ADJ	_	_	15	amod	_	_
-14	көз	көз	NOUN	_	_	15	compound	_	_
-15	караш	кара	NOUN	_	_	17	obl	_	_
-16	менен	менен	ADP	_	_	15	case	_	_
-17	карай	кара	VERB	_	_	0	root	_	_
-18	албайт	ал	AUX	_	_	17	aux	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	17	punct	_	_
+1	Ol	ol	PRON	_	Case=Nom|Person=3|PronType=Prs	4	nsubj	_	_
+2	sonday	sonday	DET	_	_	4	det	_	_
+3	bir	bir	NUM	_	_	4	nummod	_	_
+4	kitap	kitap	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	onı	ol	PRON	_	Case=Acc|Person=3	7	obj	_	_
+7	oqıǵan	oqı	VERB	_	VerbForm=Part	8	acl	_	_
+8	adam	adam	NOUN	_	Case=Nom	11	nsubj	_	_
+9	dúnyaǵa	dúnya	NOUN	_	Case=Dat	11	obl	_	_
+10	názeri	názer	NOUN	_	Case=Nom|Person[psor]=3	11	nsubj	_	_
+11	bolmaydı	bol	VERB	_	Tense=Pres|Polarity=Neg	4	conj	_	_
+12	burınǵıday	burınǵıday	ADV	_	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 94
 # text = Sen birinshi tazalawdı tamamla , keyin bizler utyuglew menen shuǵıllanamız.
@@ -2854,15 +2824,17 @@
 # text[az] = Sən əvvəl təmizləməgi qutar da ütüyü hal elərik.
 # text[uz] = Sen avval tozalashni tugat, biz dazmollaymiz.
 # text[tr] = Sen önce temizliği bitir de ütüyü hallederiz.
-1	Сен	сен	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
-2	биринчи	биринчи	ADV	_	_	4	advmod	_	_
-3	тазалоону	тазалоо	NOUN	_	_	4	obj	_	_
-4	бүтүр	бүт	VERB	_	_	0	root	_	SpaceAfter=No
+1	Sen	sen	PRON	_	Case=Nom|Person=2|Number=Sing	4	nsubj	_	_
+2	birinshi	birinshi	ADJ	_	_	3	amod	_	_
+3	tazalawdı	tazala	VERB	_	VerbForm=Inf|Case=Acc	4	obj	_	_
+4	tamamla	tamamla	VERB	_	Mood=Imp|Person=2	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	анан	анан	ADV	_	_	4	advmod:emph	_	_
-7	биз	биз	PRON	_	_	8	obj	_	_
-8	үтүктөйбүз	үтүктө	VERB	_	_	4	conj	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	_
+6	keyin	keyin	ADV	_	_	9	advmod	_	_
+7	bizler	biz	PRON	_	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+8	utyuglew	utyugle	VERB	_	VerbForm=Inf	9	obl	_	_
+9	menen	bilen	ADP	_	_	8	case	_	_
+10	shuǵıllanamız	shuǵıllan	VERB	_	Tense=Pres|Person=1|Number=Plur	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 95
 # text =Aytıwlarına qaraǵanda, Aysha Hakanǵa úy jumısına járdemlesken.
@@ -2873,17 +2845,15 @@
 # text[az] = Deyəsən Ayşə Hakanın məşq yazmasına kömək eləmişimiş.
 # text[uz] = Aytishlaricha, Oysha Xoqonga uy vazifalarini bajarishda yordam bergan.
 # text[tr] = Sözde Ayşe Hakan'ın ödevi yapmasına yardım etmişmiş.
-1	Айткандарга	айт	VERB	_	_	2	advcl	_	_
-2	караганда	кара	VERB	_	_	10	advcl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	10	punct	_	_
-4	Айше	Айше	PROPN	_	_	10	nsubj	_	_
-5	Хаканга	Хакан	PROPN	_	_	10	obl	_	_
-6	үй	үй	NOUN	_	_	7	nmod	_	_
-7	тапшырмасын	тапшырма	NOUN	_	_	8	obj	_	_
-8	жасоого	жаса	VERB	_	_	10	xcomp	_	_
-9	жардам	жардам	NOUN	_	_	10	obj	_	_
-10	бериптир	бер	VERB	_	_	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	_	_
+1	Aytıwlarına	ayt	VERB	_	VerbForm=Inf|Person[psor]=3|Case=Dat	2	obl	_	_
+2	qaraǵanda	qara	VERB	_	VerbForm=Conv	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Aysha	Aysha	PROPN	_	_	6	nsubj	_	_
+5	Hakanǵa	Hakan	PROPN	_	Case=Dat	6	iobj	_	_
+6	úy	úy	NOUN	_	_	7	obl	_	_
+7	jumısına	jumıs	NOUN	_	Case=Dat|Person[psor]=3	8	obl	_	_
+8	járdemlesken	járdemles	VERB	_	VerbForm=Part|Tense=Past	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 95.1
 # text = 
@@ -2915,13 +2885,14 @@
 # text[az] = Kollən movəffəq bir film iydi.
 # text[uz] = Umuman olganda, bu muvaffaqiyatli film edi.
 # text[tr] = Genel olarak başarılı bir filmdi.
-1	Жалпы	жалпы	ADV	_	_	2	advmod	_	_
-2	алганда	ал	VERB	_	_	5	advcl	_	_
-3	ийгиликтүү	ийгиликтүү	ADJ	_	_	5	amod	_	_
-4	бир	бир	DET	_	_	5	det	_	_
-5	фильм	фильм	NOUN	_	_	0	root	_	_
-6	болду	бол	AUX	_	_	5	aux	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+1	Ulıwma	ulıwma	ADV	_	_	4	advmod	_	_
+2	alǵanda	al	VERB	_	VerbForm=Conv	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	bul	bul	DET	_	_	5	det	_	_
+5	áwmetli	áwmetli	ADJ	_	_	0	root	_	_
+6	film	film	NOUN	_	_	5	nsubj	_	_
+7	edi	bol	AUX	_	Tense=Past	5	cop	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 97
 # text = Alma terekleri Aprel-May aylarında gúllep óz-ara shańlanadı.
@@ -2933,17 +2904,14 @@
 # text[uz] = Olma daraxtlari aprel-may oylarida gullab, o‘zaro changlanadi.
 # text[tr] = Elma ağaçları Nisan-Mayıs aylarında çiçek açıp, karşılıklı tozlaşır.
 # note: 'april TO may' not 'april AND may' - (in this case functions if as a 'AND') conj. If numerical ranges '-' in Eng: - as a POS: (SYM)BOL and as a dep: case, see sent_id = 97.2
-1	Алма	алма	NOUN	_	_	2	nmod	_	_
-2	дарактар	дарак	NOUN	_	_	7	nsubj	_	_
-3	апрель	апрель	NOUN	_	_	6	nmod	_	SpaceAfter=No
-4	-	-	SYM	_	_	3	case	_	SpaceAfter=No
-5	май	май	NOUN	_	_	6	nmod	_	_
-6	айларында	ай	NOUN	_	_	7	obl	_	_
-7	гүлдөп	гүлдө	VERB	_	_	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	кайчылаш	кайчылаш	ADV	_	_	10	advmod	_	_
-10	чаңдашат	чаңда	VERB	_	_	7	advcl	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	7	punct	_	_
+1	Alma	alma	NOUN	_	_	2	nmod	_	_
+2	terekleri	terek	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+3	Aprel-May	Aprel-May	PROPN	_	_	5	obl	_	_
+4	aylarında	ay	NOUN	_	Case=Loc|Number=Plur	5	obl	_	_
+5	gúllep	gúl	VERB	_	VerbForm=Conv	6	aux	_	_
+6	óz-ara	óz-ara	ADJ	_	_	0	root	_	_
+7	shańlanadı	shańlan	VERB	_	Tense=Pres	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 97.1
 # text = 
