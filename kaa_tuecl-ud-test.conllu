@@ -2196,7 +2196,7 @@
 # glossing = morning-ATTR day-LOC patience-ABE with.INST wait-INF lie.down-NPST[1]
 # issue: MWE / segmentation
 # text[en] = I am looking forward to tomorrow.
-# text = Эртеңки күндү чыдамсыздык менен күтүп жатам.
+# text[ky] = Эртеңки күндү чыдамсыздык менен күтүп жатам.
 # text[az] = Sabahı səbirsizliklə gözləyirəm.
 # text[uz] = Ertangi kunni intiqlik bilan kutaman.
 # text[tr] = Yarını iple çekiyorum.
@@ -2213,7 +2213,7 @@
 # glossing = hospital people service-POSS.3SG-DAT give-PASS-PST.3SG
 # issue: MWE / segmentation
 # text[en] = The hospital was made available to the public.
-# text = Оорукана эл кызматына берилди.
+# text[ky] = Оорукана эл кызматына берилди.
 # text[az] = Xəstəxana xalqın xidmətinə verildi.
 # text[uz] = Kasalxona davlat xizmatiga topshirildi.
 # text[tr] = Hastane halkın hizmetine sunuldu.
@@ -2228,7 +2228,7 @@
 # glossing = big home-LOC-ATTR child book read-INF lie.down-NPST-3
 # issue: MWE / segmentation
 # text[en] = The child in the big house is reading (a) book.
-# text = Чоң үйдөгү бала китеп окуп жатат.
+# text[ky] = Чоң үйдөгү бала китеп окуп жатат.
 # text[az] = Böyük evdəki uşaq kitab oxur.
 # text[uz] = Katta uydagi bola kitob o'qiyapti.
 # text[tr] = Büyük evdeki çocuk kitap okuyor.
@@ -2245,7 +2245,7 @@
 # glossing = big home-LOC-ATTR book read-INF lie.down-NPST-3
 # issue: MWE / segmentation
 # text[en] = The one in the big house is reading (a) book.
-# text = Чоң үйдөгү китеп окуп жатат.
+# text[ky] = Чоң үйдөгү китеп окуп жатат.
 # text[az] = Böyük evdəki kitab oxur.
 # text[uz] = Katta uydagi kitob o'qiyapti.
 # text[tr] = Büyük evdeki kitap okuyor.
@@ -2261,7 +2261,7 @@
 # glossing = big house-LOC.REL child-GEN hair-3SG yellow, small house-LOC.REL-3SG-GEN brown
 # issue: MWE / segmentation 
 # text[en] = The hair of the child in the big house is blond, the one of the one in the small house is brown.
-# text = Чоң үйдөгү баланын чачы сары, кичинекей үйдөгүнүкү күрөң.
+# text[ky] = Чоң үйдөгү баланын чачы сары, кичинекей үйдөгүнүкү күрөң.
 # text[az] = Böyük evdəki uşağın tüklәri sarıdır, kiçik evdəkininki qəhveyidir.
 # text[uz] = Katta uydagi bolaning sochi sargʻish, kichik uydaginiki jigarrang.
 # text[tr] = Büyük evdeki çocuğun saçları sarı, küçük evdekininki kahverengi.
@@ -2281,7 +2281,7 @@
 # glossing = onion-ACC become.red-VN-DAT until fry-IMP-2SG.FRM
 # issue: MWE / segmentation
 # text[en] = Fry the onions until they become dark pinк.
-# text = Пиязды кызарганга чейин кууруңуз.
+# text[ky] = Пиязды кызарганга чейин кууруңуз.
 # text[az] = Soğanları qərələnə çan qızardın.
 # text[uz] = Piyozni toʻq pushti rangga aylanguniga qadar qovuring.
 # text[tr] = Soğanları koyu pembeleşinceye kadar kavurun.
@@ -2296,7 +2296,7 @@
 # glossing = home-GEN front-POSS.3SG-LOC three car.PRTV car stop place exist
 # issue: MWE / segmentation
 # text[en] = There is a three-car parking place in front of the house.
-# text = Үйдүн алдында үч унаалык унаа токтоотуучу жай бар.
+# text[ky] = Үйдүн алдында үч унаалык унаа токтоотуучу жай бар.
 # text[az] = Evin qabağında üç maşınlıq park yeri var.
 # text[uz] = Uyning oldida uchta mashina uchun toʻxtash joyi bor.
 # text[tr] = Evin önünde üç arabalık park yeri var.
@@ -2314,7 +2314,7 @@
 # glossing = holy book-ABE religion-PL also exist
 # issue: MWE / segmentation (китепсиз 'kitepsiz')
 # text[en] = There are religions without holly books.
-# text = Ыйык китепсиз диндер да бар.
+# text[ky] = Ыйык китепсиз диндер да бар.
 # text[az] = Muqəddəs kitabı olmuyan dinlər də var.
 # text[uz] = Muqaddas kitobsiz dinlar ham bor.
 # text[tr] = Kutsal kitapsız dinler de var.
@@ -2330,7 +2330,7 @@
 # glossing = holy book-POSS.3SG be-NEG-PTCP religion-PL also exist
 # issue: MWE / segmentation
 # text[en] = There are also/even religions without holy books.
-# text = Ыйык китеби болбогон диндер да бар.
+# text[ky] = Ыйык китеби болбогон диндер да бар.
 # text[az] = Muqəddəs kitabı olmuyan dinlər də var.
 # text[uz] = Muqaddas kitobsiz dinlar ham bor.
 # text[tr] = Kutsal kitapsız dinler de var.
@@ -2347,7 +2347,7 @@
 # glossing = small window.ORN home-LOC enough-ORN light not.exist
 # issue: MWE / segmentation
 # text[en] = There is not enough light in the house with small windows.
-# text = Кичине терезелүү үйдө жетиштүү жарык жок.
+# text[ky] = Кичине терезелүү үйдө жетиштүү жарык жок.
 # text[az] = Kiçik pəncərəli evlərdə kifayət qədər işıq yoxdur.
 # text[uz] = Kichkina derazali uyda yorugʻlik yetarli emas.
 # text[tr] = Küçük pencereli evde yeterince ışık yok.
@@ -2364,7 +2364,7 @@
 # glossing = small window.ORN home-LOC light enough-ABE
 # issue: MWE / segmentation (second variant of the translation)
 # text[en] = There is not enough light in the house with small windows.
-# text = Кичине терезелүү үйдө жарык жетишсиз.
+# text[ky] = Кичине терезелүү үйдө жарык жетишсиз.
 # text[az] = Kiçik pəncərəli evlərdə kifayət qədər işıq yoxdur.
 # text[uz] = Kichkina derazali uyda yorugʻlik yetarli emas.
 # text[tr] = Küçük pencereli evde yeterince ışık yok.
@@ -2380,7 +2380,7 @@
 # glossing = Deniz home-DAT come-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz come home?
-# text = Дениз үйгө келдиби?
+# text[ky] = Дениз үйгө келдиби?
 # text[az] = Deniz evə gəldi?
 # text[uz] = Deniz uyga keldimi?
 # text[tr] = Deniz eve geldi mi?
@@ -2395,7 +2395,7 @@
 # glossing = Deniz home-DAT come-PST.PFV Q-COP.PST.3SG
 # issue: Question particle, [Canopula/aux attached to -mi]
 # text[en] = Had Deniz come home? 
-# text = Дениз үйгө келген беле?
+# text[ky] = Дениз үйгө келген беле?
 # text[az] = Deniz evə gəlmişdi?
 # text[uz] = Deniz uyga kelganmidi?
 # text[tr] = Deniz eve gelmiş miydi? 
@@ -2411,7 +2411,7 @@
 # glossing = Deniz home-LOC-Q
 # issue: Question particle, [Copula "mi"]
 # text[en] = Is Deniz at home? 
-# text = Дениз үйдөбү?
+# text[ky] = Дениз үйдөбү?
 # text[az] = Deniz evdə?
 # text[uz] = Deniz uydami?
 # text[tr] = Deniz evde mi?
@@ -2425,7 +2425,7 @@
 # glossing = Deniz home-LOC be-PST.3SG Q-COP.3SG
 # issue: Question particle, [Copula, with additonal affix on -mi]
 # text[en] = Is Deniz at home? 
-# text = Дениз үйдө болду бекен?
+# text[ky] = Дениз үйдө болду бекен?
 # text[az] = Deniz evdədir?
 # text[uz] = Deniz uydamikan?
 # text[tr] = Deniz evde midir?
@@ -2440,7 +2440,7 @@
 # glossing = Deniz home-LOC Q-COP.PST.3SG
 # issue: Question particle
 # text[en] = Was Deniz at home?
-# text = Дениз үйдө беле?
+# text[ky] = Дениз үйдө беле?
 # text[az] = Deniz evdə iydi?
 # text[uz] = Deniz uyda edimi?
 # text[tr] = Deniz evde miydi?
@@ -2456,7 +2456,7 @@
 # glossing = Deniz home-LOC not Q-COP.PST.3SG
 # issue: Question particle, [with negation]
 # text[en] = Was Deniz not at home?
-# text = Дениз үйдө эмес беле?
+# text[ky] = Дениз үйдө эмес беле?
 # text[az] = Deniz evdə dəyildi?
 # text[uz] = Deniz uyda emasmidi?
 # text[tr] = Deniz evde değil miydi?
@@ -2472,7 +2472,7 @@
 # glossing = Deniz home-LOC not.exist-Q
 # issue: Question particle, [Negation with 'yok']
 # text[en] = Is Deniz not at home?
-# text = Дениз үйдө жокпу?
+# text[ky] = Дениз үйдө жокпу?
 # text[az] = Deniz evdə yoxdu(r)?
 # text[uz] = Deniz uyda yo'qmi?
 # text[tr] = Deniz evde yok mu?
@@ -2487,7 +2487,7 @@
 # glossing = home-LOC bread exist-Q
 # issue: Question particle
 # text[en] = Is there (any) bread at home?
-# text = Үйдө нан барбы?
+# text[ky] = Үйдө нан барбы?
 # text[az] = Evdə çörək var?
 # text[uz] = Uyda non bormi?
 # text[tr] = Evde ekmek var mi?
@@ -2502,7 +2502,7 @@
 # glossing = home-LOC bread exist-Q
 # issue: Question particle
 # text[en] = Is there (any) bread at home?
-# text = Үйдө нан барбы?
+# text[ky] = Үйдө нан барбы?
 # text[az] = Evdə çörək var?
 # text[uz] = Non uyda bormi?
 # text[tr] = Evde mi ekmek var?
@@ -2517,7 +2517,7 @@
 # glossing = home-LOC bread exist-Q
 # issue: Question particle
 # text[en] = Is there (any) bread at home?
-# text = Үйдө нан барбы?
+# text[ky] = Үйдө нан барбы?
 # text[az] = Çörək var evdə?
 # text[uz] = Uyda non bormi?
 # text[tr] = Evde ekmek mi var?
@@ -2533,7 +2533,7 @@
 # glossing = read-VN-POSS.2SG.FRM-ACC understand-INF lie.down-PST.PROG-2SG.FRM-Q 
 # issue: Question particle, [multiple affixes on -mu]
 # text[en] = Were you understanding what you read? 
-# text = Окуганыңызды түшүнүп жаттыңызбы?
+# text[ky] = Окуганыңызды түшүнүп жаттыңызбы?
 # text[az] = Oxuduğuzu düsünürdüz?
 # text[uz] = O'qiganingizni tushundingizmi?
 # text[tr] = Okuduğunuzu anlıyor muydunuz?
@@ -2548,7 +2548,7 @@
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
-# text = Эртең менен Дениз китепти Айханга бердиби?
+# text[ky] = Эртең менен Дениз китепти Айханга бердиби?
 # text[az] = Söbh Deniz kitabı Ayhana verdi?
 # text[uz] = Ertalab Deniz kitobni Oyxonga berdimi?
 # text[tr] = Sabah Deniz kitabı Ayhan'a verdi mi?
@@ -2565,7 +2565,7 @@
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
-# text = Эртең менен Дениз китепти Айханга бердиби?
+# text[ky] = Эртең менен Дениз китепти Айханга бердиби?
 # text[az] = Söbh Deniz kitabı Ayhana verdi?
 # text[uz] = Ertalab kitobni Oyxonga Deniz berdimi?
 # text[tr] = Sabah Deniz mi kitabı Ayhan'a verdi?
@@ -2582,7 +2582,7 @@
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
-# text = Эртең менен Дениз китепти Айханга бердиби?
+# text[ky] = Эртең менен Дениз китепти Айханга бердиби?
 # text[az] = Söbh kitabı Deniz Ayhana verdi?
 # text[uz] = Ertalab Deniz Oyxonga kitobni berdimi?
 # text[tr] = Sabah Deniz kitabı mı Ayhan'a verdi?
@@ -2598,7 +2598,7 @@
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
-# text = Эртең менен Дениз китепти Айханга бердиби?
+# text[ky] = Эртең менен Дениз китепти Айханга бердиби?
 # text[az] = Söbh kitabı Deniz Ayhana verdi?
 # text[uz] = Ertalab Deniz kitobni Oyxonga berdimi?
 # text[tr] = Sabah Deniz kitabı Ayhan'a mı verdi?
@@ -2614,7 +2614,7 @@
 # glossing = Deniz book-ACC Ayhan-DAT tomorrow with give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
-# text = Дениз китепти Айханга эртең менен бердиби?
+# text[ky] = Дениз китепти Айханга эртең менен бердиби?
 # text[az] = Deniz kitabı Ayhana söbh verdi?
 # text[uz] = Deniz kitobni Oyxonga ertalab berdimi?
 # text[tr] = Deniz kitabı Ayhan'a sabah mı verdi?
@@ -2631,7 +2631,7 @@
 # glossing = I-DAT.1SG blue-ACC give-PRS-2SG-Q
 # issue: [zero A -> N derivation]
 # text[en] = Can you give me the blue one?
-# text = Мага көктү бересиңби?
+# text[ky] = Мага көктү бересиңби?
 # text[az] = Mənə abisini verərsən?
 # text[uz] = Menga ko'kni bera olasizmi?
 # text[tr] = Bana maviyi verir misin?
@@ -2646,7 +2646,7 @@
 # glossing = this-GEN blue-POSS.3SG good-COMP
 # issue: [-si, (pro)nominals]
 # text[en] = The blue (version) of this is nicer. 
-# text = Мунун көгү жакшыраак.
+# text[ky] = Мунун көгү жакшыраак.
 # text[az] = Bunun abisi daha gözəldir.
 # text[uz] = Buning ko‘k rangi chiroyliroq.
 # text[tr] = Bunun mavisi daha güzel.
@@ -2660,7 +2660,7 @@
 # glossing = I-GEN car-POSS.1SG Deniz-GEN-ATTR-POSS.3SG blue-POSS.3SG
 # issue:
 # text[en] = My car is the blue (version) of Deniz'es.
-# text = Менин унаам Дениздикинин көгү.
+# text[ky] = Менин унаам Дениздикинин көгү.
 # text[az] = Mənim maşınım Denizinkinin abisi.
 # text[uz] = Mening mashinam Deniznikining ko‘ki.
 # text[tr] = Benim arabam Deniz'inkinin mavisi.
@@ -2675,7 +2675,7 @@
 # glossing = book read-PASS-INF lie.down-NPST-3
 # issue: Passive example
 # text[en] = The book is being read.
-# text = Китеп окулуп жатат.
+# text[ky] = Китеп окулуп жатат.
 # text[az] = Kitab oxunur.
 # text[uz] = Kitob o‘qilyapti.
 # text[tr] = Kitap okunuyor.
@@ -2689,7 +2689,7 @@
 # glossing = book all school-PL-LOC read-CAUS-CAUS-PASS-FUT.3SG
 # issue: Double causative example
 # text[en] = The book will be made to be made to be read in all schools.
-# text = Китеп бардык мектептерде окуттурулат.
+# text[ky] = Китеп бардык мектептерде окуттурулат.
 # text[az] = Kitab tamam mədrəsələrdə oxutdurulacax.
 # text[uz] = Kitob barcha maktablarda o‘qitiladi.
 # text[tr] = Kitap bütün okullarda okutturulacak.
@@ -2704,7 +2704,7 @@
 # glossing = Deniz sleep-CAUS-PASS-PST.3SG
 # issue: Passive/Causative, [Causative example]
 # text[en] = Deniz was made to sleep.
-# text = Дениз уктатылды.
+# text[ky] = Дениз уктатылды.
 # text[az] = Deniz yuxladıldı.
 # text[uz] = Denizni uxlatishdi.
 # text[tr] = Deniz uyutuldu.
@@ -2717,7 +2717,7 @@
 # glossing = they leave-PST.3SG
 # issue: Plural Subject, but singular Verb
 # text[en] = They are gone. / They left.
-# text = Алар кетти.
+# text[ky] = Алар кетти.
 # text[az] = Olar getdi.
 # text[uz] = Ular ketdi.
 # text[tr] = Onlar gitti.
@@ -2730,7 +2730,7 @@
 # glossing = they leave-RECP-PST.3SG
 # issue: Plural Subject, Plural Verb and additionally the reciprocal marker (RECP). Lit: They left (together).
 # text[en] = They are gone together. / They left together.
-# text = Алар кетишти.
+# text[ky] = Алар кетишти.
 # text[az] = Onlar gittiler. [note: It doesn't work with RECP in az]
 # text[uz] = 
 # text[tr] = Onlar gittiler. [note: It doesn't work with RECP in tr]
@@ -2743,7 +2743,7 @@
 # glossing = he/she leave-PST.3SG
 # issue: Plural Subject, but singular Verb
 # text[en] = He/She left./ He/She is gone.
-# text = Ал кетти.
+# text[ky] = Ал кетти.
 # text[az] = O getdi.
 # text[uz] = U ketdi.
 # text[tr] = O gitti.
@@ -2756,7 +2756,7 @@
 # glossing = Deniz this place-LOC come-INF, free time-PL--LOC book read-3SG used-to
 # issue: Miscellaneous, [idi + epenthesis]
 # text[en] = Deniz used to come here and read a book in her free time.
-# text = Дениз бул жакка келип, бош убактыларында китеп окуйт эле.
+# text[ky] = Дениз бул жакка келип, бош убактыларында китеп окуйт эле.
 # text[az] = Deniz buralara gəlip, boş vəxtində kitab oxuyar iydi.
 # text[uz] = Deniz bu yerga kelib, bo‘sh vaqtlarida kitob o‘qir edi.
 # text[tr] = Deniz buralara gelir, boş vakitlerinde kitap okur idi.
@@ -2776,7 +2776,7 @@
 # glossing = you also we with come-2SG, right-?
 # issue: Miscellaneous, [Tag question]
 # text[en] = You are coming with us, aren't you?
-# text = Сен да биз менен келесиң, туурабы?
+# text[ky] = Сен да биз менен келесиң, туурабы?
 # text[az] = Sən də bizinən gəlirən, elə dəğil?
 # text[uz] = Siz biz bilan kelasiz, to‘g‘rimi?
 # text[tr] = Sen de bizimle geliyorsun, değil mi?
@@ -2795,7 +2795,7 @@
 # glossing = that such one book it read-VN person world-DAT again before-like eye view with look able-NEG-INF-3SG
 # issue: Miscellaneous, ['ki' connecting sentences, MWE]
 # text[en] = It was such a book that the person who read it wouldn't be able to see the world as they did before.
-# text = Ал yшунчалык укмуш бир китеп дейсиң, аны окуган адам дүйнөгө кайра мурункудай көз караш менен карай албайт.
+# text[ky] = Ал yшунчалык укмуш бир китеп дейсиң, аны окуган адам дүйнөгө кайра мурункудай көз караш менен карай албайт.
 # text[az] = O elə bir kitabdır ki, onu oxuyan bir də dünyaya eyni şəkildə baxmiyacaq.
 # text[uz] = Bu shunday kitobki, uni o‘qigan dunyoga boshqacha nazar bilan qaraydi.
 # text[tr] = O öyle bir kitap ki okuyan bir daha dünyaya aynı gözle bakamaz.
@@ -2820,7 +2820,7 @@
 # glossing = you first cleaning-VN-ACC finish then we iron-1PL
 # issue: Miscellaneous, ['de' connecting sentences, -lIk derivation]
 # text[en] = You finish the cleaning first, then we will handle the ironing.
-# text = Сен биринчи тазалоону бүтүр, анан биз үтүктөйбүз.
+# text[ky] = Сен биринчи тазалоону бүтүр, анан биз үтүктөйбүз.
 # text[az] = Sən əvvəl təmizləməgi qutar da ütüyü hal elərik.
 # text[uz] = Sen avval tozalashni tugat, biz dazmollaymiz.
 # text[tr] = Sen önce temizliği bitir de ütüyü hallederiz.
@@ -2841,7 +2841,7 @@
 # glossing = say--PL-DAT look-VN-LOC Ayşe Hakan-DAT house assignment-ACC do-NMLZ-DAT help give-INF-EVID
 # issue: Miscellaneous, [mişmiş/mışmış evidentiality]
 # text[en] = Seemingly Ayşe helped Hakan do his homework.
-# text = Айткандарга караганда, Айше Хаканга үй тапшырмасын жасоого жардам бериптир.
+# text[ky] = Айткандарга караганда, Айше Хаканга үй тапшырмасын жасоого жардам бериптир.
 # text[az] = Deyəsən Ayşə Hakanın məşq yazmasına kömək eləmişimiş.
 # text[uz] = Aytishlaricha, Oysha Xoqonga uy vazifalarini bajarishda yordam bergan.
 # text[tr] = Sözde Ayşe Hakan'ın ödevi yapmasına yardım etmişmiş.
@@ -2860,7 +2860,7 @@
 # glossing = say--PL-DAT look-VN-LOC Ayşe Hakan-DAT house assignment-ACC do-NMLZ-DAT help give-INF-EVID
 # issue: Miscellaneous, [mişmiş/mışmış evidentiality]
 # text[en] = Seemingly Ayşe helped Hakan do his homework.
-# text = Айткандарга караганда, Айше Хаканга үй тапшырмасын жасоого жардам бериптир.
+# text[ky] = Айткандарга караганда, Айше Хаканга үй тапшырмасын жасоого жардам бериптир.
 # text[az] = Deyəsən Ayşə Hakanın məşq yazmasına kömək eləmişimiş.
 # text[uz] = Aytishlaricha, Oysha Xoqonga uy vazifalarini bajarishda yordam bergan.
 # text[tr] = Sözde Ayşe Hakan'ın ödevi yapmasına yardım etmişmiş.
@@ -2881,7 +2881,7 @@
 # glossing = general take-VN-LOC success- one movie become-PST.3SG
 # issue: Miscellaneous, [N/Adj + olarak]
 # text[en] = It was a successful film overall.
-# text = Жалпы алганда ийгиликтүү бир фильм болду.
+# text[ky] = Жалпы алганда ийгиликтүү бир фильм болду.
 # text[az] = Kollən movəffəq bir film iydi.
 # text[uz] = Umuman olganda, bu muvaffaqiyatli film edi.
 # text[tr] = Genel olarak başarılı bir filmdi.
@@ -2899,7 +2899,7 @@
 # glossing = apple tree-PL april-may month-PL-?-LOC bloom-INF cross pollinate-RECP-3PL
 # issue: "алма дарактар" - 'alma daraqtar'
 # text[en] = Apple trees bloom (approximately) April to May and cross-pollinate.
-# text = Алма дарактар апрель-май айларында гүлдөп, кайчылаш чаңдашат.
+# text[ky] = Алма дарактар апрель-май айларында гүлдөп, кайчылаш чаңдашат.
 # text[az] = Alma ağaclar Fərvərdin-Ordibeheşt aylarında gül açır, çarpaz tozlanır.
 # text[uz] = Olma daraxtlari aprel-may oylarida gullab, o‘zaro changlanadi.
 # text[tr] = Elma ağaçları Nisan-Mayıs aylarında çiçek açıp, karşılıklı tozlaşır.
@@ -2918,7 +2918,7 @@
 # glossing = apple tree-PL april-may-LOC bloom-INF cross pollinate-RECP-3PL
 # issue: "алма дарактар" - 'alma daraqtar'
 # text[en] = Apple trees bloom (approximately) April to May and cross-pollinate.
-# text = Алма дарактар апрель-майда гүлдөп, кайчылаш чаңдашат.
+# text[ky] = Алма дарактар апрель-майда гүлдөп, кайчылаш чаңдашат.
 # text[az] = Alma ağaclar Fərvərdin-Ordibeheşt aylarında gül açır, çarpaz tozlanır.
 # text[uz] = Olma daraxtlari aprel-may oylarida gullab, o‘zaro changlanadi.
 # text[tr] = Elma ağaçları Nisan-Mayıs aylarında çiçek açıp, karşılıklı tozlaşır.
@@ -2939,7 +2939,7 @@
 # glossing = apple tree-PL april and may month-PL-?-LOC bloom-INF cross pollinate-RECP-3PL
 # issue: "алма дарактар" - 'alma daraqtar'
 # text[en] = Apple trees bloom (approximately) April and May and cross-pollinate.
-# text = Алма дарактар апрель жана май айларында гүлдөп, кайчылаш чаңдашат.
+# text[ky] = Алма дарактар апрель жана май айларында гүлдөп, кайчылаш чаңдашат.
 # text[az] = Alma ağaclar Fərvərdin-Ordibeheşt aylarında gül açır, çarpaz tozlanır.
 # text[uz] = Olma daraxtlari aprel-may oylarida gullab, o‘zaro changlanadi.
 # text[tr] = Elma ağaçları Nisan-Mayıs aylarında çiçek açıp, karşılıklı tozlaşır.
