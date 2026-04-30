@@ -53,7 +53,7 @@
 # sent_id = cairo-3.1
 # text = Ol shegıwdı hám ishiwdi toqtatıwǵa háreket etti.
 # glossing = he/she cigarette smoke-VN-ACC and alcohol drink-VN-ACC stop-CAUS-VN-DAT action do-PST[3]
-# issue:
+# issue:“háreket etti” is a light verb (N + et-) construction; its analysis may require clearer annotation guidelines.
 # text[en] = He/She tried to stop smoking and drinking.
 # text[ky] = Ал тамеки чегүүнү жана арак ичүүнү токтотууга аракет кылды.
 # text[az] = O çalɪşdɪ kɪ siqar çekmә vә әlkol içmәni tәrkidә.
@@ -261,21 +261,19 @@
 
 
 # sent_id = cairo-10
-# text = Iguazu úlken mámleket pa yáki kishkene?
-# glossing = Iguazu big country-Q or small-Q
-# issue:
+# text = Iguazu úlken mámleket pe yáki kishkene me?
+# glossing = Iguazu big country Q or small Q
 # text[en] = Is Iguazu a big or a small country?
-# text[ky] = Игуазу чоң өрөөнбү же кичинекейби?
-# text[az] = İguazu büyük bir kisvərdir, ya kiçik?
+# text[ky] = Игуазу чоң өлкөбү же кичинекейби?
+# text[az] = İguazu böyük bir ölkədirmi, yoxsa kiçik?
 # text[uz] = Iguazu katta mamlakatmi yoki kichik?
 # text[tr] = İguazu büyük bir ülke mi, yoksa küçük mü?
+
 1	Iguazu	Iguazu	PROPN	_	_	3	nsubj	_	_
 2	úlken	úlken	ADJ	_	_	3	amod	_	_
-3-4	mámleketpe	_	_	_	_	_	_	_	_
 3	mámleket	mámleket	NOUN	_	_	0	root	_	_
 4	pe	pe	PART	_	_	3	discourse	_	_
 5	yáki	yáki	CCONJ	_	_	6	cc	_	_
-6-7	kishkeneme	_	_	_	_	_	_	_	SpaceAfter=No
 6	kishkene	kishkene	ADJ	_	_	3	conj	_	_
 7	me	me	PART	_	_	6	discourse	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
@@ -442,7 +440,7 @@
 
 
 # sent_id = cairo-16
-# text = Peter hám Mary qushaqlastı hám xanadan shığıp ketti.
+# text = Peter hám Mary qushaqlastı hám xanadan shıǵıp ketti.
 # glossing = Peter and Mary each.other hug-RECP-PST.3SG that-ABL after room-ABL exit-PFV leave-RECP-PST.3SG
 # issue:
 # text[en] = Peter and Mary hugged each other and then left the room.
@@ -457,7 +455,7 @@
 4	qushaqlastı	qushaqla	VERB	_	VerbForm=Fin|Tense=Past|Voice=Refl	7	obj	_	_
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	xanadan	xana	NOUN	_	Case=Abl	12	obl	_	_
-7	shığıp	shıq	VERB	_	VerbForm=Inf	12	ccomp	_	_
+7	shıǵıp	shıq	VERB	_	VerbForm=Inf	12	ccomp	_	_
 8	ketti	ket	AUX	_	Tense=Past|Person=3|VerbForm=Fin	12	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -589,6 +587,37 @@
 5	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
+
+# sent_id = cairo-20.2
+# text = Franciyaniń paytaxti, Parijde,  ósken.
+# glossing = France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
+# issue:
+# text[en] = He/She grew up in Paris, the capital of France.	
+# text[ky] = Франциянын борбору Парижде чоңойду.
+# text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
+# text[uz] = Fransiya poytaxti Parijda o'sgan.
+# text[tr] = Fransanın başkenti Paris'te büyüdü.
+1	Franciyaniń	Fransiya	PROPN	_	Case=Gen|Person=3|PronType=Prs	2	nmod	_	_
+2	paytaxti	paytaxt	NOUN	_	_	3	nmod	_	_
+3	Parijde	Parij	PROPN	_	Case=Loc	4	obl	_	_
+4	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-20.2
+# text = Franciyaniń paytaxtı, Parijde, ósken.
+# glossing = France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG
+# text[en] = He/She grew up in Paris, the capital of France.
+# text[ky] = Франциянын борбору Парижде чоңойду.
+# text[az] = Fransanın paytaxtı, Parisdə, böyüdü.
+# text[uz] = Fransiya poytaxti, Parijda, o‘sgan.
+# text[tr] = Fransa'nın başkenti Paris'te büyüdü.
+1	Franciyaniń	Fransiya	PROPN	_	Case=Gen	2	nmod	_	_
+2	paytaxtı	paytaxt	NOUN	_	Number=Sing|Person=3|Poss=Yes	3	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Parijde	Parij	PROPN	_	Case=Loc	5	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ósken	ós	VERB	_	Tense=Past|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-20.2
 # text = Franciyaniń paytaxti, Parijde,  ósken.
