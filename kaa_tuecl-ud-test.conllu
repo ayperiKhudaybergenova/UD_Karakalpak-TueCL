@@ -571,7 +571,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 
-# sent_id = cairo-20.1
+# sent_id = cairo-20.1 *
 # text = Ol Franciyaniń paytaxti, Parijde,  ósken.
 # glossing = he/she France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
 # issue:
@@ -753,15 +753,15 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-4
-# text = Ayşe shıpaker
-# glossing = Ayşe — doctor
+# text = Ayshe shıpaker
+# glossing = Ayshe — doctor
 # issue: Null morpheme copula
-# text[en] = Ayşe is a doctor.
+# text[en] = Ayse is a doctor.
 # text[ky]= Айша — доктур.
 # text[az] = Ayşə düktürdü(r).
 # text[uz] = Oysha - shifokor.
 # text[tr] = Ayşe bir doktor.
-1	Ayşe	Ayşe	PROPN	_	_	2	nsubj	_	_
+1	Ayshe	Ayshe	PROPN	_	_	2	nsubj	_	_
 2	shıpaker	shıpaker	NOUN	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -855,10 +855,10 @@
 8	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-8
-# text = Sude ush saattan berli ofiste joq eken, Ayşe da úyde emes eken.
+# text = Sude ush saattan berli ofiste joq eken, Ayshe da úyde emes eken.
 # glossing =
 # issue: Temporal modifier / oblique, existential, “değil” negation, multiword token analytic verb form
-# text[en] = Sude wasn't in the office for a period of three hours, and Ayşe also wasn't at home.
+# text[en] = Sude wasn't in the office for a period of three hours, and Ayshe also wasn't at home.
 # text[ky] = Суде үч саат бою кеңседе болгон жок, Айша да үйдө болгон эмес экен.
 # text[az] = Sudə üç saatdı(r) afisdə dəyil, Ayşə də evdə dəyilmiş.
 # text[uz] = Sude uch soatdan beri idorada yo'q emish, Oysha ham uyda emas ekan.
@@ -872,14 +872,14 @@
 6	joq	joq	ADJ	_	_	5	cop	_	_
 7	eken	ek	AUX	_	Tense=Pres	5	aux	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	Ayşe	Ayşe	PROPN	_	_	12	nsubj	_	_
+9	Ayshe	Ayshe	PROPN	_	_	12	nsubj	_	_
 10	da	da	PART	_	_	9	discourse	_	_
 11	úyde	úy	NOUN	_	_	12	obl	_	_
 12	emes	em	ADJ	_	_	5	conj	_	SpaceAfter=No
 13	eken	ek	AUX	_	Tense=Pres	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = udtw23-9
+# sent_id = udtw23-9*
 # text =Dukanda miywe bar, biraq ol jaqsı emes.
 # glossing = 
 # issue: Existential, “değil” negation
