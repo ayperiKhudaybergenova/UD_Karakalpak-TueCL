@@ -1734,7 +1734,7 @@
 3	emes	emes	AUX	_	Polarity=Neg	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 38
+# sent_id = 38*
 # text = Oqıwdı emes, súwret sızıwdı jaqsi kóredi.
 # glossing = read-PTCP-ACC not, picture draw-PTCP-ACC good see-3SG
 # issue: Negation, [coordination with 'degil' and elision]
@@ -1750,7 +1750,7 @@
 5	jaqsi	kóredi	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 39
+# sent_id = 39*
 # text = Deniz xanada emes edi.
 # glossing = Deniz room-LOC not be-COP.PST.3SG
 # issue: Negation, [simple negation with 'değil']
@@ -1781,7 +1781,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 41
-# text = Deniz kitaplar oqıwdı qáleydi.
+# text = Deniz kitaplar oqımaqshi*.*
 # glossing = Deniz-GEN book read-INF-POSS.3SG come-INF lie.down-NPST-3
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Deniz wants read books.
@@ -1795,8 +1795,8 @@
 4	edi	bol	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = 42
-# text =
+# sent_id = 42*
+# text = Deniz kitaplar oqıwdı qáleydi
 # glossing = Deniz book read-VN-ACC want-3SG
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Deniz wants read books.
@@ -1812,7 +1812,6 @@
 
 # sent_id = 43
 # text = Deniz ákesi oǵan kıtaplar oqıp beriwin qáleydi.
-# Note: changed from: 'text = Дениз атасын ага китеп окуп беришин каалайт.'
 # glossing = Deniz father-ACC he/she.DAT book read-INF give-VN-POSS.3SG want-3SG.PRES
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = Deniz wants her/his father to read him/her (a) book. 
@@ -1838,7 +1837,6 @@
 # text[az] = Deniz özünə olmağı söyür.
 # text[uz] = Deniz o‘zi bilan o‘zi bo‘lishni yaxshi ko‘radi.
 # text[tr] = Deniz kendi kendine olmayı seviyor.
-# Note: this needs double check: is 'өзү менен өзү' really fixed? is бол here VERB or AUX?
 1	Deniz	Deniz	PROPN	_	_	5	nsubj	_	_
 2	ózi	óz	PRON	_	_	5	nsubj	_	_
 3	menen	men	PRON	_	_	5	obl	_	_
@@ -1848,7 +1846,7 @@
 7	kóredi	kóre	VERB	_	Tense=Pres	5	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 45
+# sent_id = 45*
 # text = Anası oqıp bergen gezinde , Denizge uyqlaw ańsatlasadı.
 # glossing = mother-POSS.3SG-GEN book read-VN-POSS.3SG Deniz-GEN sleep-POSS.3SG-ACC facilitate-3SG.PRES
 # issue: Clausal arguments/modifiers, non-finite verbs.
@@ -1864,7 +1862,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	Denizge	Deniz	PROPN	_	_	7	iobj	_	_
 7	uyqlaw	uyqla	VERB	_	VerbForm=Inf	4	conj	_	_
-8	ańsatlasadı	ańsatla	VERB	_	Tense=Pres	7	aux	_	SpaceAfter=No
+8	ańsatlasadı	ańsatlasiw*	VERB	_	Tense=Pres	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 46
@@ -1902,7 +1900,7 @@
 5	oqıydı	oqı	VERB	_	Tense=Past	3	conj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 48
+# sent_id = 48*
 # text = Deniz dem alıs ekenligi esinnen shıǵıp,oqıwǵa ketti.
 # glossing = Deniz holiday that forget-INF school-DAT go-INF-
 # issue: Clausal arguments/modifiers, non-finite verbs.
@@ -1917,7 +1915,7 @@
 3	alıs	al	VERB	_	_	5	aux	_	_
 4	ekenligi	eken	VERB	_	_	5	aux	_	_
 5	esinnen	esin	NOUN	_	_	0	root	_	_
-6	shıǵıp	shıǵ	VERB	_	VerbForm=Conv	5	conj	_	_
+6	shıǵıp	shıǵ	VERB	_	VerbForm=Conv	5	conj	_	_*
 7	oqıwǵa	oqı	VERB	_	VerbForm=Inf	6	advcl	_	_
 8	ketti	ket	VERB	_	Tense=Past	6	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -1947,28 +1945,8 @@
 13	edi	bol	VERB	_	_	10	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 49.1
-# text = 
-# glossing = Deniz holiday be forget-INF bag-POSS.3SG-ACC take-INF school-DAT go-INF
-# issue: Clausal arguments/modifiers, non-finite verbs.
-# text[en] = Deniz took her/his bag and (evidentially) went to school (because) she/he had forgotten that it was holiday.
-# text[ky] = Дениз каникул болгонун унутуп, сумкасын алып мектепке барыптыр.
-# text[az] = Deniz tətil olduğunu yadınnan cıxardıp kifini götürüb mədrəsəyə getmişdi.
-# text[uz] = Deniz ta’til ekanligini unutib, sumkasini olib, maktabga ketgan.
-# text[tr] = Deniz tatil olduğunu unutup çantasını alıp okula gitmiş.
-1	Дениз	Дениз	PROPN	_	_	4	nsubj	_	_
-2	каникул	каникул	NOUN	_	_	3	xcomp	_	_
-3	болгонун	бол	VERB	_	_	4	ccomp	_	_
-4	унутуп	унут	VERB	_	_	9	advcl	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	сумкасын	сумка	NOUN	_	_	7	obj	_	_
-7	алып	ал	VERB	_	_	9	advcl	_	_
-8	мектепке	мектеп	NOUN	_	_	9	obl	_	_
-9	барыптыр	бар	VERB	_	_	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	_
-
-# sent_id = 50
-# text = Eger Deniz kesh uyqıǵa jatsa, oqıwǵa keshigedi.
+# sent_id = 50*
+# text = Eger Deniz kesh uyqıǵa jatsa,* oqıwǵa kesh qaladi*.
 # glossing = Deniz late sleep-COND school-DAT late be-COP.PST.3SG
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = If Deniz sleeps late, he/she would be late.
@@ -1985,7 +1963,7 @@
 7	keshigedi	keshige	VERB	_	Tense=Pres	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 51
+# sent_id = 51*
 # text = Eger Deniz kesh uyqıǵa jatsa, oqıwǵa keshigedi.
 # glossing = Deniz late sleep-COND school-DAT late-INF stay
 # issue: Clausal arguments/modifiers, non-finite verbs.
@@ -2002,23 +1980,6 @@
 6	oqıwǵa	oqı	VERB	_	_	0	root	_	_
 7	keshigedi	keshige	VERB	_	Tense=Pres	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
-
-# sent_id = 51.1
-# text = 
-# glossing = Deniz late lie.down-COND school-DAT late stay
-# issue: Clausal arguments/modifiers, non-finite verbs.
-# text[en] = If Deniz sleeps late, he/she will be late.
-# text[ky] = Дениз кеч жатса мектепке кеч калат.
-# text[az] = Deniz gec yatsa mədrəsəyə gec qalacax.
-# text[uz] = Deniz kech uxlasa, maktabga kech qoladi.
-# text[tr] = Deniz geç uyursa okula geç kalacak.
-1	Дениз	Дениз	PROPN	_	_	3	nsubj	_	_
-2	кеч	кеч	ADV	_	_	3	advmod	_	_
-3	жатса	жат	VERB	_	_	6	advcl	_	_
-4	мектепке	мектеп	NOUN	_	_	6	obl	_	_
-5	кеч	кеч	ADV	_	_	6	advmod	_	_
-6	калат	кал	VERB	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 52
 # text = Eger bala uyqlaǵanda, kino kórgen bolar edik.
@@ -2039,8 +2000,8 @@
 8	edik	ed	VERB	_	_	6	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 53
-# text = Eger bala bizler úyge baraman degenshe uyqlap qalsa, bizler onı oyatıwımız kerek boladı.
+# sent_id = 53*
+# text = Eger bala bizler úyge baraman degenshe uyqlap qalsa,* bizler onı oyatıwımız kerek boladı.
 # glossing = if child I-PL home-DAT enough sleep-INF stay-COND go-VN awake need be
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = If the child sleeps before we arrive home, we will need to wake him/her up.
@@ -2063,11 +2024,11 @@
 13	boladı	bol	VERB	_	Tense=Pres	11	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 54
-# text = Kewline alma
+# sent_id = 54*
+# text = Kewlin*e alma
 # glossing = attention-DAT take.IMP-NEG
 # issue: MWE / segmentation
-# text[en] = Nevermind. [Typo]
+# text[en] = Nevermind. 
 # text[ky] = Көңүлгө алба.
 # text[az] = Boşla.
 # text[uz] = Hechqisi yoʻq.
