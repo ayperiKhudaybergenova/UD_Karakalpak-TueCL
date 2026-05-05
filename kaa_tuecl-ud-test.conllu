@@ -1472,8 +1472,8 @@
 4	edi	bol	VERB	_	_	3	aux	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 21
-# text = Deniz uyqlaǵan edi.
+# sent_id = 21*
+# text = Deniz uyqladı.
 # glossing = Deniz sleep-INF stay-VN
 # issue: Copula as auxiliary, [complex tense formed by copular suffix]
 # text[en] = Deniz had slept. 
@@ -1487,7 +1487,7 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 22*
-# text =
+# text = Deniz uyqlaǵan edi.
 # glossing = Deniz sleep-INF stay-VN be-COP.PST.3SG
 # issue: Copula as auxiliary, [same with non-affixal copula]
 # text[en] = Deniz hat slept. 
@@ -1574,7 +1574,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 27
-# text = Denizdiń hesh qanday kıtabı  joq.
+# text = Denizdiń hesh qanday kıtabı joq.
 # glossing = Deniz-GEN nothing one book-POSS.3SG not.exist
 # issue: Existentials, [expressions of possession]
 # text[en] = Deniz does not have any books.
@@ -2037,7 +2037,7 @@
 2	alma	al	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
 
 # sent_id = 55
-# text =
+# text =*
 # glossing = attention-DAT take.IMP-NEG
 # issue: MWE / segmentation
 # text[en] = Nevermind. [Typo]
@@ -2064,22 +2064,6 @@
 4	erte	erte	ADJ	_	_	5	advmod	_	_
 5	uyqlaydı	uyqla	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
-
-# sent_id = 56.1
-# text = 
-# glossing = child-GEN early sleep think-INF lie.down-NPST[1]
-# issue: MWE / segmentation
-# text[en] = I think that the child will sleep early.
-# text[ky] = Баланын эрте уктарын ойлоп жатам.
-# text[az] = Fikr elirəm ki uşaq tez yatacax.
-# text[uz] = Menimcha, bola erta uxlaydi.
-# text[tr] = Çocuğun erken uyuyacağını zannediyorum.
-1	Баланын	бала	NOUN	_	_	3	nsubj	_	_
-2	эрте	эрте	ADV	_	_	3	advmod	_	_
-3	уктарын	укта	VERB	_	_	4	ccomp	_	_
-4	ойлоп	ойло	VERB	_	_	0	root	_	_
-5	жатам	жат	AUX	_	_	4	aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 57
 # text = Deniz tuwısqanların jek kóredi.
@@ -2210,7 +2194,7 @@
 3	úsh	úsh	NUM	_	_	4	nummod	_	_
 4	mashına	mashına	NOUN	_	_	5	nmod	_	_
 5	qoyıw	qoy	VERB	_	VerbForm=Inf	6	nsubj	_	_
-6	ornı	orn	NOUN	_	Case=Nom|Person[psor]=3	0	root	_	_
+6	ornı	orın	NOUN	_	Case=Nom|Person[psor]=3	0	root	_	_
 7	bar	bar	AUX	_	_	6	cop	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -2230,23 +2214,6 @@
 5	bar	bar	AUX	_	_	3	cop	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 65.1
-# text = Múqáddes kitapsız dinler da bar.
-# glossing = holy book-POSS.3SG be-NEG-PTCP religion-PL also exist
-# issue: MWE / segmentation
-# text[en] = There are also/even religions without holy books.
-# text[ky] = Ыйык китеби болбогон диндер да бар.
-# text[az] = Muqəddəs kitabı olmuyan dinlər də var.
-# text[uz] = Muqaddas kitobsiz dinlar ham bor.
-# text[tr] = Kutsal kitapsız dinler de var.
-1	Ыйык	ыйык	ADJ	_	_	2	amod	_	_
-2	китеби	китеп	NOUN	_	_	3	nsubj	_	_
-3	болбогон	бол	VERB	_	_	4	acl:relcl	_	_
-4	диндер	дин	NOUN	_	_	6	nsubj	_	_
-5	да	да	ADV	_	_	4	advmod:emph	_	_
-6	бар	бар	ADJ	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
-
 # sent_id = 66
 # text = Kishi aynalı úyde jeterlishe jaqtılıq joq.
 # glossing = small window.ORN home-LOC enough-ORN light not.exist
@@ -2263,22 +2230,6 @@
 5	jaqtılıq	jaqtılıq	NOUN	_	Case=Nom	0	root	_	_
 6	joq	joq	AUX	_	Polarity=Neg	5	cop	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
-
-# sent_id = 66.1
-# text = 
-# glossing = small window.ORN home-LOC light enough-ABE
-# issue: MWE / segmentation (second variant of the translation)
-# text[en] = There is not enough light in the house with small windows.
-# text[ky] = Кичине терезелүү үйдө жарык жетишсиз.
-# text[az] = Kiçik pəncərəli evlərdə kifayət qədər işıq yoxdur.
-# text[uz] = Kichkina derazali uyda yorugʻlik yetarli emas.
-# text[tr] = Küçük pencereli evde yeterince ışık yok.
-1	Кичине	кичине	ADJ	_	_	2	amod	_	_
-2	терезелүү	терезе	NOUN	_	_	3	nmod	_	_
-3	үйдө	үй	NOUN	_	_	5	obl	_	_
-4	жарык	жарык	NOUN	_	_	5	nsubj	_	_
-5	жетишсиз	жетишсиз	ADJ	_	_	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 67
 # text = Deniz úyge keldi ma?
@@ -2325,8 +2276,8 @@
 3	ma	ma	PART	_	_	2	discourse	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 70
-# text = 
+# sent_id = 70*
+# text = Deniz úyde ma eken?
 # glossing = Deniz home-LOC be-PST.3SG Q-COP.3SG
 # issue: Question particle, [Copula, with additonal affix on -mi]
 # text[en] = Is Deniz at home? 
@@ -2403,7 +2354,7 @@
 5	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 75*
-# text = 
+# text = Nan úyde barma?
 # glossing = home-LOC bread exist-Q
 # issue: Question particle
 # text[en] = Is there (any) bread at home?
@@ -2418,7 +2369,7 @@
 5	edińiz	edi	AUX	_	Tense=Past|Person=2|Number=Plur	3	aux	_	SpaceAfter=No
 
 # sent_id = 76
-# text = 
+# text = Úyde nan barma? 
 # glossing = home-LOC bread exist-Q
 # issue: Question particle
 # text[en] = Is there (any) bread at home?
@@ -2426,12 +2377,11 @@
 # text[az] = Çörək var evdə?
 # text[uz] = Uyda non bormi?
 # text[tr] = Evde ekmek mi var?
-1	Үйдө	үй	NOUN	_	_	3	obl	_	_
-2	нан	нан	NOUN	_	_	3	nsubj	_	_
-3-4	барбы	_	_	_	_	_	_	_	SpaceAfter=No
-3	бар	бар	ADJ	_	_	0	root	_	_
-4	бы	бы	PART	_	_	3	discourse	_	_
-5	?	?	PUNCT	_	_	3	punct	_	_
+1	Úyde	úy	NOUN	_	Case=Loc	0	root	_	_
+2	nan	nan	NOUN	_	_	1	nsubj	_	_
+3	bar	bar	AUX	_	_	1	cop	_	_
+4	ma	ma	PART	_	_	1	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 77*
 # text = Oqıǵanlarınızdı túsinip atirǵan ba edińiz?
@@ -2449,7 +2399,7 @@
 5	edińiz	edi	AUX	_	Tense=Past|Person=2|Number=Plur	3	aux	_	SpaceAfter=No
 
 # sent_id = 78
-# text = Deniz kitaptı  Ayhanǵa azanda berdi ma?
+# text = Deniz kitaptı Ayhanǵa azanda berdi ma?
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2466,7 +2416,7 @@
 7	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 79
-# text =Azanda Deniz kitaptı  Ayhanǵa berdi ma?
+# text =Azanda Deniz kitaptı Ayhanǵa berdi ma?
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2483,7 +2433,7 @@
 7	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 80
-# text = Deniz kitaptı  azanda Ayhanǵa berdi ma?
+# text = Deniz kitaptı azanda Ayhanǵa berdi ma?
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2499,7 +2449,7 @@
 6	ma	ma	PART	_	_	4	discourse	_	SpaceAfter=No
 
 # sent_id = 81
-# text = Azanda Deniz Ayhanǵa kitaptı  berdi ma?
+# text = Azanda Deniz Ayhanǵa kitaptı berdi ma?
 # glossing = tomorrow with Deniz book-ACC Ayhan-DAT give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2515,7 +2465,7 @@
 6	ma	ma	PART	_	_	4	discourse	_	SpaceAfter=No
 
 # sent_id = 82
-# text = Deniz  Ayhanǵa kitaptı  azanda berdi ma?
+# text = Deniz Ayhanǵa kitaptı azanda berdi ma?
 # glossing = Deniz book-ACC Ayhan-DAT tomorrow with give-PST.3SG-Q
 # issue: Question particle
 # text[en] = Did Deniz give the book to Ayhan in the morning?
@@ -2630,21 +2580,8 @@
 2	ketti	ket	VERB	_	Tense=Past|Person=3|Number=Plur	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 89.1
+# sent_id = 90*
 # text = Ol ketti.
-# glossing = they leave-RECP-PST.3SG
-# issue: Plural Subject, Plural Verb and additionally the reciprocal marker (RECP). Lit: They left (together).
-# text[en] = They are gone together. / They left together.
-# text[ky] = Алар кетишти.
-# text[az] = Onlar gittiler. [note: It doesn't work with RECP in az]
-# text[uz] = 
-# text[tr] = Onlar gittiler. [note: It doesn't work with RECP in tr]
-1	Ol	ol	PRON	_	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	_
-2	ketti	ket	VERB	_	Tense=Past|Person=3|Number=Sing	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	_
-
-# sent_id = 90
-# text = .
 # glossing = he/she leave-PST.3SG
 # issue: Plural Subject, but singular Verb
 # text[en] = He/She left./ He/She is gone.
@@ -2656,7 +2593,7 @@
 2	кетти	кет	VERB	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 91
+# sent_id = 91*
 # text =  Deniz usı jerge kelip, kitap oqıp turatuǵın edi.
 # glossing = Deniz this place-LOC come-INF, free time-PL--LOC book read-3SG used-to
 # issue: Miscellaneous, [idi + epenthesis]
@@ -2688,24 +2625,23 @@
 1	Siz	siz	PRON	_	Case=Nom|Person=2|Number=Sing	4	nsubj	_	_
 2	da	da	PART	_	_	1	discourse	_	_
 3	biz	biz	PRON	_	Case=Ins|Person=1|Number=Plur	4	obl	_	_
-4	benen	bilen	ADP	_	_	3	case	_	_
+4	benen	benen	ADP	_	_	3	case	_	_
 5	kelesiz	kel	VERB	_	Tense=Pres|Person=2	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	durıs	durıs	ADJ	_	_	5	parataxis	_	_
 8	pa	pa	PART	_	_	7	discourse	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 93
+# sent_id = 93*
 # text = Ol sonday bir kitap ,onı oqıǵan adam dúnyaǵa názeri burınǵıday bolmaydı.
 # glossing = that such one book it read-VN person world-DAT again before-like eye view with look able-NEG-INF-3SG
-# issue: Miscellaneous, ['ki' connecting sentences, MWE]
 # text[en] = It was such a book that the person who read it wouldn't be able to see the world as they did before.
 # text[ky] = Ал yшунчалык укмуш бир китеп дейсиң, аны окуган адам дүйнөгө кайра мурункудай көз караш менен карай албайт.
 # text[az] = O elə bir kitabdır ki, onu oxuyan bir də dünyaya eyni şəkildə baxmiyacaq.
 # text[uz] = Bu shunday kitobki, uni o‘qigan dunyoga boshqacha nazar bilan qaraydi.
 # text[tr] = O öyle bir kitap ki okuyan bir daha dünyaya aynı gözle bakamaz.
-# note: There is no 'ki' connecting sentences in Kyrgyz. 
-# added адам - adam 'nsubj'
+# note: There is no 'ki' connecting sentences in karakalpak but meaning of 'ki' can be understood. 
+# added adam 'nsubj'
 1	Ol	ol	PRON	_	Case=Nom|Person=3|PronType=Prs	4	nsubj	_	_
 2	sonday	sonday	DET	_	_	4	det	_	_
 3	bir	bir	NUM	_	_	4	nummod	_	_
@@ -2717,11 +2653,11 @@
 9	dúnyaǵa	dúnya	NOUN	_	Case=Dat	11	obl	_	_
 10	názeri	názer	NOUN	_	Case=Nom|Person[psor]=3	11	nsubj	_	_
 11	bolmaydı	bol	VERB	_	Tense=Pres|Polarity=Neg	4	conj	_	_
-12	burınǵıday	burınǵıday	ADV	_	_	11	advmod	_	SpaceAfter=No
+12	burınǵıday	burınǵıday	ADV	_	_	11	advmod	_	SpaceAfter=No*
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 94
-# text = Sen birinshi tazalawdı tamamla , keyin bizler utyuglew menen shuǵıllanamız.
+# text = Sen birinshi tazalawdı tamamla, keyin bizler utyuglew menen shuǵıllanamız.
 # glossing = you first cleaning-VN-ACC finish then we iron-1PL
 # issue: Miscellaneous, ['de' connecting sentences, -lIk derivation]
 # text[en] = You finish the cleaning first, then we will handle the ironing.
@@ -2737,7 +2673,7 @@
 6	keyin	keyin	ADV	_	_	9	advmod	_	_
 7	bizler	biz	PRON	_	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
 8	utyuglew	utyugle	VERB	_	VerbForm=Inf	9	obl	_	_
-9	menen	bilen	ADP	_	_	8	case	_	_
+9	menen	menen	ADP	_	_	8	case	_	_
 10	shuǵıllanamız	shuǵıllan	VERB	_	Tense=Pres|Person=1|Number=Plur	4	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2760,28 +2696,7 @@
 8	járdemlesken	járdemles	VERB	_	VerbForm=Part|Tense=Past	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 95.1
-# text = 
-# glossing = say--PL-DAT look-VN-LOC Ayşe Hakan-DAT house assignment-ACC do-NMLZ-DAT help give-INF-EVID
-# issue: Miscellaneous, [mişmiş/mışmış evidentiality]
-# text[en] = Seemingly Ayşe helped Hakan do his homework.
-# text[ky] = Айткандарга караганда, Айше Хаканга үй тапшырмасын жасоого жардам бериптир.
-# text[az] = Deyəsən Ayşə Hakanın məşq yazmasına kömək eləmişimiş.
-# text[uz] = Aytishlaricha, Oysha Xoqonga uy vazifalarini bajarishda yordam bergan.
-# text[tr] = Sözde Ayşe Hakan'ın ödevi yapmasına yardım etmişmiş.
-1	Айткандарга	айт	VERB	_	_	2	advcl	_	_
-2	караганда	кара	VERB	_	_	10	advcl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	10	punct	_	_
-4	Айше	Айше	PROPN	_	_	10	nsubj:outer	_	_
-5	Хаканга	Хакан	PROPN	_	_	10	nsubj	_	_
-6	үй	үй	NOUN	_	_	7	nmod	_	_
-7	тапшырмасын	тапшырма	NOUN	_	_	8	obj	_	_
-8	жасоого	жаса	VERB	_	_	10	advcl	_	_
-9	жардам	жардам	NOUN	_	_	10	obj	_	_
-10	бериптир	бер	VERB	_	_	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	_	_
-
-# sent_id = 96
+# sent_id = 96*
 # text = Ulıwma alǵanda, bul áwmetli film edi.
 # glossing = general take-VN-LOC success- one movie become-PST.3SG
 # issue: Miscellaneous, [N/Adj + olarak]
@@ -2796,13 +2711,12 @@
 4	bul	bul	DET	_	_	5	det	_	_
 5	áwmetli	áwmetli	ADJ	_	_	0	root	_	_
 6	film	film	NOUN	_	_	5	nsubj	_	_
-7	edi	bol	AUX	_	Tense=Past	5	cop	_	SpaceAfter=No
+7	edi	*	AUX	_	Tense=Past	5	cop	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 97
 # text = Alma terekleri Aprel-May aylarında gúllep óz-ara shańlanadı.
 # glossing = apple tree-PL april-may month-PL-?-LOC bloom-INF cross pollinate-RECP-3PL
-# issue: "алма дарактар" - 'alma daraqtar'
 # text[en] = Apple trees bloom (approximately) April to May and cross-pollinate.
 # text[ky] = Алма дарактар апрель-май айларында гүлдөп, кайчылаш чаңдашат.
 # text[az] = Alma ağaclar Fərvərdin-Ordibeheşt aylarında gül açır, çarpaz tozlanır.
@@ -2817,46 +2731,3 @@
 6	óz-ara	óz-ara	ADV	_	_	7	advmod	_	_
 7	shańlanadı	shańlan	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
-
-# sent_id = 97.1
-# text = 
-# glossing = apple tree-PL april-may-LOC bloom-INF cross pollinate-RECP-3PL
-# issue: "алма дарактар" - 'alma daraqtar'
-# text[en] = Apple trees bloom (approximately) April to May and cross-pollinate.
-# text[ky] = Алма дарактар апрель-майда гүлдөп, кайчылаш чаңдашат.
-# text[az] = Alma ağaclar Fərvərdin-Ordibeheşt aylarında gül açır, çarpaz tozlanır.
-# text[uz] = Olma daraxtlari aprel-may oylarida gullab, o‘zaro changlanadi.
-# text[tr] = Elma ağaçları Nisan-Mayıs aylarında çiçek açıp, karşılıklı tozlaşır.
-# note: (april to may) not april and may - (in this case functions if as a '&') conj. If numerical ranges - in Eng: - as a POS: (SYM)BOL and as a dep: case, see sent_id = 97.2
-1	Алма	алма	NOUN	_	_	2	nmod	_	_
-2	дарактар	дарак	NOUN	_	_	6	nsubj	_	_
-3	апрель	апрель	NOUN	_	_	5	nmod	_	SpaceAfter=No
-4	-	-	SYM	_	_	3	case	_	SpaceAfter=No
-5	майда	май	NOUN	_	_	6	obl	_	_
-6	гүлдөп	гүлдө	VERB	_	_	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
-8	кайчылаш	кайчылаш	ADV	_	_	9	advmod	_	_
-9	чаңдашат	чаңда	VERB	_	_	6	advcl	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	6	punct	_	_
-
-# sent_id = 97.2
-# text =
-# glossing = apple tree-PL april and may month-PL-?-LOC bloom-INF cross pollinate-RECP-3PL
-# issue: "алма дарактар" - 'alma daraqtar'
-# text[en] = Apple trees bloom (approximately) April and May and cross-pollinate.
-# text[ky] = Алма дарактар апрель жана май айларында гүлдөп, кайчылаш чаңдашат.
-# text[az] = Alma ağaclar Fərvərdin-Ordibeheşt aylarında gül açır, çarpaz tozlanır.
-# text[uz] = Olma daraxtlari aprel-may oylarida gullab, o‘zaro changlanadi.
-# text[tr] = Elma ağaçları Nisan-Mayıs aylarında çiçek açıp, karşılıklı tozlaşır.
-1	Алма	алма	NOUN	_	_	2	nmod	_	_
-2	дарактар	дарак	NOUN	_	_	7	nsubj	_	_
-3	апрель	апрель	NOUN	_	_	6	nmod	_	_
-4	жана	жана	CCONJ	_	_	5	cc	_	_
-5	май	май	NOUN	_	_	3	conj	_	_
-6	айларында	ай	NOUN	_	_	7	obl	_	_
-7	гүлдөп	гүлдө	VERB	_	_	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	кайчылаш	кайчылаш	ADV	_	_	10	advmod	_	_
-10	чаңдашат	чаңда	VERB	_	_	7	advcl	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	7	punct	_	_
-
