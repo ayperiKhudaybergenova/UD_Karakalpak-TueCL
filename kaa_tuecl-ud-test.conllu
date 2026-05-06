@@ -568,11 +568,9 @@
 7	keldi	kel	VERB	_	Tense=Past|Person=3|VerbForm=Fin	3	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
-
 # sent_id = cairo-20.1 
 # text = Ol Franciyaniń paytaxti, Parijde,  ósken.
 # glossing = he/she France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
-# issue:
 # text[en] = He/She grew up in Paris, the capital of France.	
 # text[ky] = Ал Франциянын борбору Парижде чоңойду.
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
@@ -586,58 +584,26 @@
 6	ósken	ós	VERB	_	VerbForm=Part|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_	_
 
-
 # sent_id = cairo-20.2
 # text = Franciyaniń paytaxti, Parijde,  ósken.
 # glossing = France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
-# issue:
 # text[en] = He/She grew up in Paris, the capital of France.	
 # text[ky] = Франциянын борбору Парижде чоңойду.
 # text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = Fransiya poytaxti Parijda o'sgan.
 # text[tr] = Fransanın başkenti Paris'te büyüdü.
-1	Franciyaniń	Fransiya	PROPN	_	Case=Gen|Person=3|PronType=Prs	2	nmod	_	_
-2	paytaxti	paytaxt	NOUN	_	_	3	nmod	_	_
-3	Parijde	Parij	PROPN	_	Case=Loc	4	obl	_	_
-4	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = cairo-20.2
-# text = Franciyaniń paytaxtı, Parijde, ósken.
-# glossing = France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG
-# text[en] = He/She grew up in Paris, the capital of France.
-# text[ky] = Франциянын борбору Парижде чоңойду.
-# text[az] = Fransanın paytaxtı, Parisdə, böyüdü.
-# text[uz] = Fransiya poytaxti, Parijda, o‘sgan.
-# text[tr] = Fransa'nın başkenti Paris'te büyüdü.
-1	Franciyaniń	Fransiya	PROPN	_	Case=Gen	2	nmod	_	_
-2	paytaxtı	paytaxt	NOUN	_	Number=Sing|Person=3|Poss=Yes	3	nmod	_	SpaceAfter=No
+1	Franciyaniń	Fransiya	PROPN	_	Case=Gen	2	nmod:poss	_	_
+2	paytaxti	paytaxt	NOUN	_	Case=Nom|Person[psor]=3	6	obl	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	Parijde	Parij	PROPN	_	Case=Loc	5	obl	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	ósken	ós	VERB	_	Tense=Past|Person=3	0	root	_	SpaceAfter=No
+4	Parijde	Parij	PROPN	_	Case=Loc	2	appos	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	ósken	ós	VERB	_	VerbForm=Part|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
-
-# sent_id = cairo-20.2
-# text = Franciyaniń paytaxti, Parijde,  ósken.
-# glossing = France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
-# issue:
-# text[en] = He/She grew up in Paris, the capital of France.	
-# text[ky] = Франциянын борбору Парижде чоңойду.
-# text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
-# text[uz] = Fransiya poytaxti Parijda o'sgan.
-# text[tr] = Fransanın başkenti Paris'te büyüdü.
-1	Franciyaniń	Fransiya	PROPN	_	Case=Gen|Person=3|PronType=Prs	2	nmod	_	_
-2	paytaxti	paytaxt	NOUN	_	_	3	nmod	_	_
-3	Parijde	Parij	PROPN	_	Case=Loc	4	obl	_	_
-4	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
 
 
 # sent_id = cairo-20.3
-# text =  Ol  Parijde, Franciyaniń paytaxtinda, ósken. 
+# text =  Ol Parijde, Franciyaniń paytaxtinda, ósken. 
 # glossing = he/she Paris-LOC France-GEN capital-POSS.3SG-LOC grow.up-PST.3SG 
-# issue:
 # text[en] = He/She grew up in Paris, the capital of France.
 # text[ky] = Ал Парижде, Франциянын борборунда, чоңойду.
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
@@ -656,7 +622,6 @@
 # sent_id = cairo-20.4
 # text = Parijde, Franciyaniń paytaxtinda, ósken.
 # glossing = Paris-LOC France-GEN capital-POSS.3SG-LOC grow.up-PST.3SG 
-# issue:
 # text[en] = He/She grew up in Paris, the capital of France.
 # text[ky] = Парижде, Франциянын борборунда, чоңойду.
 # text[az] = Fәransәnin paytәxti, Parisdә böyüdü.
@@ -717,6 +682,7 @@
 12	aytpa	ayt	VERB	_	_	9	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = udtw23-3
 # text = Túnep qalmaqshı bolǵan mıyman esikti qaqtı, biraq úy iyesi ele tazalap atır edi hám ol restarannan buyırtpa bergen awqat ele jolda edi.
 # glossing = sleep.over-INF clean-INF stay gest dor 
@@ -750,6 +716,7 @@
 22	jolda	jol	NOUN	_	_	20	obl	_	_
 23	edi	ed	AUX	_	_	20	aux	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = udtw23-4
 # text = Ayshe shıpaker
