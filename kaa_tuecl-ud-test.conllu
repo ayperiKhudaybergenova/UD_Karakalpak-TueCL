@@ -366,7 +366,6 @@
 # sent_id = cairo-14.1
 # text = Sen qashan kele alaman dep oylaysań?
 # glossing = you when come-SBJV take-PRS.2SG say-INF think-PRS.2SG
-# issue:*
 # text[en] = When do you think you can come?
 # text[ky] = Сен качан келе алам деп ойлойсуң?
 # text[az] = Siz fikr eliriz nə vaxt gələ bilərsiz?
@@ -384,7 +383,6 @@
 # sent_id = cairo-14.2
 # text = Qashan kele alaman dep oylaysań?
 # glossing = when come-SBJV take-PRS.2SG say-INF think-PRS.2SG
-# issue:
 # text[en] = When do you think you can come?
 # text[ky] = Качан келе алам деп ойлойсуң?
 # text[az] = Fikr eliriz nə vaxt gələ bilərsiz?
@@ -571,7 +569,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 
-# sent_id = cairo-20.1 *
+# sent_id = cairo-20.1 
 # text = Ol Franciyaniń paytaxti, Parijde,  ósken.
 # glossing = he/she France-GEN capital-POSS.3SG Paris-LOC grow.up-PST.3SG 
 # issue:
@@ -580,12 +578,13 @@
 # text[az] = O Fәransәnin paytәxti, Parisdә böyüdü.
 # text[uz] = U Fransiya poytaxti Parijda o'sgan.
 # text[tr] = O Fransanın başkenti Paris'te büyüdü.
-1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	Franciyaniń	Fransiya	PROPN	_	Case=Gen|Person=3|PronType=Prs	3	nmod	_	_
-3	paytaxti	paytaxt	NOUN	_	_	4	nmod	_	_
-4	Parijde	Parij	PROPN	_	Case=Loc	5	obl	_	_
-5	ósken	ós	VERB	_	Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	Franciyaniń	Fransiya	PROPN	_	Case=Gen	3	nmod:poss	_	_
+3	paytaxti	paytaxt	NOUN	_	Case=Nom|Person[psor]=3	6	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Parijde	Parij	PROPN	_	Case=Loc	3	appos	_	_
+6	ósken	ós	VERB	_	VerbForm=Part|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_	_
 
 
 # sent_id = cairo-20.2
