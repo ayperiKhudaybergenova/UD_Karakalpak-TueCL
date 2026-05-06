@@ -935,7 +935,7 @@
 6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-13.1
-# text = Kardiganim úyde eken ma? 
+# text = Kardiganim úyde eken ba? 
 # glossing = cardigan-POSS.1SG home-LOC be-PST.3SG Q-COP.3SG
 # issue: Question particle
 # text[en] = Is my cardigan at home? (i.e., Did I leave it at home?)
@@ -944,17 +944,14 @@
 # text[uz] = Kardiganim uyda ekanmi?
 # text[tr] = Hırkam evde miymiş?
 # note: cop/aux
-1	Кардиганым	кардиган	NOUN	_	_	2	nsubj	_	_
-2	үйдө	үй	NOUN	_	_	0	root	_	_
-3	болгон	бол	AUX	_	_	2	aux	_	_
-4-5	бекен	_	_	_	_	_	_	_	SpaceAfter=No
-4	б	бы	PART	qst	_	2	discourse	_	_
-5	екен	экен	AUX	_	_	2	aux	_	_
-6	?	?	PUNCT	_	_	2	punct	_	_
+1	Kardiganim	kardigan	NOUN	_	Case=Nom|Number=Sing|Person[psor]=1	3	nsubj	_	_
+2	úyde	úy	NOUN	_	Case=Loc	3	obl	_	_
+3	eken	eken	AUX	_	Mood=Evid|Tense=Pres	0	root	_	_
+4	ba	ba	PART	_	PartType=Q	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-14
-# text = Máresim búgin ba eken?
-# translit = Iş-çara büğün öt-kör-ülö-bü? 
+# text = Máresim búgin ba eken? 
 # glossing = [passive]
 # issue: Question particle
 # text[en] = Is the event being held today?
@@ -969,7 +966,7 @@
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-15
-# text = Nátiyjeler jarıyalanǵan , solay emes pe?
+# text = Nátiyjeler jarıyalanǵan, solay emes pe?
 # glossing = resalt-PL publish--INF- also isn't
 # issue: Question particle, tag question
 # text[en] = The results have been announced, haven't they?
@@ -1065,7 +1062,6 @@
 
 # sent_id = udtw23-20
 # text =Bizler jaslardı erisip bolmaytuǵın maqsetlerden bas tarttırıwımız kerek.
-# glossing = 
 # issue: Multiple TAM markers, multi-word expressions
 # text[en] = We must make the young abandon unattainable goals.
 # text[ky] = Жаштарды ишке ашырылбас максаттарынан баш тарттырышыбыз керек.
@@ -1351,8 +1347,8 @@
 2	studentdur	student	ADJ	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 15*
-# text = Deniz student.
+# sent_id = 15
+# text = Deniz studentdur.
 # glossing = Deniz student
 # issue: Copula, [Nom. Predicate with -dir]
 # text[en] = Deniz is a student. 
@@ -1360,14 +1356,12 @@
 # text[az] = Deniz mohəssildir.
 # text[uz] = Deniz talabadir.
 # text[tr] = Deniz öğrencidir.
-# note: [nom. Predicate with -dir] does't exist in Kyrgyz.
 1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
-2	shıpaker	boladi	ADJ	_	_	0	root	_	SpaceAfter=No
-3	boladi	bol	AUX	_	_	2	aux	_	_
-4	.	.	PUNCT	_	_	2	punct	_	_
+2	studentdur	student	ADJ	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 16*
-# text =Deniz shıpaker.
+# sent_id = 16
+# text =Deniz shıpaker boladi.
 # glossing = Deniz doctor be-FUT-3SG
 # issue: Copula
 # text[en] = Deniz will become a doctor. ['become']
@@ -1376,7 +1370,9 @@
 # text[uz] = Deniz shifokor bo'ladi.
 # text[tr] = Deniz doktor olacak.
 1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
-2	shıpaker	shıpaker	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+2	shıpaker	boladi	ADJ	_	_	0	root	_	SpaceAfter=No
+3	boladi	bol	AUX	_	_	2	aux	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 17
 # text = Deniz úyde.
@@ -1434,7 +1430,7 @@
 4	edi	bol	VERB	_	_	3	aux	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 21*
+# sent_id = 21
 # text = Deniz uyqladı.
 # glossing = Deniz sleep-INF stay-VN
 # issue: Copula as auxiliary, [complex tense formed by copular suffix]
@@ -1443,12 +1439,11 @@
 # text[az] = Deniz yatmışdı.
 # text[uz] = Deniz uxlagandi.
 # text[tr] = Deniz uyumuştu.
-1	Deniz	Deniz	PROPN	_	_	2	nsubj	_	_
-2	uyqlaǵan	uyqla	VERB	_	_	0	root	_	SpaceAfter=No
-3	edi	bol	VERB	_	_	2	aux	_	_
-4	.	.	PUNCT	_	_	2	punct	_	_
+1	Deniz	Deniz	PROPN	_	Case=Nom	2	nsubj	_	_
+2	uyqladı	uyqla	VERB	_	Tense=Past|Person=3|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 22*
+# sent_id = 22
 # text = Deniz uyqlaǵan edi.
 # glossing = Deniz sleep-INF stay-VN be-COP.PST.3SG
 # issue: Copula as auxiliary, [same with non-affixal copula]
@@ -1457,11 +1452,10 @@
 # text[az] = Deniz yatmış iydı.
 # text[uz] = Deniz uxlagan edi.
 # text[tr] = Deniz uyumuş idi.
-1	Дениз	Дениз	PROPN	_	_	2	nsubj	_	_
-2	уктап	укта	VERB	_	_	0	root	_	_
-3	калган	кал	AUX	_	_	2	aux	_	_
-4	эле	э	AUX	_	_	2	aux	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	_
+1	Deniz	Deniz	PROPN	_	Case=Nom	2	nsubj	_	_
+2	uyqlaǵan	uyqla	VERB	_	VerbForm=Part	0	root	_	_
+3	edi	edi	AUX	_	Tense=Past	2	aux	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 23
 # text = Deniz uyqlaǵan boladı.
@@ -1696,35 +1690,36 @@
 3	emes	emes	AUX	_	Polarity=Neg	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 38*
-# text = Oqıwdı emes, súwret sızıwdı jaqsi kóredi.
+# sent_id = 38
+# text = Oqıwdı emes súwret sızıwdı jaqsi kóredi.
 # glossing = read-PTCP-ACC not, picture draw-PTCP-ACC good see-3SG
-# issue: Negation, [coordination with 'degil' and elision]
+# issue: Negation.
 # text[en] = (He/she does) not (like) reading, (but) he/she likes painting.
 # text[ky] = Окуганды эмес, сүрөт тартканды жакшы көрөт.
 # text[az] = Oxumağı yox, nəqqaşi çekmağı söyür.
 # text[uz] = O‘qishni emas, rasm chizishni yaxshi ko‘radi.
 # text[tr] = Okumayı değil, resim yapmayı seviyor.
-1	Oqıwdı	oqı	VERB	_	_	3	obj	_	SpaceAfter=No
-2	emes	emes	AUX	_	Polarity=Neg	1	dep	_	_
-3	súwret	súwret	NOUN	_	_	5	nsubj	_	_
-4	sızıwdı	sız	VERB	_	_	5	obj	_	_
-5	jaqsi	kóredi	VERB	_	_	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
+1	Oqıwdı	oqıw	NOUN	_	Case=Acc	5	obj	_	_
+2	emes	emes	PART	_	Polarity=Neg	1	advmod	_	_
+3	súwret	súwret	NOUN	_	Case=Acc	4	obj	_	_
+4	sızıwdı	sızıw	NOUN	_	Case=Acc	5	obj	_	_
+5	jaqsi	jaqsi	ADV	_	_	6	advmod	_	_
+6	kóredi	kóre	VERB	_	Tense=Pres|Person=3|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 39*
+# sent_id = 39
 # text = Deniz xanada emes edi.
 # glossing = Deniz room-LOC not be-COP.PST.3SG
-# issue: Negation, [simple negation with 'değil']
+# issue: Negation.
 # text[en] = Deniz was not in the room. 
 # text[ky] = Дениз бөлмөдө эмес эле.
 # text[az] = Deniz otaqda dəyildi.
 # text[uz] = Deniz xonada emasdi.
 # text[tr] = Deniz odada değildi.
-1	Deniz	Deniz	PROPN	_	_	4	nsubj	_	_
-2	xanada	xana	NOUN	_	_	4	obl	_	_
-3	emes	emes	AUX	_	Polarity=Neg	4	aux	_	_
-4	edi	bol	VERB	_	_	0	root	_	SpaceAfter=No
+1	Deniz	Deniz	PROPN	_	Case=Nom	4	nsubj	_	_
+2	xanada	xana	NOUN	_	Case=Loc	4	obl	_	_
+3	emes	emes	PART	_	Polarity=Neg	4	advmod	_	_
+4	edi	edi	AUX	_	Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 40
@@ -1757,7 +1752,7 @@
 4	edi	bol	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = 42*
+# sent_id = 42
 # text = Deniz kitaplar oqıwdı qáleydi
 # glossing = Deniz book read-VN-ACC want-3SG
 # issue: Clausal arguments/modifiers, non-finite verbs.
@@ -1766,11 +1761,10 @@
 # text[az] = Deniz kitab oxumaq istəyir.
 # text[uz] = Deniz kitob o‘qishni xohlaydi.
 # text[tr] = Deniz kitap okumayı istiyor.
-1	Дениз	Дениз	PROPN	_	_	4	nsubj	_	_
-2	китеп	китеп	NOUN	_	_	3	obj	_	_
-3	окууну	оку	VERB	_	_	4	ccomp	_	_
-4	каалайт	каала	VERB	_	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
+1	Deniz	Deniz	PROPN	_	Case=Nom	5	nsubj	_	_
+2	kitaplar	kitap	NOUN	_	Case=Nom|Number=Plur	3	nmod	_	_
+3	oqıwdı	oqıw	NOUN	_	Case=Acc	5	obj	_	_
+4	qáleydi	qále	VERB	_	Tense=Pres|Person=3|Number=Sing	0	root	_	SpaceAfter=No
 
 # sent_id = 43
 # text = Deniz ákesi oǵan kıtaplar oqıp beriwin qáleydi.
@@ -1808,8 +1802,8 @@
 7	kóredi	kóre	VERB	_	Tense=Pres	5	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 45*
-# text = Anası oqıp bergen gezinde , Denizge uyqlaw ańsatlasadı.
+# sent_id = 45
+# text = Anası oqıp bergen gezinde Denizge uyqlaw ańsatlasadı.
 # glossing = mother-POSS.3SG-GEN book read-VN-POSS.3SG Deniz-GEN sleep-POSS.3SG-ACC facilitate-3SG.PRES
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = When her/his mother reads, it becomes easier for Deniz to sleep. (lit: Her mother's reading eases Deniz' sleep.)
@@ -1817,15 +1811,15 @@
 # text[az] = Anasının kitab oxuması Dənizin yuxusunu rahatlaşdırır.
 # text[uz] = Onasining kitob o‘qishi Denizning uxlashini osonlashtiradi.
 # text[tr] = Annesinin kitap okuması Deniz'in uyumasını kolaylaştırıyor.
-1	Anası	ana	NOUN	_	_	4	nsubj	_	_
-2	oqıp	oq	VERB	_	VerbForm=Conv	4	aux	_	_
-3	bergen	ber	VERB	_	VerbForm=Part	4	aux	_	_
-4	gezinde	gez	NOUN	_	_	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	Denizge	Deniz	PROPN	_	_	7	iobj	_	_
-7	uyqlaw	uyqla	VERB	_	VerbForm=Inf	4	conj	_	_
-8	ańsatlasadı	ańsatlasiw*	VERB	_	Tense=Pres	7	aux	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	_
+1	Anası	ana	NOUN	_	Case=Nom|Person[psor]=3	2	nsubj	_	_
+2	oqıp	oqıw	VERB	_	VerbForm=Conv	3	advcl	_	_
+3	bergen	ber	VERB	_	VerbForm=Part	5	acl	_	_
+4	gezinde	gez	NOUN	_	Case=Loc	3	obl	_	_
+5	Denizge	Deniz	PROPN	_	Case=Dat	7	obl	_	_
+6	uyqlaw	uyqla	NOUN	_	Case=Nom	7	nsubj	_	_
+7	ańsatlasadı	ańsatlas	VERB	_	Tense=Pres|Person=3|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 46
 # text = Balalarǵa kıtap oqıp beriw olardıń rawajlanıwı ushın áhmiyetlidur.
@@ -1862,7 +1856,7 @@
 5	oqıydı	oqı	VERB	_	Tense=Past	3	conj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 48*
+# sent_id = 48
 # text = Deniz dem alıs ekenligi esinnen shıǵıp,oqıwǵa ketti.
 # glossing = Deniz holiday that forget-INF school-DAT go-INF-
 # issue: Clausal arguments/modifiers, non-finite verbs.
@@ -1872,15 +1866,15 @@
 # text[uz] = Deniz ta’til ekanligini unutib, maktabga ketgan.
 # text[tr] = Deniz tatil olduğunu unutup okula gitmiş.
 # note: cop/aux
-1	Deniz	Deniz	PROPN	_	_	5	nsubj	_	_
-2	dem	dem	NOUN	_	_	5	obl	_	_
-3	alıs	al	VERB	_	_	5	aux	_	_
-4	ekenligi	eken	VERB	_	_	5	aux	_	_
-5	esinnen	esin	NOUN	_	_	0	root	_	_
-6	shıǵıp	shıǵ	VERB	_	VerbForm=Conv	5	conj	_	_*
-7	oqıwǵa	oqı	VERB	_	VerbForm=Inf	6	advcl	_	_
-8	ketti	ket	VERB	_	Tense=Past	6	aux	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	5	punct	_	_
+1	Deniz	Deniz	PROPN	_	Case=Nom	5	nsubj	_	_
+2	dem	dem	NOUN	_	Case=Nom	3	obj	_	_
+3	alıs	alıs	NOUN	_	Case=Nom	4	compound	_	_
+4	ekenligi	ekenlik	NOUN	_	Case=Nom|Person[psor]=3	5	nsubj	_	_
+5	esinnen	es	NOUN	_	Case=Abl|Person[psor]=3	6	obl	_	_
+6	shıǵıp	shıǵ	VERB	_	VerbForm=Conv	8	advcl	_	_
+7	oqıwǵa	oqıw	NOUN	_	Case=Dat	8	obl	_	_
+8	ketti	ket	VERB	_	Tense=Past|Person=3|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 49
 # text = Deniz sumkasın aldı hám oqıwǵa ketti sebebi dem alıs ekenligi esinnen shiqqan edi.
@@ -1907,8 +1901,8 @@
 13	edi	bol	VERB	_	_	10	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 50*
-# text = Eger Deniz kesh uyqıǵa jatsa,* oqıwǵa kesh qaladi*.
+# sent_id = 50
+# text = Eger Deniz kesh uyqıǵa jatsa, oqıwǵa kesh qaladi.
 # glossing = Deniz late sleep-COND school-DAT late be-COP.PST.3SG
 # issue: Clausal arguments/modifiers, non-finite verbs.
 # text[en] = If Deniz sleeps late, he/she would be late.
@@ -1916,16 +1910,18 @@
 # text[az] = Deniz gec yatsa mədrəsəyə gecikip.
 # text[uz] = Deniz kech uxlasa, maktabga kechikadi.
 # text[tr] = Deniz geç uyursa okula geç kalır.
-1	Eger	eger	SCONJ	_	_	6	mark	_	_
-2	Deniz	Deniz	PROPN	_	_	6	nsubj	_	_
-3	kesh	kesh	ADJ	_	_	4	amod	_	_
-4	uyqıǵa	uyqı	VERB	_	_	6	obl	_	_
-5	jatsa	jat	VERB	_	_	6	aux	_	_
-6	oqıwǵa	oqı	VERB	_	VerbForm=Inf	0	root	_	_
-7	keshigedi	keshige	VERB	_	Tense=Pres	6	aux	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	_
+1	Eger	eger	CCONJ	_	_	3	mark	_	_
+2	Deniz	Deniz	PROPN	_	Case=Nom	3	nsubj	_	_
+3	kesh	kesh	ADV	_	_	4	advmod	_	_
+4	uyqıǵa	uyqı	NOUN	_	Case=Dat	5	obl	_	_
+5	jatsa	jat	VERB	_	VerbForm=Conv	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	oqıwǵa	oqıw	NOUN	_	Case=Dat	8	obl	_	_
+8	kesh	kesh	ADV	_	_	9	advmod	_	_
+9	qaladi	qal	VERB	_	Tense=Pres|Person=3|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 51*
+# sent_id = 51
 # text = Eger Deniz kesh uyqıǵa jatsa, oqıwǵa keshigedi.
 # glossing = Deniz late sleep-COND school-DAT late-INF stay
 # issue: Clausal arguments/modifiers, non-finite verbs.
@@ -1934,14 +1930,16 @@
 # text[az] = Deniz gec yatsa mədrəsəyə gec qalacax.
 # text[uz] = Deniz kech uxlasa, maktabga kech qoladi.
 # text[tr] = Deniz geç uyursa okula geç kalacak.
-1	Eger	Eger	SCONJ	_	_	6	mark	_	_
-2	Deniz	Deniz	PROPN	_	_	5	nsubj	_	_
-3	kesh	kesh	ADJ	_	_	4	amod	_	_
-4	uyqıǵa	uyqı	NOUN	_	_	5	obl	_	_
-5	jatsa	jat	VERB	_	_	6	advcl	_	_
-6	oqıwǵa	oqı	VERB	_	_	0	root	_	_
-7	keshigedi	keshige	VERB	_	Tense=Pres	6	aux	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	_
+1	Eger	eger	SCONJ	_	_	5	mark	_	_
+2	Deniz	Deniz	PROPN	_	Case=Nom	5	nsubj	_	_
+3	kesh	kesh	ADV	_	_	4	advmod	_	_
+4	uyqıǵa	uyqı	NOUN	_	Case=Dat	5	obl	_	_
+5	jatsa	jat	VERB	_	VerbForm=Conv	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	oqıwǵa	oqıw	NOUN	_	Case=Dat	8	obl	_	_
+8	keshigedi	keshige	VERB	_	Tense=Pres|Person=3|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
 
 # sent_id = 52
 # text = Eger bala uyqlaǵanda, kino kórgen bolar edik.
@@ -1962,7 +1960,8 @@
 8	edik	ed	VERB	_	_	6	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 53*
+
+# sent_id = 53
 # text = Eger bala bizler úyge baraman degenshe uyqlap qalsa,* bizler onı oyatıwımız kerek boladı.
 # glossing = if child I-PL home-DAT enough sleep-INF stay-COND go-VN awake need be
 # issue: Clausal arguments/modifiers, non-finite verbs.
@@ -1971,23 +1970,24 @@
 # text[az] = Əyər uşaq biz evə getməmış yatsa, yetişincə gərək onu oyandırax.
 # text[uz] = Agar bola uyga ketmasdan uxlab qolsa, borganimizda uyg'otishimiz kerak bo'ladi.
 # text[tr] = Eğer çocuk eve gitmeden uyursa vardığımızda uyandırmamız gerekecek.
-1	Eger	Eger	SCONJ	_	_	10	mark	_	_
-2	bala	bala	NOUN	_	_	10	nsubj	_	_
-3	bizler	biz	PRON	_	_	4	nsubj	_	_
-4	úyge	úy	NOUN	_	_	10	obl	_	_
-5	baraman	bar	VERB	_	Tense=Pres	10	advcl	_	_
-6	degenshe	degenshe	SCONJ	_	_	10	mark	_	_
-7	uyqlap	uyqla	VERB	_	VerbForm=Conv	10	advcl	_	_
-8	qalsa	qal	VERB	_	_	10	aux	_	_
-9	bizler	biz	PRON	_	_	10	nsubj	_	_
-10	onı	ol	PRON	_	_	0	root	_	_
-11	oyatıwımız	oyat	VERB	_	VerbForm=Inf	10	xcomp	_	_
-12	kerek	kerek	ADJ	_	_	11	advmod	_	_
-13	boladı	bol	VERB	_	Tense=Pres	11	aux	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	10	punct	_	_
+1	Eger	eger	SCONJ	_	_	5	mark	_	_
+2	bala	bala	NOUN	_	Case=Nom	5	nsubj	_	_
+3	bizler	biz	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+4	úyge	úy	NOUN	_	Case=Dat	5	obl	_	_
+5	baraman	bar	VERB	_	Tense=Pres|Person=1|Number=Sing	6	ccomp	_	_
+6	degenshe	degen	VERB	_	VerbForm=Conv	8	advcl	_	_
+7	uyqlap	uyqla	VERB	_	VerbForm=Conv	8	advcl	_	_
+8	qalsa	qal	VERB	_	VerbForm=Conv	11	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	bizler	biz	PRON	_	Case=Nom|Number=Plur|Person=1	11	nsubj	_	_
+11	onı	ol	PRON	_	Case=Acc	12	obj	_	_
+12	oyatıwımız	oyat	VERB	_	VerbForm=Inf|Person[psor]=1|Number[psor]=Plur	13	csubj	_	_
+13	kerek	kerek	AUX	_	_	0	root	_	_
+14	boladı	bol	AUX	_	Tense=Pres	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
 
-# sent_id = 54*
-# text = Kewlin*e alma
+# sent_id = 54
+# text = Kewlińe alma.
 # glossing = attention-DAT take.IMP-NEG
 # issue: MWE / segmentation
 # text[en] = Nevermind. 
@@ -1995,11 +1995,12 @@
 # text[az] = Boşla.
 # text[uz] = Hechqisi yoʻq.
 # text[tr] = Boş ver.
-1	Kewline	Kewline	PROPN	_	_	2	obj	_	_
-2	alma	al	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
+1	Kewlińe	kewil	NOUN	_	Case=Dat|Person[psor]=2	3	obl	_	_
+2	alma	alma	VERB	_	Mood=Imp|Polarity=Neg|Person=2|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 55
-# text =*
+# text = Kewlińe alma.
 # glossing = attention-DAT take.IMP-NEG
 # issue: MWE / segmentation
 # text[en] = Nevermind. [Typo]
@@ -2007,8 +2008,8 @@
 # text[az] = Boşla.
 # text[uz] = Hech qaysisi yoʻq.
 # text[tr] = Boşver.
-1	Көңүлгө	көңүл	NOUN	_	_	2	obl	_	_
-2	алба	ал	VERB	_	_	0	root	_	SpaceAfter=No
+1	Kewlińe	kewil	NOUN	_	Case=Dat|Person[psor]=2	3	obl	_	_
+2	alma	alma	VERB	_	Mood=Imp|Polarity=Neg|Person=2|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 56
@@ -2238,20 +2239,20 @@
 3	ma	ma	PART	_	_	2	discourse	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 70*
+# sent_id = 70
 # text = Deniz úyde ma eken?
 # glossing = Deniz home-LOC be-PST.3SG Q-COP.3SG
-# issue: Question particle, [Copula, with additonal affix on -mi]
+# issue: spoken only
 # text[en] = Is Deniz at home? 
 # text[ky] = Дениз үйдө болду бекен?
 # text[az] = Deniz evdədir?
 # text[uz] = Deniz uydamikan?
 # text[tr] = Deniz evde midir?
-1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
+1	Deniz	Deniz	PROPN	_	Case=Nom	3	nsubj	_	_
 2	úyde	úy	NOUN	_	Case=Loc	3	obl	_	_
-3	edi	edi	AUX	_	Tense=Past	0	root	_	_
-4	ma	ma	PART	_	_	3	discourse	_	SpaceAfter=No
-5	?	?	PUNCT	_	_	3	punct	_	_
+3	ma	ma	PART	_	PartType=Q	3	discourse	_	_
+4	eken	eken	AUX	_	Mood=Evid|Tense=Pres	0	root	_	_
+5	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 71
 # text = Deniz úyde edi ma?
