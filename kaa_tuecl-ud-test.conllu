@@ -2270,7 +2270,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 
-# sent_id = 72 *
+# sent_id = 72 
 # text = Deniz úyde emes pa edi?
 # glossing = Deniz home-LOC not Q-COP.PST.3SG
 # issue: Question particle, [with negation]
@@ -2279,11 +2279,11 @@
 # text[az] = Deniz evdə dəyildi?
 # text[uz] = Deniz uyda emasmidi?
 # text[tr] = Deniz evde değil miydi?
-1	Deniz	Deniz	PROPN	_	_	3	nsubj	_	_
-2	úyde	úy	NOUN	_	Case=Loc	3	obl	_	_
-3	emes	emes	AUX	_	Polarity=Neg	4	cop	_	_
+1	Deniz	Deniz	PROPN	_	Case=Nom	4	nsubj	_	_
+2	úyde	úy	NOUN	_	Case=Loc	4	obl	_	_
+3	emes	emes	PART	_	Polarity=Neg	4	advmod	_	_
 4	edi	edi	AUX	_	Tense=Past	0	root	_	_
-5	pa	pa	PART	_	_	4	discourse	_	SpaceAfter=No
+5	pa	pa	PART	_	PartType=Q	4	discourse	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 73
@@ -2316,7 +2316,7 @@
 4	ma	ma	PART	_	_	1	discourse	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 75*
+# sent_id = 75
 # text = Nan úyde barma?
 # glossing = home-LOC bread exist-Q
 # issue: Question particle
@@ -2325,11 +2325,11 @@
 # text[az] = Evdə çörək var?
 # text[uz] = Non uyda bormi?
 # text[tr] = Evde mi ekmek var?
-1	Oqıǵanlarınızdı	oqı	VERB	_	VerbForm=Part|Case=Acc|Person[psor]=2|Number=Plur	2	obj	_	_
-2	túsinip	túsin	VERB	_	VerbForm=Conv	3	aux	_	_
-3	atirǵan	atır	AUX	_	Tense=Pres	0	root	_	_
-4	ba	ba	PART	_	_	3	discourse	_	_
-5	edińiz	edi	AUX	_	Tense=Past|Person=2|Number=Plur	3	aux	_	SpaceAfter=No
+1	Nan	nan	NOUN	_	Case=Nom	3	nsubj	_	_
+2	úyde	úy	NOUN	_	Case=Loc	3	obl	_	_
+3	bar	bar	ADJ	_	_	0	root	_	_
+4	ma	ma	PART	_	PartType=Q	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 76
 # text = Úyde nan barma? 
@@ -2346,7 +2346,7 @@
 4	ma	ma	PART	_	_	1	discourse	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 77*
+# sent_id = 77
 # text = Oqıǵanlarınızdı túsinip atirǵan ba edińiz?
 # glossing = read-VN-POSS.2SG.FRM-ACC understand-INF lie.down-PST.PROG-2SG.FRM-Q 
 # issue: Question particle, [multiple affixes on -mu]
@@ -2355,11 +2355,12 @@
 # text[az] = Oxuduğuzu düsünürdüz?
 # text[uz] = O'qiganingizni tushundingizmi?
 # text[tr] = Okuduğunuzu anlıyor muydunuz?
-1	Oqıǵanlarınızdı	oqı	VERB	_	VerbForm=Part|Case=Acc|Person[psor]=2|Number=Plur	2	obj	_	_
-2	túsinip	túsin	VERB	_	VerbForm=Conv	3	aux	_	_
-3	atirǵan	atır	AUX	_	Tense=Pres	0	root	_	_
-4	ba	ba	PART	_	_	3	discourse	_	_
+1	Oqıǵanlarınızdı	oqı	VERB	_	VerbForm=Part|Case=Acc|Person[psor]=2|Number[psor]=Plur	3	obj	_	_
+2	túsinip	túsin	VERB	_	VerbForm=Conv	3	advcl	_	_
+3	atırǵan	atır	AUX	_	VerbForm=Part	0	root	_	_
+4	ba	ba	PART	_	PartType=Q	3	discourse	_	_
 5	edińiz	edi	AUX	_	Tense=Past|Person=2|Number=Plur	3	aux	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 78
 # text = Deniz kitaptı Ayhanǵa azanda berdi ma?
@@ -2476,7 +2477,6 @@
 # sent_id = 85
 # text = Meniń mashinam Deńizdikiniń kógi.
 # glossing = I-GEN car-POSS.1SG Deniz-GEN-ATTR-POSS.3SG blue-POSS.3SG
-# issue:
 # text[en] = My car is the blue (version) of Deniz'es.
 # text[ky] = Менин унаам Дениздикинин көгү.
 # text[az] = Mənim maşınım Denizinkinin abisi.
@@ -2502,7 +2502,7 @@
 3	atir	atır	AUX	_	Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 87*
+# sent_id = 87
 # text = Kitap barlıq mekteplerde oqıtıladı.
 # glossing = book all school-PL-LOC read-CAUS-CAUS-PASS-FUT.3SG
 # issue: Double causative example
@@ -2511,10 +2511,10 @@
 # text[az] = Kitab tamam mədrəsələrdə oxutdurulacax.
 # text[uz] = Kitob barcha maktablarda o‘qitiladi.
 # text[tr] = Kitap bütün okullarda okutturulacak.
-1	Kitap	kitap	NOUN	_	_	3	nsubj:pass	_	_
-2	barlıq	barlıq	DET	_	_	3	amod	_	_
+1	Kitap	kitap	NOUN	_	Case=Nom	3	nsubj:pass	_	_
+2	barlıq	barlıq	DET	_	_	3	det	_	_
 3	mekteplerde	mektep	NOUN	_	Case=Loc|Number=Plur	4	obl	_	_
-4	oqıtıladı	oqıt	VERB	_	Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
+4	oqıtıladı	oqıt	VERB	_	Voice=Pass|Tense=Pres|Person=3|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 88
@@ -2543,7 +2543,7 @@
 2	ketti	ket	VERB	_	Tense=Past|Person=3|Number=Plur	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 90*
+# sent_id = 90
 # text = Ol ketti.
 # glossing = he/she leave-PST.3SG
 # issue: Plural Subject, but singular Verb
@@ -2552,11 +2552,11 @@
 # text[az] = O getdi.
 # text[uz] = U ketdi.
 # text[tr] = O gitti.
-1	Ал	ал	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	кетти	кет	VERB	_	_	0	root	_	SpaceAfter=No
+1	Ol	ol	PRON	_	Case=Nom	2	nsubj	_	_
+2	ketti	ket	VERB	_	Tense=Past|Person=3|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 91*
+# sent_id = 91
 # text =  Deniz usı jerge kelip, kitap oqıp turatuǵın edi.
 # glossing = Deniz this place-LOC come-INF, free time-PL--LOC book read-3SG used-to
 # issue: Miscellaneous, [idi + epenthesis]
@@ -2565,16 +2565,16 @@
 # text[az] = Deniz buralara gəlip, boş vəxtində kitab oxuyar iydi.
 # text[uz] = Deniz bu yerga kelib, bo‘sh vaqtlarida kitob o‘qir edi.
 # text[tr] = Deniz buralara gelir, boş vakitlerinde kitap okur idi.
-1	Deniz	Deniz	PROPN	_	_	7	nsubj	_	_
+1	Deniz	Deniz	PROPN	_	Case=Nom	7	nsubj	_	_
 2	usı	usı	DET	_	_	3	det	_	_
 3	jerge	jer	NOUN	_	Case=Dat	4	obl	_	_
 4	kelip	kel	VERB	_	VerbForm=Conv	7	advcl	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	kitap	kitap	NOUN	_	_	7	obj	_	_
-7	oqıp	oq	VERB	_	VerbForm=Conv	8	aux	_	_
-8	turatuǵın	tur	VERB	_	VerbForm=Part|Tense=Pres	0	root	_	_
-9	edi	bol	AUX	_	Tense=Past	8	aux	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	kitap	kitap	NOUN	_	Case=Nom	7	obj	_	_
+7	oqıp	oqı	VERB	_	VerbForm=Conv	0	root	_	_
+8	turatuǵın	tur	AUX	_	VerbForm=Part	7	aux	_	_
+9	edi	edi	AUX	_	Tense=Past	7	aux	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 92
 # text = Siz da biz benen kelesiz, durıs pa?
@@ -2595,8 +2595,8 @@
 8	pa	pa	PART	_	_	7	discourse	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 93*
-# text = Ol sonday bir kitap ,onı oqıǵan adam dúnyaǵa názeri burınǵıday bolmaydı.
+# sent_id = 93
+# text = Ol sonday bir kitap, onı oqıǵan adam dúnyaǵa názeri burınǵıday bolmaydı.
 # glossing = that such one book it read-VN person world-DAT again before-like eye view with look able-NEG-INF-3SG
 # text[en] = It was such a book that the person who read it wouldn't be able to see the world as they did before.
 # text[ky] = Ал yшунчалык укмуш бир китеп дейсиң, аны окуган адам дүйнөгө кайра мурункудай көз караш менен карай албайт.
@@ -2605,19 +2605,19 @@
 # text[tr] = O öyle bir kitap ki okuyan bir daha dünyaya aynı gözle bakamaz.
 # note: There is no 'ki' connecting sentences in karakalpak but meaning of 'ki' can be understood. 
 # added adam 'nsubj'
-1	Ol	ol	PRON	_	Case=Nom|Person=3|PronType=Prs	4	nsubj	_	_
+1	Ol	ol	PRON	_	Case=Nom	4	nsubj	_	_
 2	sonday	sonday	DET	_	_	4	det	_	_
-3	bir	bir	NUM	_	_	4	nummod	_	_
+3	bir	bir	DET	_	_	4	det	_	_
 4	kitap	kitap	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	onı	ol	PRON	_	Case=Acc|Person=3	7	obj	_	_
+5	,	,	PUNCT	_	_	11	punct	_	_
+6	onı	ol	PRON	_	Case=Acc	7	obj	_	_
 7	oqıǵan	oqı	VERB	_	VerbForm=Part	8	acl	_	_
 8	adam	adam	NOUN	_	Case=Nom	11	nsubj	_	_
-9	dúnyaǵa	dúnya	NOUN	_	Case=Dat	11	obl	_	_
+9	dúnyaǵa	dúnya	NOUN	_	Case=Dat	10	obl	_	_
 10	názeri	názer	NOUN	_	Case=Nom|Person[psor]=3	11	nsubj	_	_
-11	bolmaydı	bol	VERB	_	Tense=Pres|Polarity=Neg	4	conj	_	_
-12	burınǵıday	burınǵıday	ADV	_	_	11	advmod	_	SpaceAfter=No*
-13	.	.	PUNCT	_	_	4	punct	_	_
+11	burınǵıday	burınǵıday	ADV	_	_	12	advmod	_	_
+12	bolmaydı	bol	VERB	_	Tense=Pres|Polarity=Neg|Person=3|Number=Sing	4	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 94
 # text = Sen birinshi tazalawdı tamamla, keyin bizler utyuglew menen shuǵıllanamız.
@@ -2659,7 +2659,7 @@
 8	járdemlesken	járdemles	VERB	_	VerbForm=Part|Tense=Past	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 96*
+# sent_id = 96
 # text = Ulıwma alǵanda, bul áwmetli film edi.
 # glossing = general take-VN-LOC success- one movie become-PST.3SG
 # issue: Miscellaneous, [N/Adj + olarak]
@@ -2668,14 +2668,14 @@
 # text[az] = Kollən movəffəq bir film iydi.
 # text[uz] = Umuman olganda, bu muvaffaqiyatli film edi.
 # text[tr] = Genel olarak başarılı bir filmdi.
-1	Ulıwma	ulıwma	ADV	_	_	4	advmod	_	_
-2	alǵanda	al	VERB	_	VerbForm=Conv	4	advcl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	bul	bul	DET	_	_	5	det	_	_
-5	áwmetli	áwmetli	ADJ	_	_	0	root	_	_
-6	film	film	NOUN	_	_	5	nsubj	_	_
-7	edi	*	AUX	_	Tense=Past	5	cop	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	5	punct	_	_
+1	Ulıwma	ulıwma	ADV	_	_	2	advmod	_	_
+2	alǵanda	al	VERB	_	VerbForm=Conv	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	bul	bul	PRON	_	Case=Nom	6	nsubj	_	_
+5	áwmetli	áwmetli	ADJ	_	_	6	amod	_	_
+6	film	film	NOUN	_	Case=Nom	0	root	_	_
+7	edi	edi	AUX	_	Tense=Past	6	cop	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 97
 # text = Alma terekleri Aprel-May aylarında gúllep óz-ara shańlanadı.
